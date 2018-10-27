@@ -73,7 +73,7 @@ def test_read_range(dut):
 
     # begin test content
     dut.board.reset()
-    for sent in range(0, 2001, 50):
+    for sent in range(0, 2001, 1):
         write_value(dut.board.default_interface, sent)
         value = read_value(dut.board.default_interface)
         
@@ -106,73 +106,26 @@ def test_invalid_values(dut):
     results = []
     # begin test content
 
-    dut.board.reset()
-    my_interface = dut.board.default_interface
+    commands = ["1234\r",  # valid
+                " 1234\r",
+                "4321\r",
+                "test\r",
+                "0est\r",
+                "tes1\r",
+                "01234\r",
+                "012345678\r",
+                "0\r",  # valid
+                "100\r",  # valid
+                "500\r",  # valid
+                "1000\r",  # valid
+                "2000\r"  # valid
+                ]
 
-    command = "1234\r"  # valid
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = " 1234\r"
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "4321\r"
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "test\r"
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "0est\r"
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "tes1\r"
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "01234\r"
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "012345678\r"
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "0\r"  # valid
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "100\r"  # valid
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "500\r"  # valid
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "1000\r"  # valid
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "2000\r"  # valid
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
+    for command in commands:
+        my_interface.write(command)
+        value = read_value(my_interface)
+        # TODO: Compare to expected
+        sleep(1)
 
     # end test content
     result = check_results(results)
@@ -190,7 +143,7 @@ def test_measure(dut):
     results = []
     # begin test content
     dut.board.reset()
-    for sent in range(0, 2001, 50):
+    for sent in range(0, 2001, 1):
         write_value(dut.board.default_interface, sent)
         sleep(0.010)
         value = read_value(dut.board.interfaces["VoltMeter"])
@@ -241,7 +194,7 @@ def main():
     # ENVIRONMENT CONFIGURATION -------------------------------------------------
 
     serial_port = "COM10"     # serial_port = "/dev/ttyUSB0"
-    firmware_file = "firmware/tamk_4.bin" # optionally overridden with command line argument
+    firmware_file = "firmware/tamk_1.bin" # optionally overridden with command line argument
     board_name = "MyBoard"
     dut_name = "MyIndividualDut"
 
