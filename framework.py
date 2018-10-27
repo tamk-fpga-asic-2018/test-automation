@@ -1,6 +1,7 @@
 # Test framework / DUT model for TAMK course
 
 import os
+import voltmeter
 from time import sleep
 
 # import voltmeter
@@ -113,26 +114,25 @@ class Interf(object):
 # Idea: copy paste from voltmeter.py
 
 
-class VoltMeter(Interf):
+class VoltMeterInterface(Interf):
     """ Interface for reading the voltage through Digilent AnalogDiscovery 2
 
     """
     def __init__(self):
-
-        name = "VoltMeter at Digilent AnalogDiscovery 2 " + voltmeter.get_version()
+        self.vm = voltmeter.VoltMeter()
+        name = "VoltMeter at Digilent AnalogDiscovery 2 " + self.vm.get_version()
         super().__init__(name)
         # TODO add content
 
     def read(self):
-        # TODO add content and remove 'pass'
-        pass
+        return self.vm.meas_vdc(0)
 
     def write(self, string):
         raise RuntimeError("This interface is read-only")
 
     def __del__(self):
         pass
-        # voltmeter.close()
+        self.vm.close()
 
 
 class Serial(Interf):

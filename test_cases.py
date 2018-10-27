@@ -49,6 +49,13 @@ def test_read_simple(dut):
         write_value(my_interface, sent)
         value = read_value(my_interface)
         # TODO implement missing logic here
+        value = remove_whitespace(value)
+        if value != str(sent):
+            print("incorrect value! Got: " + value + ", expected: " + str(sent))
+            results.append("FAIL")
+        else:
+            print("OK! Got: " + value + ", expected: " + str(sent))
+            results.append("PASS")
         sleep(2)
         dut.board.reset()
 
@@ -73,11 +80,13 @@ def test_read_range(dut):
 
     # begin test content
     dut.board.reset()
-    for sent in range(0, 2001, 1):
+    for sent in range(0, 2001, 1000):
         write_value(dut.board.default_interface, sent)
         value = read_value(dut.board.default_interface)
-
-        if value != sent:
+        
+        value = remove_whitespace(value)
+        
+        if value != str(sent):
             print("incorrect value! Got: " + value + ", expected: " + str(sent))
             results.append("FAIL")
         else:
@@ -225,8 +234,8 @@ def main():
     """
     # ENVIRONMENT CONFIGURATION -------------------------------------------------
 
-    serial_port = "COMx"     # serial_port = "/dev/ttyUSB0"
-    firmware_file = "MyFirmware.bin" # optionally overridden with command line argument
+    serial_port = "COM10"     # serial_port = "/dev/ttyUSB0"
+    firmware_file = "firmware/tamk_2.bin" # optionally overridden with command line argument
     board_name = "MyBoard"
     dut_name = "MyIndividualDut"
 
@@ -244,8 +253,8 @@ def main():
 
 
     # TODO Voltmeter yet unfinished!
-    # myvoltmeter = framework.VoltMeter()
-    # myboard.add_interface("VoltMeter", myvoltmeter)
+    myvoltmeter = framework.VoltMeterInterface()
+    myboard.add_interface("VoltMeter", myvoltmeter)
 
     myboard.set_default_interface("Serial")
 
@@ -269,9 +278,9 @@ def main():
 
     # TEST CASES ----------------------------------------------------------------
     test_cases = [
-        test_read_simple,
-        test_read_range,
-        test_invalid_values,
+        #test_read_simple,
+        #test_read_range,
+        #test_invalid_values,
         test_measure
     ]
 
