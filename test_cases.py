@@ -1,5 +1,6 @@
 import os
 import sys
+import math
 
 from time import sleep
 from datetime import datetime
@@ -32,10 +33,6 @@ def test_read_simple(dut):
 
         Returns result "PASS" or "FAIL".
 
-        TODO:
-        1. Implement comparison of sent and expected value.
-        2. Implement result determining according to specification.
-
     """
     name = "Simple reading test for few individual values"
 
@@ -48,7 +45,7 @@ def test_read_simple(dut):
     for sent in values:
         write_value(my_interface, sent)
         value = read_value(my_interface)
-        # TODO implement missing logic here
+
         value = remove_whitespace(value)
         if value != str(sent):
             print("incorrect value! Got: " + value + ", expected: " + str(sent))
@@ -70,17 +67,13 @@ def test_read_range(dut):
 
         Returns result "PASS" or "FAIL".
 
-        TODO:
-        1. What goes wrong?
-        2. Fix it.
-
     """
     name = "Simple reading test for value range"
     results = []
 
     # begin test content
     dut.board.reset()
-    for sent in range(0, 2001, 1000):
+    for sent in range(0, 2001, 50):
         write_value(dut.board.default_interface, sent)
         value = read_value(dut.board.default_interface)
         
@@ -192,14 +185,27 @@ def test_measure(dut):
     Sets valid PWM values 0...2000. Reads voltage.
     Expects voltage to follow the changes of the PWM value.
 
-    TODO:
-    1. Implement voltmeter API re-using voltmeter.py functions. Add it to framework as a read-only interface.
-    2. Re-use logic of other tests to make the functionality
-
     """
     name = "Voltage Measurement task"
     results = []
     # begin test content
+    dut.board.reset()
+    for sent in range(0, 2001, 50):
+        write_value(dut.board.default_interface, sent)
+        sleep(0.010)
+        value = read_value(dut.board.interfaces["VoltMeter"])
+        
+        # Compare returned string of float to expected value
+        # Expected value = (sent / 2000) * 3.3 (volts)
+        # Problems with floating point comparison? -> use math.isclose() -> margins?
+        expected = sent / 2000 * 3.3
+        if not math.isclose(float(value), expected, rel_tol=0.02):
+            print("incorrect value! Got: " + value + ", expected: " + str(expected))
+            results.append("FAIL")
+        else:
+            print("OK! Got: " + value + ", expected: " + str(expected))
+            results.append("PASS")
+        
 
     # end test content
 
@@ -235,7 +241,7 @@ def main():
     # ENVIRONMENT CONFIGURATION -------------------------------------------------
 
     serial_port = "COM10"     # serial_port = "/dev/ttyUSB0"
-    firmware_file = "firmware/tamk_2.bin" # optionally overridden with command line argument
+    firmware_file = "firmware/tamk_4.bin" # optionally overridden with command line argument
     board_name = "MyBoard"
     dut_name = "MyIndividualDut"
 
@@ -251,10 +257,10 @@ def main():
     myserial = framework.Serial(serial_port)
     myboard.add_interface("Serial", myserial)
 
-
     # TODO Voltmeter yet unfinished!
     myvoltmeter = framework.VoltMeterInterface()
     myboard.add_interface("VoltMeter", myvoltmeter)
+    
 
     myboard.set_default_interface("Serial")
 
@@ -266,21 +272,29 @@ def main():
 
     # DUT CONFIGURATION ---------------------------------------------------------
     mydut = framework.Dut(myfirmware, myboard, dut_name)
+    interfaces_str = ''
+    for i, iface_key in enumerate(mydut.board.interfaces.keys()):
+        if i + 1 == len(mydut.board.interfaces.keys()):
+            interfaces_str = interfaces_str + ' and '
+        elif i > 0:
+            interfaces_str = interfaces_str + ', '
 
-    print("Set-up: DUT: {dut} FW {firmware} on HW {board} connected with {interface}".
+        interfaces_str = interfaces_str + str(iface_key)
+
+    print("Set-up: DUT: {dut} FW {firmware} on HW {board} connected with {interfaces}".
         format(
             dut=mydut.name,
             firmware=mydut.firmware.name,
             board=mydut.board.name,
-            interface=mydut.board.default_interface.name
+            interfaces=interfaces_str
         )
     )
 
     # TEST CASES ----------------------------------------------------------------
     test_cases = [
-        #test_read_simple,
-        #test_read_range,
-        #test_invalid_values,
+        test_read_simple,
+        test_read_range,
+        test_invalid_values,
         test_measure
     ]
 
