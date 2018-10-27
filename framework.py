@@ -122,7 +122,11 @@ class VoltMeterInterface(Interf):
         self.vm = voltmeter.VoltMeter()
         name = "VoltMeter at Digilent AnalogDiscovery 2 " + self.vm.get_version()
         super().__init__(name)
-        # TODO add content
+
+        ver = self.vm.get_version()
+        print ("Digilent version " + ver)
+        self.vm.open()
+        self.vm.setup_acquisition()
 
     def read(self):
         return self.vm.meas_vdc(0)
@@ -148,7 +152,7 @@ class Serial(Interf):
             'stopbits': 1,
             'timeout': 1
         }
-        self.sleep = 0.1
+        self.sleep = 0.05
 
         try:
             self._connection = serial.Serial(**self.serial_args)
