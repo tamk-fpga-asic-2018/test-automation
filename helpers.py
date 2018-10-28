@@ -11,7 +11,7 @@ def ints_to_string(intlist):
     """
     string = ""
     for digit in intlist:
-        string += chr(digit)
+        string += str(digit)
     return string
 
 def is_valid(value):
