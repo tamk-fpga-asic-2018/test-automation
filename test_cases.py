@@ -225,8 +225,9 @@ def main():
     """
     # ENVIRONMENT CONFIGURATION -------------------------------------------------
 
-    serial_port = "COMx"     # serial_port = "/dev/ttyUSB0"
-    firmware_file = "MyFirmware.bin" # optionally overridden with command line argument
+    #serial_port = "/dev/cu.OmatSaadot1-FT9P9RH6"     # serial_port = "/dev/ttyUSB0"
+    serial_port = "/dev/cu.SLAB_USBtoUART" 
+    firmware_file = "./firmware/tamk_1.bin" # optionally overridden with command line argument
     board_name = "MyBoard"
     dut_name = "MyIndividualDut"
 
