@@ -49,6 +49,11 @@ def test_read_simple(dut):
         write_value(my_interface, sent)
         value = read_value(my_interface)
         # TODO implement missing logic here
+        if value == sent:
+            results.append("PASS")
+        else:
+            results.append("FAIL")
+        
         sleep(2)
         dut.board.reset()
 
@@ -225,8 +230,8 @@ def main():
     """
     # ENVIRONMENT CONFIGURATION -------------------------------------------------
 
-    #serial_port = "/dev/cu.OmatSaadot1-FT9P9RH6"     # serial_port = "/dev/ttyUSB0"
-    serial_port = "/dev/cu.SLAB_USBtoUART" 
+    serial_port = "/dev/cu.OmatSaadot1-FT9P9RH6"     # serial_port = "/dev/ttyUSB0"
+    #serial_port = "/dev/cu.SLAB_USBtoUART" 
     firmware_file = "./firmware/tamk_1.bin" # optionally overridden with command line argument
     board_name = "MyBoard"
     dut_name = "MyIndividualDut"
