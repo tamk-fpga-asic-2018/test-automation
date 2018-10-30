@@ -105,26 +105,41 @@ def test_invalid_values(dut):
     name = "Simple reading test for few invalid values"
     results = []
     # begin test content
-
-    commands = ["1234\r",  # valid
-                " 1234\r",
-                "4321\r",
-                "test\r",
-                "0est\r",
-                "tes1\r",
-                "01234\r",
-                "012345678\r",
-                "0\r",  # valid
-                "100\r",  # valid
-                "500\r",  # valid
-                "1000\r",  # valid
-                "2000\r"  # valid
-                ]
+    
+    # commands is a dict where key is command and value is a list of acceptable answers
+    # Specification is unclear what should be expected with invalid values?
+    commands = {"1234\r"        : ["1234"],  # valid
+                " 1234\r"       : [],
+                "4321\r"        : [],
+                "test\r"        : [],
+                "0est\r"        : [],
+                "tes1\r"        : [],
+                "01234\r"       : [],
+                "012345678\r"   : [],
+                "0\r"           : ["0"],  # valid
+                "100\r"         : ["100"],  # valid
+                "500\r"         : ["500"],  # valid
+                "1000\r"        : ["1000"],  # valid
+                "2000\r"        : ["2000"]  # valid
+                }
 
     for command in commands:
         my_interface.write(command)
         value = read_value(my_interface)
-        # TODO: Compare to expected
+        # Compare to expected
+        if not value in commands[command]:
+            expected_str = ''
+            for i, iface_key in enumerate(commands[command]):
+                if i + 1 == len(commands[command]):
+                    expected_str = expected_str + ' and '
+                elif i > 0:
+                    expected_str = expected_str + ', '
+
+            print("incorrect value! Got: " + value + ", expected: " + str(sent))
+            results.append("FAIL")
+        else:
+            print("OK! Got: " + value + ", expected: " + str(sent))
+            results.append("PASS")
         sleep(1)
 
     # end test content
