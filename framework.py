@@ -37,7 +37,7 @@ class ProgrammerLinux(object):
     CLI_TOOL= "/usr/local/bin/st-flash"
 
     def write_firmware_and_verify(self, file_path, address):
-        args = "--reset write {file_path} 0x{address:08x}".format(file_path=file_path, address=address)
+        args = "--reset write \"{file_path}\" 0x{address:08x}".format(file_path=file_path, address=address)
         self.execute(args)
 
     def reset_board(self):
