@@ -214,8 +214,8 @@ def main():
     #serial_port = "/dev/cu.SLAB_USBtoUART" #vastaan otto ei tominut
     serial_port = "/dev/cu.usbmodem14121"   #Arduinon COM
     firmware_file = "./firmware/tamk_1.bin" # optionally overridden with command line argument
-    board_name = "MyBoard"
-    dut_name = "MyIndividualDut"
+    board_name = "Nucleo-F446ZE"
+    dut_name = "TAMK-dut"
 
     # BOARD CONFIGURATION -------------------------------------------------------
 
