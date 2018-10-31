@@ -1,9 +1,11 @@
 # Test framework / DUT model for TAMK course
 
 import os
+import sys
 from time import sleep
-
+from dwfconstants import *
 # import voltmeter
+
 from helpers import error_handler
 
 try:
@@ -117,22 +119,100 @@ class VoltMeter(Interf):
     """ Interface for reading the voltage through Digilent AnalogDiscovery 2
 
     """
-    def __init__(self):
+    def __init__(self, freq = 10000000.0, n_of_samples = 4000):
 
-        name = "VoltMeter at Digilent AnalogDiscovery 2 " + voltmeter.get_version()
+        try:
+            if sys.platform.startswith("win"):
+                self.dwf = cdll.dwf
+            elif sys.platform.startswith("darwin"):
+                self.dwf = cdll.LoadLibrary("/Library/Frameworks/dwf.framework/dwf")
+            else:
+                self.dwf = cdll.LoadLibrary("libdwf.so")
+        except:
+            print ("Can't load DWF library. Digilent not usable.")
+
+        self.n_of_samples = n_of_samples
+        self.freq = freq
+
+        #declare ctype variables
+        self.hdwf = c_int()
+        self.sts = c_byte()
+        self.IsEnabled = c_bool()
+        self.rgdSamples = (c_double * self.n_of_samples)()
+
+
+        name = "VoltMeter at Digilent AnalogDiscovery 2 " + self.get_version()
         super().__init__(name)
         # TODO add content
 
-    def read(self):
-        # TODO add content and remove 'pass'
-        pass
+    def open(self):
+        """ Open the device
+
+        """
+        print ("Opening first device")
+        self.dwf.FDwfDeviceOpen(c_int(-1), byref(self.hdwf))
+
+        if self.hdwf.value == hdwfNone.value:
+            raise IOError("failed to open Analog Discovery 2 device")
+
+    def close(self,):
+        if self.hdwf is None:
+            self.dwf.FDwfDeviceCloseAll()
+        else:
+            self.dwf.FDwfDeviceClose(self.hdwf)
+
+    
+    def setup_acquisition(self):
+        """Set up acquisition
+
+        """
+        self.dwf.FDwfAnalogInFrequencySet(self.hdwf, c_double(self.freq))
+        self.dwf.FDwfAnalogInBufferSizeSet(self.hdwf, c_int(self.n_of_samples))
+        self.dwf.FDwfAnalogInChannelEnableSet(self.hdwf, c_int(0), c_bool(True))
+        self.dwf.FDwfAnalogInChannelRangeSet(self.hdwf, c_int(0), c_double(5))
+        self.dwf.FDwfAnalogInChannelOffsetSet(self.hdwf, c_int(0), c_double(2.5))
+        # pvoltsrange=c_double()
+        # dwf.FDwfAnalogInChannelRangeGet(hdwf, c_int(0), byref(pvoltsrange))
+        # print(pvoltsrange)
+
+        # wait at least 2 seconds for the offset to stabilize
+        sleep(2)
+
+
+    def read(self, channel=0):
+        """Measure average DC voltage
+        """
+
+        # begin acquisition
+        self.dwf.FDwfAnalogInConfigure(self.hdwf, c_bool(False), c_bool(True))
+        # print ("   waiting to finish")
+
+        while True:
+            self.dwf.FDwfAnalogInStatus(self.hdwf, c_int(1), byref(self.sts))
+            # print ("STS VAL: " + str(sts.value) + "STS DONE: " + str(DwfStateDone.value))
+            if self.sts.value == DwfStateDone.value :
+                break
+            sleep(0.1)
+        # print ("Acquisition finished")
+
+        self.dwf.FDwfAnalogInStatusData(self.hdwf, channel, self.rgdSamples, self.n_of_samples) # get data
+
+        dc = sum(self.rgdSamples)/len(self.rgdSamples) # average
+        return dc
 
     def write(self, string):
         raise RuntimeError("This interface is read-only")
 
+    def get_version(self):
+        """ Returns DWF version as string
+
+        """
+        version = create_string_buffer(16)
+        self.dwf.FDwfGetVersion(version)
+        return str(version.value.decode("utf-8"))
+
     def __del__(self):
-        pass
-        # voltmeter.close()
+        self.close()
 
 
 class Serial(Interf):
