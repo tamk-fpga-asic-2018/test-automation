@@ -49,9 +49,12 @@ def test_read_simple(dut):
         write_value(my_interface, sent)
         value = read_value(my_interface)
         # TODO implement missing logic here
-        if value == sent:
+        sent_str = str(sent)
+        if value == sent_str:
+            print("OK! Got: " + value + ", expected: " + sent_str)
             results.append("PASS")
         else:
+            print("incorrect value! Got: " + value + ", expected: " + sent_str)
             results.append("FAIL")
         
         sleep(2)
@@ -70,6 +73,7 @@ def test_read_range(dut):
 
         TODO:
         1. What goes wrong?
+            if int != str 
         2. Fix it.
 
     """
@@ -82,11 +86,12 @@ def test_read_range(dut):
         write_value(dut.board.default_interface, sent)
         value = read_value(dut.board.default_interface)
 
-        if value != sent:
-            print("incorrect value! Got: " + value + ", expected: " + str(sent))
+        sent_str = str(sent)
+        if value != sent_str:
+            print("incorrect value! Got: " + value + ", expected: " + sent_str)
             results.append("FAIL")
         else:
-            print("OK! Got: " + value + ", expected: " + str(sent))
+            print("OK! Got: " + value + ", expected: " + sent_str)
             results.append("PASS")
 
     # end test content
