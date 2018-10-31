@@ -112,75 +112,50 @@ def test_invalid_values(dut):
     """
     name = "Simple reading test for few invalid values"
     results = []
+
     # begin test content
 
     dut.board.reset()
     my_interface = dut.board.default_interface
 
-    command = "1234\r"  # valid
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
+    testcase_list = list()
+    testcase_list.append({"test": "1234", "expecting": "valid"})
+    testcase_list.append({"test": " 1234", "expecting": "invalid"})
+    testcase_list.append({"test": "4321", "expecting": "invalid"})
+    testcase_list.append({"test": "test", "expecting": "invalid"})
+    testcase_list.append({"test": "0est", "expecting": "invalid"})
+    testcase_list.append({"test": "tes1", "expecting": "invalid"})
+    testcase_list.append({"test": "01234", "expecting": "invalid"})
+    testcase_list.append({"test": "012345678", "expecting": "invalid"})
+    testcase_list.append({"test": "0", "expecting": "valid"})
+    testcase_list.append({"test": "100", "expecting": "valid"})
+    testcase_list.append({"test": "500", "expecting": "valid"})
+    testcase_list.append({"test": "1000", "expecting": "valid"})
+    testcase_list.append({"test": "2000", "expecting": "valid"})
 
-    command = " 1234\r"
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
+    for testcase in testcase_list:
+        print("WRITE: " + testcase["test"])
+        my_interface.write(testcase["test"] + "\r")
+        value = read_value(my_interface)
 
-    command = "4321\r"
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
+        if testcase["expecting"] == "valid":
+            if value == testcase["test"]:
+                print("OK!, Valid sent value, Got: " + value + ", expected: " + testcase["test"])
+                results.append("PASS")
+            else:
+                print("incorrect value!, Valid sent value, Got: " + value + ", expected: " + testcase["test"])
+                results.append("FAIL")
 
-    command = "test\r"
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "0est\r"
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "tes1\r"
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "01234\r"
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "012345678\r"
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "0\r"  # valid
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "100\r"  # valid
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "500\r"  # valid
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "1000\r"  # valid
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "2000\r"  # valid
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
+        elif testcase["expecting"] == "invalid":
+            invalid_echo = testcase["test"][0:4]
+            if value == invalid_echo:
+                print("OK!, Invalid sent value, Got: " + value + ", expected: " + invalid_echo)
+                results.append("PASS")
+            else:
+                print("incorrect value!, Invalid sent value, Got: " + value + ", expected: " + invalid_echo)
+                results.append("FAIL")
+        print()
+        sleep(1)
 
     # end test content
     result = check_results(results)
@@ -235,8 +210,9 @@ def main():
     """
     # ENVIRONMENT CONFIGURATION -------------------------------------------------
 
-    serial_port = "/dev/cu.OmatSaadot1-FT9P9RH6"     # serial_port = "/dev/ttyUSB0"
-    #serial_port = "/dev/cu.SLAB_USBtoUART" 
+    #serial_port = "/dev/cu.OmatSaadot1-FT9P9RH6"     # serial_port = "/dev/ttyUSB0"
+    #serial_port = "/dev/cu.SLAB_USBtoUART" #vastaan otto ei tominut
+    serial_port = "/dev/cu.usbmodem14121"   #Arduinon COM
     firmware_file = "./firmware/tamk_1.bin" # optionally overridden with command line argument
     board_name = "MyBoard"
     dut_name = "MyIndividualDut"
