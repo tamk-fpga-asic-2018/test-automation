@@ -105,6 +105,8 @@ def test_invalid_values(dut):
     name = "Simple reading test for few invalid values"
     results = []
     # begin test content
+    dut.board.reset()
+    my_interface = dut.board.default_interface
     
     # commands is a dict where key is command and value is a list of acceptable answers
     # Specification is unclear what should be expected with invalid values?
@@ -135,7 +137,7 @@ def test_invalid_values(dut):
                 elif i > 0:
                     expected_str = expected_str + ', '
 
-            print("incorrect value! Got: " + value + ", expected: " + str(sent))
+            print("incorrect value! Got: " + value + ", expected: " + expected_str)
             results.append("FAIL")
         else:
             print("OK! Got: " + value + ", expected: " + str(sent))
