@@ -11,7 +11,7 @@ def ints_to_string(intlist):
     """
     string = ""
     for digit in intlist:
-        string += str(digit)
+        string += chr(digit)
     return string
 
 def is_valid(value):
@@ -66,10 +66,12 @@ def read_value(interface):
 
     """
     value = interface.read()
+    
     if isinstance(value, list):
         string_value = ints_to_string(value)
     else:
         string_value = str(value)
+    string_value = remove_whitespace(string_value)
     print("READ: " + string_value)
     return string_value
 
