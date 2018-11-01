@@ -152,7 +152,7 @@ class Serial(Interf):
             'stopbits': 1,
             'timeout': 1
         }
-        self.sleep = 0.05
+        self.sleep = 0.1
 
         try:
             self._connection = serial.Serial(**self.serial_args)
