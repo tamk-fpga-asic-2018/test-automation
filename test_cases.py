@@ -231,8 +231,8 @@ def main():
 
 
     # TODO Voltmeter yet unfinished!
-    # myvoltmeter = framework.VoltMeter()
-    # myboard.add_interface("VoltMeter", myvoltmeter)
+    myvoltmeter = framework.VoltMeter()
+    myboard.add_interface("VoltMeter", myvoltmeter)
 
     myboard.set_default_interface("Serial")
 

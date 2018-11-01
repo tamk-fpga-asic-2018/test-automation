@@ -178,7 +178,6 @@ class VoltMeter(Interf):
         # wait at least 2 seconds for the offset to stabilize
         sleep(2)
 
-
     def read(self, channel=0):
         """Measure average DC voltage
         """
