@@ -132,11 +132,12 @@ def test_invalid_values(dut):
         if not value in commands[command]:
             expected_str = ''
             for i, iface_key in enumerate(commands[command]):
-                if i + 1 == len(commands[command]):
+                if i + 1 == len(commands[command]) and i > 1:
                     expected_str = expected_str + ' and '
                 elif i > 0:
                     expected_str = expected_str + ', '
 
+                expected_str = expected_str + str(iface_key)
             print("incorrect value! Got: " + value + ", expected: " + expected_str)
             results.append("FAIL")
         else:
@@ -169,7 +170,7 @@ def test_measure(dut):
         # Expected value = (sent / 2000) * 3.3 (volts)
         # Problems with floating point comparison? -> use math.isclose() -> margins?
         expected = sent / 2000 * 3.3
-        if not math.isclose(float(value), expected, rel_tol=0.02):
+        if not math.isclose(float(value), expected, abs_tol=0.06):
             print("incorrect value! Got: " + value + ", expected: " + str(expected))
             results.append("FAIL")
         else:
@@ -244,7 +245,7 @@ def main():
     mydut = framework.Dut(myfirmware, myboard, dut_name)
     interfaces_str = ''
     for i, iface_key in enumerate(mydut.board.interfaces.keys()):
-        if i + 1 == len(mydut.board.interfaces.keys()):
+        if i + 1 == len(mydut.board.interfaces.keys()) and i > 1:
             interfaces_str = interfaces_str + ' and '
         elif i > 0:
             interfaces_str = interfaces_str + ', '
