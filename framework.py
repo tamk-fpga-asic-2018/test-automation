@@ -140,7 +140,6 @@ class VoltMeter(Interf):
         self.IsEnabled = c_bool()
         self.rgdSamples = (c_double * self.n_of_samples)()
 
-
         name = "VoltMeter at Digilent AnalogDiscovery 2 " + self.get_version()
         super().__init__(name)
         # TODO add content

@@ -3,6 +3,7 @@ import sys
 
 from time import sleep
 from datetime import datetime
+from math import isclose
 
 import framework
 
@@ -174,8 +175,40 @@ def test_measure(dut):
 
     """
     name = "Voltage Measurement task"
+
+    max_voltage = 3.3
+    DA_resolution = 2 ** 11
+    DA_voltage_tick = max_voltage / DA_resolution
+    voltage_tolerance = 0.05
+
     results = []
     # begin test content
+    dut.board.reset()
+
+    serial = dut.board.interfaces["Serial"]
+
+    voltmeter = dut.board.interfaces["VoltMeter"]
+    voltmeter.open()
+    voltmeter.setup_acquisition()
+
+    testcase_list = [0, 100, 500, 1000, 1250, 1500, 1750, 2000]
+
+    for sent in testcase_list:
+        write_value(serial, sent)
+        voltage_set = DA_voltage_tick * sent
+        voltage_measured = voltmeter.read(0)
+
+        in_tolerance = isclose(voltage_set, voltage_measured, abs_tol=voltage_tolerance) #python => 3.5
+
+        if in_tolerance == True:
+            print("OK! Measured: " + str(voltage_measured) + ", expected: " + str(voltage_set))
+            results.append("PASS")
+        else:
+            print("incorrect value! Measured: " + str(voltage_measured) + ", expected: " + str(voltage_set))
+            results.append("FAIL")
+        
+        sleep(1)
+    
 
     # end test content
 
@@ -212,7 +245,7 @@ def main():
 
     #serial_port = "/dev/cu.OmatSaadot1-FT9P9RH6"     # serial_port = "/dev/ttyUSB0"
     #serial_port = "/dev/cu.SLAB_USBtoUART" #vastaan otto ei tominut
-    serial_port = "/dev/cu.usbmodem14121"   #Arduinon COM
+    serial_port = "/dev/cu.usbmodem141231"   #Arduinon COM
     firmware_file = "./firmware/tamk_1.bin" # optionally overridden with command line argument
     board_name = "Nucleo-F446ZE"
     dut_name = "TAMK-dut"
@@ -228,14 +261,13 @@ def main():
     # Interfaces
     myserial = framework.Serial(serial_port)
     myboard.add_interface("Serial", myserial)
-
+    myboard.set_default_interface("Serial")
 
     # TODO Voltmeter yet unfinished!
     myvoltmeter = framework.VoltMeter()
     myboard.add_interface("VoltMeter", myvoltmeter)
 
-    myboard.set_default_interface("Serial")
-
+    
     sleep(1)
 
     # FIRMWARE CONFIGURATION ----------------------------------------------------
