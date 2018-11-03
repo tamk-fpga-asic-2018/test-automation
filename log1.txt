@@ -1,0 +1,6128 @@
+st-flash 1.5.1
+Flash page at addr: 0x08000000 erasedFlash page at addr: 0x08004000 erased
+enabling 32-bit flash writes
+size: 28104
+st-flash 1.5.1
+st-flash 1.5.1
+st-flash 1.5.1
+st-flash 1.5.1
+st-flash 1.5.1
+st-flash 1.5.1
+st-flash 1.5.1
+st-flash 1.5.1
+Set-up: DUT: TAMK-dut FW firmware/tamk_1.bin on HW Nucleo-F446ZE connected with Serial=/dev/cu.usbmodem141231
+******************************************************************************
+BEGIN TEST: 2018-11-03 11:56:24.306104
+WRITE: 0
+READ: 
+incorrect value! Got: , expected: 0
+WRITE: 100
+READ: 
+incorrect value! Got: , expected: 100
+WRITE: 500
+READ: 
+incorrect value! Got: , expected: 500
+WRITE: 1000
+READ: 
+incorrect value! Got: , expected: 1000
+WRITE: 1500
+READ: 
+incorrect value! Got: , expected: 1500
+WRITE: 2000
+READ: 
+incorrect value! Got: , expected: 2000
+END TEST: 2018-11-03 11:56:38.109881
+Simple reading test for few individual values:    [FAIL]
+******************************************************************************
+BEGIN TEST: 2018-11-03 11:56:38.109926
+WRITE: 0
+READ: 
+incorrect value! Got: , expected: 0
+WRITE: 1
+READ: 
+incorrect value! Got: , expected: 1
+WRITE: 2
+READ: 
+incorrect value! Got: , expected: 2
+WRITE: 3
+READ: 3
+OK! Got: 3, expected: 3
+WRITE: 4
+READ: 
+incorrect value! Got: , expected: 4
+WRITE: 5
+READ: 
+incorrect value! Got: , expected: 5
+WRITE: 6
+READ: 
+incorrect value! Got: , expected: 6
+WRITE: 7
+READ: 7
+OK! Got: 7, expected: 7
+WRITE: 8
+READ: 
+incorrect value! Got: , expected: 8
+WRITE: 9
+READ: 
+incorrect value! Got: , expected: 9
+WRITE: 10
+READ: 
+incorrect value! Got: , expected: 10
+WRITE: 11
+READ: 11
+OK! Got: 11, expected: 11
+WRITE: 12
+READ: 
+incorrect value! Got: , expected: 12
+WRITE: 13
+READ: 
+incorrect value! Got: , expected: 13
+WRITE: 14
+READ: 
+incorrect value! Got: , expected: 14
+WRITE: 15
+READ: 15
+OK! Got: 15, expected: 15
+WRITE: 16
+READ: 
+incorrect value! Got: , expected: 16
+WRITE: 17
+READ: 
+incorrect value! Got: , expected: 17
+WRITE: 18
+READ: 
+incorrect value! Got: , expected: 18
+WRITE: 19
+READ: 19
+OK! Got: 19, expected: 19
+WRITE: 20
+READ: 
+incorrect value! Got: , expected: 20
+WRITE: 21
+READ: 
+incorrect value! Got: , expected: 21
+WRITE: 22
+READ: 
+incorrect value! Got: , expected: 22
+WRITE: 23
+READ: 23
+OK! Got: 23, expected: 23
+WRITE: 24
+READ: 
+incorrect value! Got: , expected: 24
+WRITE: 25
+READ: 
+incorrect value! Got: , expected: 25
+WRITE: 26
+READ: 
+incorrect value! Got: , expected: 26
+WRITE: 27
+READ: 27
+OK! Got: 27, expected: 27
+WRITE: 28
+READ: 
+incorrect value! Got: , expected: 28
+WRITE: 29
+READ: 
+incorrect value! Got: , expected: 29
+WRITE: 30
+READ: é
+incorrect value! Got: é, expected: 30
+WRITE: 31
+READ: 31
+OK! Got: 31, expected: 31
+WRITE: 32
+READ: é
+incorrect value! Got: é, expected: 32
+WRITE: 33
+READ: é
+incorrect value! Got: é, expected: 33
+WRITE: 34
+READ: é
+incorrect value! Got: é, expected: 34
+WRITE: 35
+READ: 35
+OK! Got: 35, expected: 35
+WRITE: 36
+READ: é
+incorrect value! Got: é, expected: 36
+WRITE: 37
+READ: é
+incorrect value! Got: é, expected: 37
+WRITE: 38
+READ: é
+incorrect value! Got: é, expected: 38
+WRITE: 39
+READ: 39
+OK! Got: 39, expected: 39
+WRITE: 40
+READ: é
+incorrect value! Got: é, expected: 40
+WRITE: 41
+READ: é
+incorrect value! Got: é, expected: 41
+WRITE: 42
+READ: é
+incorrect value! Got: é, expected: 42
+WRITE: 43
+READ: 43
+OK! Got: 43, expected: 43
+WRITE: 44
+READ: é
+incorrect value! Got: é, expected: 44
+WRITE: 45
+READ: é
+incorrect value! Got: é, expected: 45
+WRITE: 46
+READ: é
+incorrect value! Got: é, expected: 46
+WRITE: 47
+READ: 47
+OK! Got: 47, expected: 47
+WRITE: 48
+READ: é
+incorrect value! Got: é, expected: 48
+WRITE: 49
+READ: é
+incorrect value! Got: é, expected: 49
+WRITE: 50
+READ: é
+incorrect value! Got: é, expected: 50
+WRITE: 51
+READ: 51
+OK! Got: 51, expected: 51
+WRITE: 52
+READ: é
+incorrect value! Got: é, expected: 52
+WRITE: 53
+READ: é
+incorrect value! Got: é, expected: 53
+WRITE: 54
+READ: é
+incorrect value! Got: é, expected: 54
+WRITE: 55
+READ: 55
+OK! Got: 55, expected: 55
+WRITE: 56
+READ: é
+incorrect value! Got: é, expected: 56
+WRITE: 57
+READ: é
+incorrect value! Got: é, expected: 57
+WRITE: 58
+READ: é
+incorrect value! Got: é, expected: 58
+WRITE: 59
+READ: 59
+OK! Got: 59, expected: 59
+WRITE: 60
+READ: é
+incorrect value! Got: é, expected: 60
+WRITE: 61
+READ: é
+incorrect value! Got: é, expected: 61
+WRITE: 62
+READ: é
+incorrect value! Got: é, expected: 62
+WRITE: 63
+READ: 63
+OK! Got: 63, expected: 63
+WRITE: 64
+READ: é
+incorrect value! Got: é, expected: 64
+WRITE: 65
+READ: é
+incorrect value! Got: é, expected: 65
+WRITE: 66
+READ: é
+incorrect value! Got: é, expected: 66
+WRITE: 67
+READ: 67
+OK! Got: 67, expected: 67
+WRITE: 68
+READ: é
+incorrect value! Got: é, expected: 68
+WRITE: 69
+READ: é
+incorrect value! Got: é, expected: 69
+WRITE: 70
+READ: é
+incorrect value! Got: é, expected: 70
+WRITE: 71
+READ: 71
+OK! Got: 71, expected: 71
+WRITE: 72
+READ: é
+incorrect value! Got: é, expected: 72
+WRITE: 73
+READ: é
+incorrect value! Got: é, expected: 73
+WRITE: 74
+READ: é
+incorrect value! Got: é, expected: 74
+WRITE: 75
+READ: 75
+OK! Got: 75, expected: 75
+WRITE: 76
+READ: é
+incorrect value! Got: é, expected: 76
+WRITE: 77
+READ: é
+incorrect value! Got: é, expected: 77
+WRITE: 78
+READ: é
+incorrect value! Got: é, expected: 78
+WRITE: 79
+READ: 79
+OK! Got: 79, expected: 79
+WRITE: 80
+READ: é
+incorrect value! Got: é, expected: 80
+WRITE: 81
+READ: é
+incorrect value! Got: é, expected: 81
+WRITE: 82
+READ: é
+incorrect value! Got: é, expected: 82
+WRITE: 83
+READ: 83
+OK! Got: 83, expected: 83
+WRITE: 84
+READ: é
+incorrect value! Got: é, expected: 84
+WRITE: 85
+READ: é
+incorrect value! Got: é, expected: 85
+WRITE: 86
+READ: é
+incorrect value! Got: é, expected: 86
+WRITE: 87
+READ: 87
+OK! Got: 87, expected: 87
+WRITE: 88
+READ: é
+incorrect value! Got: é, expected: 88
+WRITE: 89
+READ: é
+incorrect value! Got: é, expected: 89
+WRITE: 90
+READ: é
+incorrect value! Got: é, expected: 90
+WRITE: 91
+READ: 91
+OK! Got: 91, expected: 91
+WRITE: 92
+READ: é
+incorrect value! Got: é, expected: 92
+WRITE: 93
+READ: é
+incorrect value! Got: é, expected: 93
+WRITE: 94
+READ: é
+incorrect value! Got: é, expected: 94
+WRITE: 95
+READ: 95
+OK! Got: 95, expected: 95
+WRITE: 96
+READ: é
+incorrect value! Got: é, expected: 96
+WRITE: 97
+READ: é
+incorrect value! Got: é, expected: 97
+WRITE: 98
+READ: é
+incorrect value! Got: é, expected: 98
+WRITE: 99
+READ: 99
+OK! Got: 99, expected: 99
+WRITE: 100
+READ: é
+incorrect value! Got: é, expected: 100
+WRITE: 101
+READ: é
+incorrect value! Got: é, expected: 101
+WRITE: 102
+READ: é
+incorrect value! Got: é, expected: 102
+WRITE: 103
+READ: 103
+OK! Got: 103, expected: 103
+WRITE: 104
+READ: é
+incorrect value! Got: é, expected: 104
+WRITE: 105
+READ: é
+incorrect value! Got: é, expected: 105
+WRITE: 106
+READ: é
+incorrect value! Got: é, expected: 106
+WRITE: 107
+READ: 107
+OK! Got: 107, expected: 107
+WRITE: 108
+READ: é
+incorrect value! Got: é, expected: 108
+WRITE: 109
+READ: é
+incorrect value! Got: é, expected: 109
+WRITE: 110
+READ: é
+incorrect value! Got: é, expected: 110
+WRITE: 111
+READ: 111
+OK! Got: 111, expected: 111
+WRITE: 112
+READ: é
+incorrect value! Got: é, expected: 112
+WRITE: 113
+READ: é
+incorrect value! Got: é, expected: 113
+WRITE: 114
+READ: é
+incorrect value! Got: é, expected: 114
+WRITE: 115
+READ: 115
+OK! Got: 115, expected: 115
+WRITE: 116
+READ: é
+incorrect value! Got: é, expected: 116
+WRITE: 117
+READ: é
+incorrect value! Got: é, expected: 117
+WRITE: 118
+READ: é
+incorrect value! Got: é, expected: 118
+WRITE: 119
+READ: 119
+OK! Got: 119, expected: 119
+WRITE: 120
+READ: é
+incorrect value! Got: é, expected: 120
+WRITE: 121
+READ: é
+incorrect value! Got: é, expected: 121
+WRITE: 122
+READ: é
+incorrect value! Got: é, expected: 122
+WRITE: 123
+READ: 123
+OK! Got: 123, expected: 123
+WRITE: 124
+READ: é
+incorrect value! Got: é, expected: 124
+WRITE: 125
+READ: é
+incorrect value! Got: é, expected: 125
+WRITE: 126
+READ: é
+incorrect value! Got: é, expected: 126
+WRITE: 127
+READ: 127
+OK! Got: 127, expected: 127
+WRITE: 128
+READ: é
+incorrect value! Got: é, expected: 128
+WRITE: 129
+READ: é
+incorrect value! Got: é, expected: 129
+WRITE: 130
+READ: é
+incorrect value! Got: é, expected: 130
+WRITE: 131
+READ: 131
+OK! Got: 131, expected: 131
+WRITE: 132
+READ: é
+incorrect value! Got: é, expected: 132
+WRITE: 133
+READ: é
+incorrect value! Got: é, expected: 133
+WRITE: 134
+READ: é
+incorrect value! Got: é, expected: 134
+WRITE: 135
+READ: 135
+OK! Got: 135, expected: 135
+WRITE: 136
+READ: é
+incorrect value! Got: é, expected: 136
+WRITE: 137
+READ: é
+incorrect value! Got: é, expected: 137
+WRITE: 138
+READ: é
+incorrect value! Got: é, expected: 138
+WRITE: 139
+READ: 139
+OK! Got: 139, expected: 139
+WRITE: 140
+READ: é
+incorrect value! Got: é, expected: 140
+WRITE: 141
+READ: é
+incorrect value! Got: é, expected: 141
+WRITE: 142
+READ: é
+incorrect value! Got: é, expected: 142
+WRITE: 143
+READ: 143
+OK! Got: 143, expected: 143
+WRITE: 144
+READ: é
+incorrect value! Got: é, expected: 144
+WRITE: 145
+READ: é
+incorrect value! Got: é, expected: 145
+WRITE: 146
+READ: é
+incorrect value! Got: é, expected: 146
+WRITE: 147
+READ: 147
+OK! Got: 147, expected: 147
+WRITE: 148
+READ: é
+incorrect value! Got: é, expected: 148
+WRITE: 149
+READ: é
+incorrect value! Got: é, expected: 149
+WRITE: 150
+READ: é
+incorrect value! Got: é, expected: 150
+WRITE: 151
+READ: 151
+OK! Got: 151, expected: 151
+WRITE: 152
+READ: é
+incorrect value! Got: é, expected: 152
+WRITE: 153
+READ: é
+incorrect value! Got: é, expected: 153
+WRITE: 154
+READ: é
+incorrect value! Got: é, expected: 154
+WRITE: 155
+READ: 155
+OK! Got: 155, expected: 155
+WRITE: 156
+READ: é
+incorrect value! Got: é, expected: 156
+WRITE: 157
+READ: é
+incorrect value! Got: é, expected: 157
+WRITE: 158
+READ: é
+incorrect value! Got: é, expected: 158
+WRITE: 159
+READ: 159
+OK! Got: 159, expected: 159
+WRITE: 160
+READ: é
+incorrect value! Got: é, expected: 160
+WRITE: 161
+READ: é
+incorrect value! Got: é, expected: 161
+WRITE: 162
+READ: é
+incorrect value! Got: é, expected: 162
+WRITE: 163
+READ: 163
+OK! Got: 163, expected: 163
+WRITE: 164
+READ: é
+incorrect value! Got: é, expected: 164
+WRITE: 165
+READ: é
+incorrect value! Got: é, expected: 165
+WRITE: 166
+READ: é
+incorrect value! Got: é, expected: 166
+WRITE: 167
+READ: 167
+OK! Got: 167, expected: 167
+WRITE: 168
+READ: é
+incorrect value! Got: é, expected: 168
+WRITE: 169
+READ: é
+incorrect value! Got: é, expected: 169
+WRITE: 170
+READ: é
+incorrect value! Got: é, expected: 170
+WRITE: 171
+READ: 171
+OK! Got: 171, expected: 171
+WRITE: 172
+READ: é
+incorrect value! Got: é, expected: 172
+WRITE: 173
+READ: é
+incorrect value! Got: é, expected: 173
+WRITE: 174
+READ: é
+incorrect value! Got: é, expected: 174
+WRITE: 175
+READ: 175
+OK! Got: 175, expected: 175
+WRITE: 176
+READ: é
+incorrect value! Got: é, expected: 176
+WRITE: 177
+READ: é
+incorrect value! Got: é, expected: 177
+WRITE: 178
+READ: é
+incorrect value! Got: é, expected: 178
+WRITE: 179
+READ: 179
+OK! Got: 179, expected: 179
+WRITE: 180
+READ: é
+incorrect value! Got: é, expected: 180
+WRITE: 181
+READ: é
+incorrect value! Got: é, expected: 181
+WRITE: 182
+READ: é
+incorrect value! Got: é, expected: 182
+WRITE: 183
+READ: 183
+OK! Got: 183, expected: 183
+WRITE: 184
+READ: é
+incorrect value! Got: é, expected: 184
+WRITE: 185
+READ: é
+incorrect value! Got: é, expected: 185
+WRITE: 186
+READ: é
+incorrect value! Got: é, expected: 186
+WRITE: 187
+READ: 187
+OK! Got: 187, expected: 187
+WRITE: 188
+READ: é
+incorrect value! Got: é, expected: 188
+WRITE: 189
+READ: é
+incorrect value! Got: é, expected: 189
+WRITE: 190
+READ: é
+incorrect value! Got: é, expected: 190
+WRITE: 191
+READ: 191
+OK! Got: 191, expected: 191
+WRITE: 192
+READ: é
+incorrect value! Got: é, expected: 192
+WRITE: 193
+READ: é
+incorrect value! Got: é, expected: 193
+WRITE: 194
+READ: é
+incorrect value! Got: é, expected: 194
+WRITE: 195
+READ: 195
+OK! Got: 195, expected: 195
+WRITE: 196
+READ: é
+incorrect value! Got: é, expected: 196
+WRITE: 197
+READ: é
+incorrect value! Got: é, expected: 197
+WRITE: 198
+READ: é
+incorrect value! Got: é, expected: 198
+WRITE: 199
+READ: 199
+OK! Got: 199, expected: 199
+WRITE: 200
+READ: é
+incorrect value! Got: é, expected: 200
+WRITE: 201
+READ: é
+incorrect value! Got: é, expected: 201
+WRITE: 202
+READ: é
+incorrect value! Got: é, expected: 202
+WRITE: 203
+READ: 203
+OK! Got: 203, expected: 203
+WRITE: 204
+READ: é
+incorrect value! Got: é, expected: 204
+WRITE: 205
+READ: é
+incorrect value! Got: é, expected: 205
+WRITE: 206
+READ: é
+incorrect value! Got: é, expected: 206
+WRITE: 207
+READ: 207
+OK! Got: 207, expected: 207
+WRITE: 208
+READ: é
+incorrect value! Got: é, expected: 208
+WRITE: 209
+READ: é
+incorrect value! Got: é, expected: 209
+WRITE: 210
+READ: é
+incorrect value! Got: é, expected: 210
+WRITE: 211
+READ: 211
+OK! Got: 211, expected: 211
+WRITE: 212
+READ: é
+incorrect value! Got: é, expected: 212
+WRITE: 213
+READ: é
+incorrect value! Got: é, expected: 213
+WRITE: 214
+READ: é
+incorrect value! Got: é, expected: 214
+WRITE: 215
+READ: 215
+OK! Got: 215, expected: 215
+WRITE: 216
+READ: é
+incorrect value! Got: é, expected: 216
+WRITE: 217
+READ: é
+incorrect value! Got: é, expected: 217
+WRITE: 218
+READ: é
+incorrect value! Got: é, expected: 218
+WRITE: 219
+READ: 219
+OK! Got: 219, expected: 219
+WRITE: 220
+READ: é
+incorrect value! Got: é, expected: 220
+WRITE: 221
+READ: é
+incorrect value! Got: é, expected: 221
+WRITE: 222
+READ: é
+incorrect value! Got: é, expected: 222
+WRITE: 223
+READ: 223
+OK! Got: 223, expected: 223
+WRITE: 224
+READ: é
+incorrect value! Got: é, expected: 224
+WRITE: 225
+READ: é
+incorrect value! Got: é, expected: 225
+WRITE: 226
+READ: é
+incorrect value! Got: é, expected: 226
+WRITE: 227
+READ: 227
+OK! Got: 227, expected: 227
+WRITE: 228
+READ: é
+incorrect value! Got: é, expected: 228
+WRITE: 229
+READ: é
+incorrect value! Got: é, expected: 229
+WRITE: 230
+READ: é
+incorrect value! Got: é, expected: 230
+WRITE: 231
+READ: 231
+OK! Got: 231, expected: 231
+WRITE: 232
+READ: é
+incorrect value! Got: é, expected: 232
+WRITE: 233
+READ: é
+incorrect value! Got: é, expected: 233
+WRITE: 234
+READ: é
+incorrect value! Got: é, expected: 234
+WRITE: 235
+READ: 235
+OK! Got: 235, expected: 235
+WRITE: 236
+READ: é
+incorrect value! Got: é, expected: 236
+WRITE: 237
+READ: é
+incorrect value! Got: é, expected: 237
+WRITE: 238
+READ: é
+incorrect value! Got: é, expected: 238
+WRITE: 239
+READ: 239
+OK! Got: 239, expected: 239
+WRITE: 240
+READ: é
+incorrect value! Got: é, expected: 240
+WRITE: 241
+READ: é
+incorrect value! Got: é, expected: 241
+WRITE: 242
+READ: é
+incorrect value! Got: é, expected: 242
+WRITE: 243
+READ: 243
+OK! Got: 243, expected: 243
+WRITE: 244
+READ: é
+incorrect value! Got: é, expected: 244
+WRITE: 245
+READ: é
+incorrect value! Got: é, expected: 245
+WRITE: 246
+READ: é
+incorrect value! Got: é, expected: 246
+WRITE: 247
+READ: 247
+OK! Got: 247, expected: 247
+WRITE: 248
+READ: é
+incorrect value! Got: é, expected: 248
+WRITE: 249
+READ: é
+incorrect value! Got: é, expected: 249
+WRITE: 250
+READ: é
+incorrect value! Got: é, expected: 250
+WRITE: 251
+READ: 251
+OK! Got: 251, expected: 251
+WRITE: 252
+READ: é
+incorrect value! Got: é, expected: 252
+WRITE: 253
+READ: é
+incorrect value! Got: é, expected: 253
+WRITE: 254
+READ: é
+incorrect value! Got: é, expected: 254
+WRITE: 255
+READ: 255
+OK! Got: 255, expected: 255
+WRITE: 256
+READ: 
+incorrect value! Got: , expected: 256
+WRITE: 257
+READ: 
+incorrect value! Got: , expected: 257
+WRITE: 258
+READ: 
+incorrect value! Got: , expected: 258
+WRITE: 259
+READ: 259
+OK! Got: 259, expected: 259
+WRITE: 260
+READ: 
+incorrect value! Got: , expected: 260
+WRITE: 261
+READ: 
+incorrect value! Got: , expected: 261
+WRITE: 262
+READ: 
+incorrect value! Got: , expected: 262
+WRITE: 263
+READ: 263
+OK! Got: 263, expected: 263
+WRITE: 264
+READ: 
+incorrect value! Got: , expected: 264
+WRITE: 265
+READ: 
+incorrect value! Got: , expected: 265
+WRITE: 266
+READ: 
+incorrect value! Got: , expected: 266
+WRITE: 267
+READ: 267
+OK! Got: 267, expected: 267
+WRITE: 268
+READ: 
+incorrect value! Got: , expected: 268
+WRITE: 269
+READ: 
+incorrect value! Got: , expected: 269
+WRITE: 270
+READ: 
+incorrect value! Got: , expected: 270
+WRITE: 271
+READ: 271
+OK! Got: 271, expected: 271
+WRITE: 272
+READ: 
+incorrect value! Got: , expected: 272
+WRITE: 273
+READ: 
+incorrect value! Got: , expected: 273
+WRITE: 274
+READ: 
+incorrect value! Got: , expected: 274
+WRITE: 275
+READ: 275
+OK! Got: 275, expected: 275
+WRITE: 276
+READ: 
+incorrect value! Got: , expected: 276
+WRITE: 277
+READ: 
+incorrect value! Got: , expected: 277
+WRITE: 278
+READ: 
+incorrect value! Got: , expected: 278
+WRITE: 279
+READ: 279
+OK! Got: 279, expected: 279
+WRITE: 280
+READ: 
+incorrect value! Got: , expected: 280
+WRITE: 281
+READ: 
+incorrect value! Got: , expected: 281
+WRITE: 282
+READ: 
+incorrect value! Got: , expected: 282
+WRITE: 283
+READ: 283
+OK! Got: 283, expected: 283
+WRITE: 284
+READ: 
+incorrect value! Got: , expected: 284
+WRITE: 285
+READ: 
+incorrect value! Got: , expected: 285
+WRITE: 286
+READ: é
+incorrect value! Got: é, expected: 286
+WRITE: 287
+READ: 287
+OK! Got: 287, expected: 287
+WRITE: 288
+READ: é
+incorrect value! Got: é, expected: 288
+WRITE: 289
+READ: é
+incorrect value! Got: é, expected: 289
+WRITE: 290
+READ: é
+incorrect value! Got: é, expected: 290
+WRITE: 291
+READ: 291
+OK! Got: 291, expected: 291
+WRITE: 292
+READ: é
+incorrect value! Got: é, expected: 292
+WRITE: 293
+READ: é
+incorrect value! Got: é, expected: 293
+WRITE: 294
+READ: é
+incorrect value! Got: é, expected: 294
+WRITE: 295
+READ: 295
+OK! Got: 295, expected: 295
+WRITE: 296
+READ: é
+incorrect value! Got: é, expected: 296
+WRITE: 297
+READ: é
+incorrect value! Got: é, expected: 297
+WRITE: 298
+READ: é
+incorrect value! Got: é, expected: 298
+WRITE: 299
+READ: 299
+OK! Got: 299, expected: 299
+WRITE: 300
+READ: é
+incorrect value! Got: é, expected: 300
+WRITE: 301
+READ: é
+incorrect value! Got: é, expected: 301
+WRITE: 302
+READ: é
+incorrect value! Got: é, expected: 302
+WRITE: 303
+READ: 303
+OK! Got: 303, expected: 303
+WRITE: 304
+READ: é
+incorrect value! Got: é, expected: 304
+WRITE: 305
+READ: é
+incorrect value! Got: é, expected: 305
+WRITE: 306
+READ: é
+incorrect value! Got: é, expected: 306
+WRITE: 307
+READ: 307
+OK! Got: 307, expected: 307
+WRITE: 308
+READ: é
+incorrect value! Got: é, expected: 308
+WRITE: 309
+READ: é
+incorrect value! Got: é, expected: 309
+WRITE: 310
+READ: é
+incorrect value! Got: é, expected: 310
+WRITE: 311
+READ: 311
+OK! Got: 311, expected: 311
+WRITE: 312
+READ: é
+incorrect value! Got: é, expected: 312
+WRITE: 313
+READ: é
+incorrect value! Got: é, expected: 313
+WRITE: 314
+READ: é
+incorrect value! Got: é, expected: 314
+WRITE: 315
+READ: 315
+OK! Got: 315, expected: 315
+WRITE: 316
+READ: é
+incorrect value! Got: é, expected: 316
+WRITE: 317
+READ: é
+incorrect value! Got: é, expected: 317
+WRITE: 318
+READ: é
+incorrect value! Got: é, expected: 318
+WRITE: 319
+READ: 319
+OK! Got: 319, expected: 319
+WRITE: 320
+READ: é
+incorrect value! Got: é, expected: 320
+WRITE: 321
+READ: é
+incorrect value! Got: é, expected: 321
+WRITE: 322
+READ: é
+incorrect value! Got: é, expected: 322
+WRITE: 323
+READ: 323
+OK! Got: 323, expected: 323
+WRITE: 324
+READ: é
+incorrect value! Got: é, expected: 324
+WRITE: 325
+READ: é
+incorrect value! Got: é, expected: 325
+WRITE: 326
+READ: é
+incorrect value! Got: é, expected: 326
+WRITE: 327
+READ: 327
+OK! Got: 327, expected: 327
+WRITE: 328
+READ: é
+incorrect value! Got: é, expected: 328
+WRITE: 329
+READ: é
+incorrect value! Got: é, expected: 329
+WRITE: 330
+READ: é
+incorrect value! Got: é, expected: 330
+WRITE: 331
+READ: 331
+OK! Got: 331, expected: 331
+WRITE: 332
+READ: é
+incorrect value! Got: é, expected: 332
+WRITE: 333
+READ: é
+incorrect value! Got: é, expected: 333
+WRITE: 334
+READ: é
+incorrect value! Got: é, expected: 334
+WRITE: 335
+READ: 335
+OK! Got: 335, expected: 335
+WRITE: 336
+READ: é
+incorrect value! Got: é, expected: 336
+WRITE: 337
+READ: é
+incorrect value! Got: é, expected: 337
+WRITE: 338
+READ: é
+incorrect value! Got: é, expected: 338
+WRITE: 339
+READ: 339
+OK! Got: 339, expected: 339
+WRITE: 340
+READ: é
+incorrect value! Got: é, expected: 340
+WRITE: 341
+READ: é
+incorrect value! Got: é, expected: 341
+WRITE: 342
+READ: é
+incorrect value! Got: é, expected: 342
+WRITE: 343
+READ: 343
+OK! Got: 343, expected: 343
+WRITE: 344
+READ: é
+incorrect value! Got: é, expected: 344
+WRITE: 345
+READ: é
+incorrect value! Got: é, expected: 345
+WRITE: 346
+READ: é
+incorrect value! Got: é, expected: 346
+WRITE: 347
+READ: 347
+OK! Got: 347, expected: 347
+WRITE: 348
+READ: é
+incorrect value! Got: é, expected: 348
+WRITE: 349
+READ: é
+incorrect value! Got: é, expected: 349
+WRITE: 350
+READ: é
+incorrect value! Got: é, expected: 350
+WRITE: 351
+READ: 351
+OK! Got: 351, expected: 351
+WRITE: 352
+READ: é
+incorrect value! Got: é, expected: 352
+WRITE: 353
+READ: é
+incorrect value! Got: é, expected: 353
+WRITE: 354
+READ: é
+incorrect value! Got: é, expected: 354
+WRITE: 355
+READ: 355
+OK! Got: 355, expected: 355
+WRITE: 356
+READ: é
+incorrect value! Got: é, expected: 356
+WRITE: 357
+READ: é
+incorrect value! Got: é, expected: 357
+WRITE: 358
+READ: é
+incorrect value! Got: é, expected: 358
+WRITE: 359
+READ: 359
+OK! Got: 359, expected: 359
+WRITE: 360
+READ: é
+incorrect value! Got: é, expected: 360
+WRITE: 361
+READ: é
+incorrect value! Got: é, expected: 361
+WRITE: 362
+READ: é
+incorrect value! Got: é, expected: 362
+WRITE: 363
+READ: 363
+OK! Got: 363, expected: 363
+WRITE: 364
+READ: é
+incorrect value! Got: é, expected: 364
+WRITE: 365
+READ: é
+incorrect value! Got: é, expected: 365
+WRITE: 366
+READ: é
+incorrect value! Got: é, expected: 366
+WRITE: 367
+READ: 367
+OK! Got: 367, expected: 367
+WRITE: 368
+READ: é
+incorrect value! Got: é, expected: 368
+WRITE: 369
+READ: é
+incorrect value! Got: é, expected: 369
+WRITE: 370
+READ: é
+incorrect value! Got: é, expected: 370
+WRITE: 371
+READ: 371
+OK! Got: 371, expected: 371
+WRITE: 372
+READ: é
+incorrect value! Got: é, expected: 372
+WRITE: 373
+READ: é
+incorrect value! Got: é, expected: 373
+WRITE: 374
+READ: é
+incorrect value! Got: é, expected: 374
+WRITE: 375
+READ: 375
+OK! Got: 375, expected: 375
+WRITE: 376
+READ: é
+incorrect value! Got: é, expected: 376
+WRITE: 377
+READ: é
+incorrect value! Got: é, expected: 377
+WRITE: 378
+READ: é
+incorrect value! Got: é, expected: 378
+WRITE: 379
+READ: 379
+OK! Got: 379, expected: 379
+WRITE: 380
+READ: é
+incorrect value! Got: é, expected: 380
+WRITE: 381
+READ: é
+incorrect value! Got: é, expected: 381
+WRITE: 382
+READ: é
+incorrect value! Got: é, expected: 382
+WRITE: 383
+READ: 383
+OK! Got: 383, expected: 383
+WRITE: 384
+READ: é
+incorrect value! Got: é, expected: 384
+WRITE: 385
+READ: é
+incorrect value! Got: é, expected: 385
+WRITE: 386
+READ: é
+incorrect value! Got: é, expected: 386
+WRITE: 387
+READ: 387
+OK! Got: 387, expected: 387
+WRITE: 388
+READ: é
+incorrect value! Got: é, expected: 388
+WRITE: 389
+READ: é
+incorrect value! Got: é, expected: 389
+WRITE: 390
+READ: é
+incorrect value! Got: é, expected: 390
+WRITE: 391
+READ: 391
+OK! Got: 391, expected: 391
+WRITE: 392
+READ: é
+incorrect value! Got: é, expected: 392
+WRITE: 393
+READ: é
+incorrect value! Got: é, expected: 393
+WRITE: 394
+READ: é
+incorrect value! Got: é, expected: 394
+WRITE: 395
+READ: 395
+OK! Got: 395, expected: 395
+WRITE: 396
+READ: é
+incorrect value! Got: é, expected: 396
+WRITE: 397
+READ: é
+incorrect value! Got: é, expected: 397
+WRITE: 398
+READ: é
+incorrect value! Got: é, expected: 398
+WRITE: 399
+READ: 399
+OK! Got: 399, expected: 399
+WRITE: 400
+READ: é
+incorrect value! Got: é, expected: 400
+WRITE: 401
+READ: é
+incorrect value! Got: é, expected: 401
+WRITE: 402
+READ: é
+incorrect value! Got: é, expected: 402
+WRITE: 403
+READ: 403
+OK! Got: 403, expected: 403
+WRITE: 404
+READ: é
+incorrect value! Got: é, expected: 404
+WRITE: 405
+READ: é
+incorrect value! Got: é, expected: 405
+WRITE: 406
+READ: é
+incorrect value! Got: é, expected: 406
+WRITE: 407
+READ: 407
+OK! Got: 407, expected: 407
+WRITE: 408
+READ: é
+incorrect value! Got: é, expected: 408
+WRITE: 409
+READ: é
+incorrect value! Got: é, expected: 409
+WRITE: 410
+READ: é
+incorrect value! Got: é, expected: 410
+WRITE: 411
+READ: 411
+OK! Got: 411, expected: 411
+WRITE: 412
+READ: é
+incorrect value! Got: é, expected: 412
+WRITE: 413
+READ: é
+incorrect value! Got: é, expected: 413
+WRITE: 414
+READ: é
+incorrect value! Got: é, expected: 414
+WRITE: 415
+READ: 415
+OK! Got: 415, expected: 415
+WRITE: 416
+READ: é
+incorrect value! Got: é, expected: 416
+WRITE: 417
+READ: é
+incorrect value! Got: é, expected: 417
+WRITE: 418
+READ: é
+incorrect value! Got: é, expected: 418
+WRITE: 419
+READ: 419
+OK! Got: 419, expected: 419
+WRITE: 420
+READ: é
+incorrect value! Got: é, expected: 420
+WRITE: 421
+READ: é
+incorrect value! Got: é, expected: 421
+WRITE: 422
+READ: é
+incorrect value! Got: é, expected: 422
+WRITE: 423
+READ: 423
+OK! Got: 423, expected: 423
+WRITE: 424
+READ: é
+incorrect value! Got: é, expected: 424
+WRITE: 425
+READ: é
+incorrect value! Got: é, expected: 425
+WRITE: 426
+READ: é
+incorrect value! Got: é, expected: 426
+WRITE: 427
+READ: 427
+OK! Got: 427, expected: 427
+WRITE: 428
+READ: é
+incorrect value! Got: é, expected: 428
+WRITE: 429
+READ: é
+incorrect value! Got: é, expected: 429
+WRITE: 430
+READ: é
+incorrect value! Got: é, expected: 430
+WRITE: 431
+READ: 431
+OK! Got: 431, expected: 431
+WRITE: 432
+READ: é
+incorrect value! Got: é, expected: 432
+WRITE: 433
+READ: é
+incorrect value! Got: é, expected: 433
+WRITE: 434
+READ: é
+incorrect value! Got: é, expected: 434
+WRITE: 435
+READ: 435
+OK! Got: 435, expected: 435
+WRITE: 436
+READ: é
+incorrect value! Got: é, expected: 436
+WRITE: 437
+READ: é
+incorrect value! Got: é, expected: 437
+WRITE: 438
+READ: é
+incorrect value! Got: é, expected: 438
+WRITE: 439
+READ: 439
+OK! Got: 439, expected: 439
+WRITE: 440
+READ: é
+incorrect value! Got: é, expected: 440
+WRITE: 441
+READ: é
+incorrect value! Got: é, expected: 441
+WRITE: 442
+READ: é
+incorrect value! Got: é, expected: 442
+WRITE: 443
+READ: 443
+OK! Got: 443, expected: 443
+WRITE: 444
+READ: é
+incorrect value! Got: é, expected: 444
+WRITE: 445
+READ: é
+incorrect value! Got: é, expected: 445
+WRITE: 446
+READ: é
+incorrect value! Got: é, expected: 446
+WRITE: 447
+READ: 447
+OK! Got: 447, expected: 447
+WRITE: 448
+READ: é
+incorrect value! Got: é, expected: 448
+WRITE: 449
+READ: é
+incorrect value! Got: é, expected: 449
+WRITE: 450
+READ: é
+incorrect value! Got: é, expected: 450
+WRITE: 451
+READ: 451
+OK! Got: 451, expected: 451
+WRITE: 452
+READ: é
+incorrect value! Got: é, expected: 452
+WRITE: 453
+READ: é
+incorrect value! Got: é, expected: 453
+WRITE: 454
+READ: é
+incorrect value! Got: é, expected: 454
+WRITE: 455
+READ: 455
+OK! Got: 455, expected: 455
+WRITE: 456
+READ: é
+incorrect value! Got: é, expected: 456
+WRITE: 457
+READ: é
+incorrect value! Got: é, expected: 457
+WRITE: 458
+READ: é
+incorrect value! Got: é, expected: 458
+WRITE: 459
+READ: 459
+OK! Got: 459, expected: 459
+WRITE: 460
+READ: é
+incorrect value! Got: é, expected: 460
+WRITE: 461
+READ: é
+incorrect value! Got: é, expected: 461
+WRITE: 462
+READ: é
+incorrect value! Got: é, expected: 462
+WRITE: 463
+READ: 463
+OK! Got: 463, expected: 463
+WRITE: 464
+READ: é
+incorrect value! Got: é, expected: 464
+WRITE: 465
+READ: é
+incorrect value! Got: é, expected: 465
+WRITE: 466
+READ: é
+incorrect value! Got: é, expected: 466
+WRITE: 467
+READ: 467
+OK! Got: 467, expected: 467
+WRITE: 468
+READ: é
+incorrect value! Got: é, expected: 468
+WRITE: 469
+READ: é
+incorrect value! Got: é, expected: 469
+WRITE: 470
+READ: é
+incorrect value! Got: é, expected: 470
+WRITE: 471
+READ: 471
+OK! Got: 471, expected: 471
+WRITE: 472
+READ: é
+incorrect value! Got: é, expected: 472
+WRITE: 473
+READ: é
+incorrect value! Got: é, expected: 473
+WRITE: 474
+READ: é
+incorrect value! Got: é, expected: 474
+WRITE: 475
+READ: 475
+OK! Got: 475, expected: 475
+WRITE: 476
+READ: é
+incorrect value! Got: é, expected: 476
+WRITE: 477
+READ: é
+incorrect value! Got: é, expected: 477
+WRITE: 478
+READ: é
+incorrect value! Got: é, expected: 478
+WRITE: 479
+READ: 479
+OK! Got: 479, expected: 479
+WRITE: 480
+READ: é
+incorrect value! Got: é, expected: 480
+WRITE: 481
+READ: é
+incorrect value! Got: é, expected: 481
+WRITE: 482
+READ: é
+incorrect value! Got: é, expected: 482
+WRITE: 483
+READ: 483
+OK! Got: 483, expected: 483
+WRITE: 484
+READ: é
+incorrect value! Got: é, expected: 484
+WRITE: 485
+READ: é
+incorrect value! Got: é, expected: 485
+WRITE: 486
+READ: é
+incorrect value! Got: é, expected: 486
+WRITE: 487
+READ: 487
+OK! Got: 487, expected: 487
+WRITE: 488
+READ: é
+incorrect value! Got: é, expected: 488
+WRITE: 489
+READ: é
+incorrect value! Got: é, expected: 489
+WRITE: 490
+READ: é
+incorrect value! Got: é, expected: 490
+WRITE: 491
+READ: 491
+OK! Got: 491, expected: 491
+WRITE: 492
+READ: é
+incorrect value! Got: é, expected: 492
+WRITE: 493
+READ: é
+incorrect value! Got: é, expected: 493
+WRITE: 494
+READ: é
+incorrect value! Got: é, expected: 494
+WRITE: 495
+READ: 495
+OK! Got: 495, expected: 495
+WRITE: 496
+READ: é
+incorrect value! Got: é, expected: 496
+WRITE: 497
+READ: é
+incorrect value! Got: é, expected: 497
+WRITE: 498
+READ: é
+incorrect value! Got: é, expected: 498
+WRITE: 499
+READ: 499
+OK! Got: 499, expected: 499
+WRITE: 500
+READ: é
+incorrect value! Got: é, expected: 500
+WRITE: 501
+READ: é
+incorrect value! Got: é, expected: 501
+WRITE: 502
+READ: é
+incorrect value! Got: é, expected: 502
+WRITE: 503
+READ: 503
+OK! Got: 503, expected: 503
+WRITE: 504
+READ: é
+incorrect value! Got: é, expected: 504
+WRITE: 505
+READ: é
+incorrect value! Got: é, expected: 505
+WRITE: 506
+READ: é
+incorrect value! Got: é, expected: 506
+WRITE: 507
+READ: 507
+OK! Got: 507, expected: 507
+WRITE: 508
+READ: é
+incorrect value! Got: é, expected: 508
+WRITE: 509
+READ: é
+incorrect value! Got: é, expected: 509
+WRITE: 510
+READ: é
+incorrect value! Got: é, expected: 510
+WRITE: 511
+READ: 511
+OK! Got: 511, expected: 511
+WRITE: 512
+READ: 
+incorrect value! Got: , expected: 512
+WRITE: 513
+READ: 
+incorrect value! Got: , expected: 513
+WRITE: 514
+READ: 
+incorrect value! Got: , expected: 514
+WRITE: 515
+READ: 515
+OK! Got: 515, expected: 515
+WRITE: 516
+READ: 
+incorrect value! Got: , expected: 516
+WRITE: 517
+READ: 
+incorrect value! Got: , expected: 517
+WRITE: 518
+READ: 
+incorrect value! Got: , expected: 518
+WRITE: 519
+READ: 519
+OK! Got: 519, expected: 519
+WRITE: 520
+READ: 
+incorrect value! Got: , expected: 520
+WRITE: 521
+READ: 
+incorrect value! Got: , expected: 521
+WRITE: 522
+READ: 
+incorrect value! Got: , expected: 522
+WRITE: 523
+READ: 523
+OK! Got: 523, expected: 523
+WRITE: 524
+READ: 
+incorrect value! Got: , expected: 524
+WRITE: 525
+READ: 
+incorrect value! Got: , expected: 525
+WRITE: 526
+READ: 
+incorrect value! Got: , expected: 526
+WRITE: 527
+READ: 527
+OK! Got: 527, expected: 527
+WRITE: 528
+READ: 
+incorrect value! Got: , expected: 528
+WRITE: 529
+READ: 
+incorrect value! Got: , expected: 529
+WRITE: 530
+READ: 
+incorrect value! Got: , expected: 530
+WRITE: 531
+READ: 531
+OK! Got: 531, expected: 531
+WRITE: 532
+READ: 
+incorrect value! Got: , expected: 532
+WRITE: 533
+READ: 
+incorrect value! Got: , expected: 533
+WRITE: 534
+READ: 
+incorrect value! Got: , expected: 534
+WRITE: 535
+READ: 535
+OK! Got: 535, expected: 535
+WRITE: 536
+READ: 
+incorrect value! Got: , expected: 536
+WRITE: 537
+READ: 
+incorrect value! Got: , expected: 537
+WRITE: 538
+READ: 
+incorrect value! Got: , expected: 538
+WRITE: 539
+READ: 539
+OK! Got: 539, expected: 539
+WRITE: 540
+READ: 
+incorrect value! Got: , expected: 540
+WRITE: 541
+READ: 
+incorrect value! Got: , expected: 541
+WRITE: 542
+READ: é
+incorrect value! Got: é, expected: 542
+WRITE: 543
+READ: 543
+OK! Got: 543, expected: 543
+WRITE: 544
+READ: é
+incorrect value! Got: é, expected: 544
+WRITE: 545
+READ: é
+incorrect value! Got: é, expected: 545
+WRITE: 546
+READ: é
+incorrect value! Got: é, expected: 546
+WRITE: 547
+READ: 547
+OK! Got: 547, expected: 547
+WRITE: 548
+READ: é
+incorrect value! Got: é, expected: 548
+WRITE: 549
+READ: é
+incorrect value! Got: é, expected: 549
+WRITE: 550
+READ: é
+incorrect value! Got: é, expected: 550
+WRITE: 551
+READ: 551
+OK! Got: 551, expected: 551
+WRITE: 552
+READ: é
+incorrect value! Got: é, expected: 552
+WRITE: 553
+READ: é
+incorrect value! Got: é, expected: 553
+WRITE: 554
+READ: é
+incorrect value! Got: é, expected: 554
+WRITE: 555
+READ: 555
+OK! Got: 555, expected: 555
+WRITE: 556
+READ: é
+incorrect value! Got: é, expected: 556
+WRITE: 557
+READ: é
+incorrect value! Got: é, expected: 557
+WRITE: 558
+READ: é
+incorrect value! Got: é, expected: 558
+WRITE: 559
+READ: 559
+OK! Got: 559, expected: 559
+WRITE: 560
+READ: é
+incorrect value! Got: é, expected: 560
+WRITE: 561
+READ: é
+incorrect value! Got: é, expected: 561
+WRITE: 562
+READ: é
+incorrect value! Got: é, expected: 562
+WRITE: 563
+READ: 563
+OK! Got: 563, expected: 563
+WRITE: 564
+READ: é
+incorrect value! Got: é, expected: 564
+WRITE: 565
+READ: é
+incorrect value! Got: é, expected: 565
+WRITE: 566
+READ: é
+incorrect value! Got: é, expected: 566
+WRITE: 567
+READ: 567
+OK! Got: 567, expected: 567
+WRITE: 568
+READ: é
+incorrect value! Got: é, expected: 568
+WRITE: 569
+READ: é
+incorrect value! Got: é, expected: 569
+WRITE: 570
+READ: é
+incorrect value! Got: é, expected: 570
+WRITE: 571
+READ: 571
+OK! Got: 571, expected: 571
+WRITE: 572
+READ: é
+incorrect value! Got: é, expected: 572
+WRITE: 573
+READ: é
+incorrect value! Got: é, expected: 573
+WRITE: 574
+READ: é
+incorrect value! Got: é, expected: 574
+WRITE: 575
+READ: 575
+OK! Got: 575, expected: 575
+WRITE: 576
+READ: é
+incorrect value! Got: é, expected: 576
+WRITE: 577
+READ: é
+incorrect value! Got: é, expected: 577
+WRITE: 578
+READ: é
+incorrect value! Got: é, expected: 578
+WRITE: 579
+READ: 579
+OK! Got: 579, expected: 579
+WRITE: 580
+READ: é
+incorrect value! Got: é, expected: 580
+WRITE: 581
+READ: é
+incorrect value! Got: é, expected: 581
+WRITE: 582
+READ: é
+incorrect value! Got: é, expected: 582
+WRITE: 583
+READ: 583
+OK! Got: 583, expected: 583
+WRITE: 584
+READ: é
+incorrect value! Got: é, expected: 584
+WRITE: 585
+READ: é
+incorrect value! Got: é, expected: 585
+WRITE: 586
+READ: é
+incorrect value! Got: é, expected: 586
+WRITE: 587
+READ: 587
+OK! Got: 587, expected: 587
+WRITE: 588
+READ: é
+incorrect value! Got: é, expected: 588
+WRITE: 589
+READ: é
+incorrect value! Got: é, expected: 589
+WRITE: 590
+READ: é
+incorrect value! Got: é, expected: 590
+WRITE: 591
+READ: 591
+OK! Got: 591, expected: 591
+WRITE: 592
+READ: é
+incorrect value! Got: é, expected: 592
+WRITE: 593
+READ: é
+incorrect value! Got: é, expected: 593
+WRITE: 594
+READ: é
+incorrect value! Got: é, expected: 594
+WRITE: 595
+READ: 595
+OK! Got: 595, expected: 595
+WRITE: 596
+READ: é
+incorrect value! Got: é, expected: 596
+WRITE: 597
+READ: é
+incorrect value! Got: é, expected: 597
+WRITE: 598
+READ: é
+incorrect value! Got: é, expected: 598
+WRITE: 599
+READ: 599
+OK! Got: 599, expected: 599
+WRITE: 600
+READ: é
+incorrect value! Got: é, expected: 600
+WRITE: 601
+READ: é
+incorrect value! Got: é, expected: 601
+WRITE: 602
+READ: é
+incorrect value! Got: é, expected: 602
+WRITE: 603
+READ: 603
+OK! Got: 603, expected: 603
+WRITE: 604
+READ: é
+incorrect value! Got: é, expected: 604
+WRITE: 605
+READ: é
+incorrect value! Got: é, expected: 605
+WRITE: 606
+READ: é
+incorrect value! Got: é, expected: 606
+WRITE: 607
+READ: 607
+OK! Got: 607, expected: 607
+WRITE: 608
+READ: é
+incorrect value! Got: é, expected: 608
+WRITE: 609
+READ: é
+incorrect value! Got: é, expected: 609
+WRITE: 610
+READ: é
+incorrect value! Got: é, expected: 610
+WRITE: 611
+READ: 611
+OK! Got: 611, expected: 611
+WRITE: 612
+READ: é
+incorrect value! Got: é, expected: 612
+WRITE: 613
+READ: é
+incorrect value! Got: é, expected: 613
+WRITE: 614
+READ: é
+incorrect value! Got: é, expected: 614
+WRITE: 615
+READ: 615
+OK! Got: 615, expected: 615
+WRITE: 616
+READ: é
+incorrect value! Got: é, expected: 616
+WRITE: 617
+READ: é
+incorrect value! Got: é, expected: 617
+WRITE: 618
+READ: é
+incorrect value! Got: é, expected: 618
+WRITE: 619
+READ: 619
+OK! Got: 619, expected: 619
+WRITE: 620
+READ: é
+incorrect value! Got: é, expected: 620
+WRITE: 621
+READ: é
+incorrect value! Got: é, expected: 621
+WRITE: 622
+READ: é
+incorrect value! Got: é, expected: 622
+WRITE: 623
+READ: 623
+OK! Got: 623, expected: 623
+WRITE: 624
+READ: é
+incorrect value! Got: é, expected: 624
+WRITE: 625
+READ: é
+incorrect value! Got: é, expected: 625
+WRITE: 626
+READ: é
+incorrect value! Got: é, expected: 626
+WRITE: 627
+READ: 627
+OK! Got: 627, expected: 627
+WRITE: 628
+READ: é
+incorrect value! Got: é, expected: 628
+WRITE: 629
+READ: é
+incorrect value! Got: é, expected: 629
+WRITE: 630
+READ: é
+incorrect value! Got: é, expected: 630
+WRITE: 631
+READ: 631
+OK! Got: 631, expected: 631
+WRITE: 632
+READ: é
+incorrect value! Got: é, expected: 632
+WRITE: 633
+READ: é
+incorrect value! Got: é, expected: 633
+WRITE: 634
+READ: é
+incorrect value! Got: é, expected: 634
+WRITE: 635
+READ: 635
+OK! Got: 635, expected: 635
+WRITE: 636
+READ: é
+incorrect value! Got: é, expected: 636
+WRITE: 637
+READ: é
+incorrect value! Got: é, expected: 637
+WRITE: 638
+READ: é
+incorrect value! Got: é, expected: 638
+WRITE: 639
+READ: 639
+OK! Got: 639, expected: 639
+WRITE: 640
+READ: é
+incorrect value! Got: é, expected: 640
+WRITE: 641
+READ: é
+incorrect value! Got: é, expected: 641
+WRITE: 642
+READ: é
+incorrect value! Got: é, expected: 642
+WRITE: 643
+READ: 643
+OK! Got: 643, expected: 643
+WRITE: 644
+READ: é
+incorrect value! Got: é, expected: 644
+WRITE: 645
+READ: é
+incorrect value! Got: é, expected: 645
+WRITE: 646
+READ: é
+incorrect value! Got: é, expected: 646
+WRITE: 647
+READ: 647
+OK! Got: 647, expected: 647
+WRITE: 648
+READ: é
+incorrect value! Got: é, expected: 648
+WRITE: 649
+READ: é
+incorrect value! Got: é, expected: 649
+WRITE: 650
+READ: é
+incorrect value! Got: é, expected: 650
+WRITE: 651
+READ: 651
+OK! Got: 651, expected: 651
+WRITE: 652
+READ: é
+incorrect value! Got: é, expected: 652
+WRITE: 653
+READ: é
+incorrect value! Got: é, expected: 653
+WRITE: 654
+READ: é
+incorrect value! Got: é, expected: 654
+WRITE: 655
+READ: 655
+OK! Got: 655, expected: 655
+WRITE: 656
+READ: é
+incorrect value! Got: é, expected: 656
+WRITE: 657
+READ: é
+incorrect value! Got: é, expected: 657
+WRITE: 658
+READ: é
+incorrect value! Got: é, expected: 658
+WRITE: 659
+READ: 659
+OK! Got: 659, expected: 659
+WRITE: 660
+READ: é
+incorrect value! Got: é, expected: 660
+WRITE: 661
+READ: é
+incorrect value! Got: é, expected: 661
+WRITE: 662
+READ: é
+incorrect value! Got: é, expected: 662
+WRITE: 663
+READ: 663
+OK! Got: 663, expected: 663
+WRITE: 664
+READ: é
+incorrect value! Got: é, expected: 664
+WRITE: 665
+READ: é
+incorrect value! Got: é, expected: 665
+WRITE: 666
+READ: é
+incorrect value! Got: é, expected: 666
+WRITE: 667
+READ: 667
+OK! Got: 667, expected: 667
+WRITE: 668
+READ: é
+incorrect value! Got: é, expected: 668
+WRITE: 669
+READ: é
+incorrect value! Got: é, expected: 669
+WRITE: 670
+READ: é
+incorrect value! Got: é, expected: 670
+WRITE: 671
+READ: 671
+OK! Got: 671, expected: 671
+WRITE: 672
+READ: é
+incorrect value! Got: é, expected: 672
+WRITE: 673
+READ: é
+incorrect value! Got: é, expected: 673
+WRITE: 674
+READ: é
+incorrect value! Got: é, expected: 674
+WRITE: 675
+READ: 675
+OK! Got: 675, expected: 675
+WRITE: 676
+READ: é
+incorrect value! Got: é, expected: 676
+WRITE: 677
+READ: é
+incorrect value! Got: é, expected: 677
+WRITE: 678
+READ: é
+incorrect value! Got: é, expected: 678
+WRITE: 679
+READ: 679
+OK! Got: 679, expected: 679
+WRITE: 680
+READ: é
+incorrect value! Got: é, expected: 680
+WRITE: 681
+READ: é
+incorrect value! Got: é, expected: 681
+WRITE: 682
+READ: é
+incorrect value! Got: é, expected: 682
+WRITE: 683
+READ: 683
+OK! Got: 683, expected: 683
+WRITE: 684
+READ: é
+incorrect value! Got: é, expected: 684
+WRITE: 685
+READ: é
+incorrect value! Got: é, expected: 685
+WRITE: 686
+READ: é
+incorrect value! Got: é, expected: 686
+WRITE: 687
+READ: 687
+OK! Got: 687, expected: 687
+WRITE: 688
+READ: é
+incorrect value! Got: é, expected: 688
+WRITE: 689
+READ: é
+incorrect value! Got: é, expected: 689
+WRITE: 690
+READ: é
+incorrect value! Got: é, expected: 690
+WRITE: 691
+READ: 691
+OK! Got: 691, expected: 691
+WRITE: 692
+READ: é
+incorrect value! Got: é, expected: 692
+WRITE: 693
+READ: é
+incorrect value! Got: é, expected: 693
+WRITE: 694
+READ: é
+incorrect value! Got: é, expected: 694
+WRITE: 695
+READ: 695
+OK! Got: 695, expected: 695
+WRITE: 696
+READ: é
+incorrect value! Got: é, expected: 696
+WRITE: 697
+READ: é
+incorrect value! Got: é, expected: 697
+WRITE: 698
+READ: é
+incorrect value! Got: é, expected: 698
+WRITE: 699
+READ: 699
+OK! Got: 699, expected: 699
+WRITE: 700
+READ: é
+incorrect value! Got: é, expected: 700
+WRITE: 701
+READ: é
+incorrect value! Got: é, expected: 701
+WRITE: 702
+READ: é
+incorrect value! Got: é, expected: 702
+WRITE: 703
+READ: 703
+OK! Got: 703, expected: 703
+WRITE: 704
+READ: é
+incorrect value! Got: é, expected: 704
+WRITE: 705
+READ: é
+incorrect value! Got: é, expected: 705
+WRITE: 706
+READ: é
+incorrect value! Got: é, expected: 706
+WRITE: 707
+READ: 707
+OK! Got: 707, expected: 707
+WRITE: 708
+READ: é
+incorrect value! Got: é, expected: 708
+WRITE: 709
+READ: é
+incorrect value! Got: é, expected: 709
+WRITE: 710
+READ: é
+incorrect value! Got: é, expected: 710
+WRITE: 711
+READ: 711
+OK! Got: 711, expected: 711
+WRITE: 712
+READ: é
+incorrect value! Got: é, expected: 712
+WRITE: 713
+READ: é
+incorrect value! Got: é, expected: 713
+WRITE: 714
+READ: é
+incorrect value! Got: é, expected: 714
+WRITE: 715
+READ: 715
+OK! Got: 715, expected: 715
+WRITE: 716
+READ: é
+incorrect value! Got: é, expected: 716
+WRITE: 717
+READ: é
+incorrect value! Got: é, expected: 717
+WRITE: 718
+READ: é
+incorrect value! Got: é, expected: 718
+WRITE: 719
+READ: 719
+OK! Got: 719, expected: 719
+WRITE: 720
+READ: é
+incorrect value! Got: é, expected: 720
+WRITE: 721
+READ: é
+incorrect value! Got: é, expected: 721
+WRITE: 722
+READ: é
+incorrect value! Got: é, expected: 722
+WRITE: 723
+READ: 723
+OK! Got: 723, expected: 723
+WRITE: 724
+READ: é
+incorrect value! Got: é, expected: 724
+WRITE: 725
+READ: é
+incorrect value! Got: é, expected: 725
+WRITE: 726
+READ: é
+incorrect value! Got: é, expected: 726
+WRITE: 727
+READ: 727
+OK! Got: 727, expected: 727
+WRITE: 728
+READ: é
+incorrect value! Got: é, expected: 728
+WRITE: 729
+READ: é
+incorrect value! Got: é, expected: 729
+WRITE: 730
+READ: é
+incorrect value! Got: é, expected: 730
+WRITE: 731
+READ: 731
+OK! Got: 731, expected: 731
+WRITE: 732
+READ: é
+incorrect value! Got: é, expected: 732
+WRITE: 733
+READ: é
+incorrect value! Got: é, expected: 733
+WRITE: 734
+READ: é
+incorrect value! Got: é, expected: 734
+WRITE: 735
+READ: 735
+OK! Got: 735, expected: 735
+WRITE: 736
+READ: é
+incorrect value! Got: é, expected: 736
+WRITE: 737
+READ: é
+incorrect value! Got: é, expected: 737
+WRITE: 738
+READ: é
+incorrect value! Got: é, expected: 738
+WRITE: 739
+READ: 739
+OK! Got: 739, expected: 739
+WRITE: 740
+READ: é
+incorrect value! Got: é, expected: 740
+WRITE: 741
+READ: é
+incorrect value! Got: é, expected: 741
+WRITE: 742
+READ: é
+incorrect value! Got: é, expected: 742
+WRITE: 743
+READ: 743
+OK! Got: 743, expected: 743
+WRITE: 744
+READ: é
+incorrect value! Got: é, expected: 744
+WRITE: 745
+READ: é
+incorrect value! Got: é, expected: 745
+WRITE: 746
+READ: é
+incorrect value! Got: é, expected: 746
+WRITE: 747
+READ: 747
+OK! Got: 747, expected: 747
+WRITE: 748
+READ: é
+incorrect value! Got: é, expected: 748
+WRITE: 749
+READ: é
+incorrect value! Got: é, expected: 749
+WRITE: 750
+READ: é
+incorrect value! Got: é, expected: 750
+WRITE: 751
+READ: 751
+OK! Got: 751, expected: 751
+WRITE: 752
+READ: é
+incorrect value! Got: é, expected: 752
+WRITE: 753
+READ: é
+incorrect value! Got: é, expected: 753
+WRITE: 754
+READ: é
+incorrect value! Got: é, expected: 754
+WRITE: 755
+READ: 755
+OK! Got: 755, expected: 755
+WRITE: 756
+READ: é
+incorrect value! Got: é, expected: 756
+WRITE: 757
+READ: é
+incorrect value! Got: é, expected: 757
+WRITE: 758
+READ: é
+incorrect value! Got: é, expected: 758
+WRITE: 759
+READ: 759
+OK! Got: 759, expected: 759
+WRITE: 760
+READ: é
+incorrect value! Got: é, expected: 760
+WRITE: 761
+READ: é
+incorrect value! Got: é, expected: 761
+WRITE: 762
+READ: é
+incorrect value! Got: é, expected: 762
+WRITE: 763
+READ: 763
+OK! Got: 763, expected: 763
+WRITE: 764
+READ: é
+incorrect value! Got: é, expected: 764
+WRITE: 765
+READ: é
+incorrect value! Got: é, expected: 765
+WRITE: 766
+READ: é
+incorrect value! Got: é, expected: 766
+WRITE: 767
+READ: 767
+OK! Got: 767, expected: 767
+WRITE: 768
+READ: 
+incorrect value! Got: , expected: 768
+WRITE: 769
+READ: 
+incorrect value! Got: , expected: 769
+WRITE: 770
+READ: 
+incorrect value! Got: , expected: 770
+WRITE: 771
+READ: 771
+OK! Got: 771, expected: 771
+WRITE: 772
+READ: 
+incorrect value! Got: , expected: 772
+WRITE: 773
+READ: 
+incorrect value! Got: , expected: 773
+WRITE: 774
+READ: 
+incorrect value! Got: , expected: 774
+WRITE: 775
+READ: 775
+OK! Got: 775, expected: 775
+WRITE: 776
+READ: 
+incorrect value! Got: , expected: 776
+WRITE: 777
+READ: 
+incorrect value! Got: , expected: 777
+WRITE: 778
+READ: 
+incorrect value! Got: , expected: 778
+WRITE: 779
+READ: 779
+OK! Got: 779, expected: 779
+WRITE: 780
+READ: 
+incorrect value! Got: , expected: 780
+WRITE: 781
+READ: 
+incorrect value! Got: , expected: 781
+WRITE: 782
+READ: 
+incorrect value! Got: , expected: 782
+WRITE: 783
+READ: 783
+OK! Got: 783, expected: 783
+WRITE: 784
+READ: 
+incorrect value! Got: , expected: 784
+WRITE: 785
+READ: 
+incorrect value! Got: , expected: 785
+WRITE: 786
+READ: 
+incorrect value! Got: , expected: 786
+WRITE: 787
+READ: 787
+OK! Got: 787, expected: 787
+WRITE: 788
+READ: 
+incorrect value! Got: , expected: 788
+WRITE: 789
+READ: 
+incorrect value! Got: , expected: 789
+WRITE: 790
+READ: 
+incorrect value! Got: , expected: 790
+WRITE: 791
+READ: 791
+OK! Got: 791, expected: 791
+WRITE: 792
+READ: 
+incorrect value! Got: , expected: 792
+WRITE: 793
+READ: 
+incorrect value! Got: , expected: 793
+WRITE: 794
+READ: 
+incorrect value! Got: , expected: 794
+WRITE: 795
+READ: 795
+OK! Got: 795, expected: 795
+WRITE: 796
+READ: 
+incorrect value! Got: , expected: 796
+WRITE: 797
+READ: 
+incorrect value! Got: , expected: 797
+WRITE: 798
+READ: é
+incorrect value! Got: é, expected: 798
+WRITE: 799
+READ: 799
+OK! Got: 799, expected: 799
+WRITE: 800
+READ: é
+incorrect value! Got: é, expected: 800
+WRITE: 801
+READ: é
+incorrect value! Got: é, expected: 801
+WRITE: 802
+READ: é
+incorrect value! Got: é, expected: 802
+WRITE: 803
+READ: 803
+OK! Got: 803, expected: 803
+WRITE: 804
+READ: é
+incorrect value! Got: é, expected: 804
+WRITE: 805
+READ: é
+incorrect value! Got: é, expected: 805
+WRITE: 806
+READ: é
+incorrect value! Got: é, expected: 806
+WRITE: 807
+READ: 807
+OK! Got: 807, expected: 807
+WRITE: 808
+READ: é
+incorrect value! Got: é, expected: 808
+WRITE: 809
+READ: é
+incorrect value! Got: é, expected: 809
+WRITE: 810
+READ: é
+incorrect value! Got: é, expected: 810
+WRITE: 811
+READ: 811
+OK! Got: 811, expected: 811
+WRITE: 812
+READ: é
+incorrect value! Got: é, expected: 812
+WRITE: 813
+READ: é
+incorrect value! Got: é, expected: 813
+WRITE: 814
+READ: é
+incorrect value! Got: é, expected: 814
+WRITE: 815
+READ: 815
+OK! Got: 815, expected: 815
+WRITE: 816
+READ: é
+incorrect value! Got: é, expected: 816
+WRITE: 817
+READ: é
+incorrect value! Got: é, expected: 817
+WRITE: 818
+READ: é
+incorrect value! Got: é, expected: 818
+WRITE: 819
+READ: 819
+OK! Got: 819, expected: 819
+WRITE: 820
+READ: é
+incorrect value! Got: é, expected: 820
+WRITE: 821
+READ: é
+incorrect value! Got: é, expected: 821
+WRITE: 822
+READ: é
+incorrect value! Got: é, expected: 822
+WRITE: 823
+READ: 823
+OK! Got: 823, expected: 823
+WRITE: 824
+READ: é
+incorrect value! Got: é, expected: 824
+WRITE: 825
+READ: é
+incorrect value! Got: é, expected: 825
+WRITE: 826
+READ: é
+incorrect value! Got: é, expected: 826
+WRITE: 827
+READ: 827
+OK! Got: 827, expected: 827
+WRITE: 828
+READ: é
+incorrect value! Got: é, expected: 828
+WRITE: 829
+READ: é
+incorrect value! Got: é, expected: 829
+WRITE: 830
+READ: é
+incorrect value! Got: é, expected: 830
+WRITE: 831
+READ: 831
+OK! Got: 831, expected: 831
+WRITE: 832
+READ: é
+incorrect value! Got: é, expected: 832
+WRITE: 833
+READ: é
+incorrect value! Got: é, expected: 833
+WRITE: 834
+READ: é
+incorrect value! Got: é, expected: 834
+WRITE: 835
+READ: 835
+OK! Got: 835, expected: 835
+WRITE: 836
+READ: é
+incorrect value! Got: é, expected: 836
+WRITE: 837
+READ: é
+incorrect value! Got: é, expected: 837
+WRITE: 838
+READ: é
+incorrect value! Got: é, expected: 838
+WRITE: 839
+READ: 839
+OK! Got: 839, expected: 839
+WRITE: 840
+READ: é
+incorrect value! Got: é, expected: 840
+WRITE: 841
+READ: é
+incorrect value! Got: é, expected: 841
+WRITE: 842
+READ: é
+incorrect value! Got: é, expected: 842
+WRITE: 843
+READ: 843
+OK! Got: 843, expected: 843
+WRITE: 844
+READ: é
+incorrect value! Got: é, expected: 844
+WRITE: 845
+READ: é
+incorrect value! Got: é, expected: 845
+WRITE: 846
+READ: é
+incorrect value! Got: é, expected: 846
+WRITE: 847
+READ: 847
+OK! Got: 847, expected: 847
+WRITE: 848
+READ: é
+incorrect value! Got: é, expected: 848
+WRITE: 849
+READ: é
+incorrect value! Got: é, expected: 849
+WRITE: 850
+READ: é
+incorrect value! Got: é, expected: 850
+WRITE: 851
+READ: 851
+OK! Got: 851, expected: 851
+WRITE: 852
+READ: é
+incorrect value! Got: é, expected: 852
+WRITE: 853
+READ: é
+incorrect value! Got: é, expected: 853
+WRITE: 854
+READ: é
+incorrect value! Got: é, expected: 854
+WRITE: 855
+READ: 855
+OK! Got: 855, expected: 855
+WRITE: 856
+READ: é
+incorrect value! Got: é, expected: 856
+WRITE: 857
+READ: é
+incorrect value! Got: é, expected: 857
+WRITE: 858
+READ: é
+incorrect value! Got: é, expected: 858
+WRITE: 859
+READ: 859
+OK! Got: 859, expected: 859
+WRITE: 860
+READ: é
+incorrect value! Got: é, expected: 860
+WRITE: 861
+READ: é
+incorrect value! Got: é, expected: 861
+WRITE: 862
+READ: é
+incorrect value! Got: é, expected: 862
+WRITE: 863
+READ: 863
+OK! Got: 863, expected: 863
+WRITE: 864
+READ: é
+incorrect value! Got: é, expected: 864
+WRITE: 865
+READ: é
+incorrect value! Got: é, expected: 865
+WRITE: 866
+READ: é
+incorrect value! Got: é, expected: 866
+WRITE: 867
+READ: 867
+OK! Got: 867, expected: 867
+WRITE: 868
+READ: é
+incorrect value! Got: é, expected: 868
+WRITE: 869
+READ: é
+incorrect value! Got: é, expected: 869
+WRITE: 870
+READ: é
+incorrect value! Got: é, expected: 870
+WRITE: 871
+READ: 871
+OK! Got: 871, expected: 871
+WRITE: 872
+READ: é
+incorrect value! Got: é, expected: 872
+WRITE: 873
+READ: é
+incorrect value! Got: é, expected: 873
+WRITE: 874
+READ: é
+incorrect value! Got: é, expected: 874
+WRITE: 875
+READ: 875
+OK! Got: 875, expected: 875
+WRITE: 876
+READ: é
+incorrect value! Got: é, expected: 876
+WRITE: 877
+READ: é
+incorrect value! Got: é, expected: 877
+WRITE: 878
+READ: é
+incorrect value! Got: é, expected: 878
+WRITE: 879
+READ: 879
+OK! Got: 879, expected: 879
+WRITE: 880
+READ: é
+incorrect value! Got: é, expected: 880
+WRITE: 881
+READ: é
+incorrect value! Got: é, expected: 881
+WRITE: 882
+READ: é
+incorrect value! Got: é, expected: 882
+WRITE: 883
+READ: 883
+OK! Got: 883, expected: 883
+WRITE: 884
+READ: é
+incorrect value! Got: é, expected: 884
+WRITE: 885
+READ: é
+incorrect value! Got: é, expected: 885
+WRITE: 886
+READ: é
+incorrect value! Got: é, expected: 886
+WRITE: 887
+READ: 887
+OK! Got: 887, expected: 887
+WRITE: 888
+READ: é
+incorrect value! Got: é, expected: 888
+WRITE: 889
+READ: é
+incorrect value! Got: é, expected: 889
+WRITE: 890
+READ: é
+incorrect value! Got: é, expected: 890
+WRITE: 891
+READ: 891
+OK! Got: 891, expected: 891
+WRITE: 892
+READ: é
+incorrect value! Got: é, expected: 892
+WRITE: 893
+READ: é
+incorrect value! Got: é, expected: 893
+WRITE: 894
+READ: é
+incorrect value! Got: é, expected: 894
+WRITE: 895
+READ: 895
+OK! Got: 895, expected: 895
+WRITE: 896
+READ: é
+incorrect value! Got: é, expected: 896
+WRITE: 897
+READ: é
+incorrect value! Got: é, expected: 897
+WRITE: 898
+READ: é
+incorrect value! Got: é, expected: 898
+WRITE: 899
+READ: 899
+OK! Got: 899, expected: 899
+WRITE: 900
+READ: é
+incorrect value! Got: é, expected: 900
+WRITE: 901
+READ: é
+incorrect value! Got: é, expected: 901
+WRITE: 902
+READ: é
+incorrect value! Got: é, expected: 902
+WRITE: 903
+READ: 903
+OK! Got: 903, expected: 903
+WRITE: 904
+READ: é
+incorrect value! Got: é, expected: 904
+WRITE: 905
+READ: é
+incorrect value! Got: é, expected: 905
+WRITE: 906
+READ: é
+incorrect value! Got: é, expected: 906
+WRITE: 907
+READ: 907
+OK! Got: 907, expected: 907
+WRITE: 908
+READ: é
+incorrect value! Got: é, expected: 908
+WRITE: 909
+READ: é
+incorrect value! Got: é, expected: 909
+WRITE: 910
+READ: é
+incorrect value! Got: é, expected: 910
+WRITE: 911
+READ: 911
+OK! Got: 911, expected: 911
+WRITE: 912
+READ: é
+incorrect value! Got: é, expected: 912
+WRITE: 913
+READ: é
+incorrect value! Got: é, expected: 913
+WRITE: 914
+READ: é
+incorrect value! Got: é, expected: 914
+WRITE: 915
+READ: 915
+OK! Got: 915, expected: 915
+WRITE: 916
+READ: é
+incorrect value! Got: é, expected: 916
+WRITE: 917
+READ: é
+incorrect value! Got: é, expected: 917
+WRITE: 918
+READ: é
+incorrect value! Got: é, expected: 918
+WRITE: 919
+READ: 919
+OK! Got: 919, expected: 919
+WRITE: 920
+READ: é
+incorrect value! Got: é, expected: 920
+WRITE: 921
+READ: é
+incorrect value! Got: é, expected: 921
+WRITE: 922
+READ: é
+incorrect value! Got: é, expected: 922
+WRITE: 923
+READ: 923
+OK! Got: 923, expected: 923
+WRITE: 924
+READ: é
+incorrect value! Got: é, expected: 924
+WRITE: 925
+READ: é
+incorrect value! Got: é, expected: 925
+WRITE: 926
+READ: é
+incorrect value! Got: é, expected: 926
+WRITE: 927
+READ: 927
+OK! Got: 927, expected: 927
+WRITE: 928
+READ: é
+incorrect value! Got: é, expected: 928
+WRITE: 929
+READ: é
+incorrect value! Got: é, expected: 929
+WRITE: 930
+READ: é
+incorrect value! Got: é, expected: 930
+WRITE: 931
+READ: 931
+OK! Got: 931, expected: 931
+WRITE: 932
+READ: é
+incorrect value! Got: é, expected: 932
+WRITE: 933
+READ: é
+incorrect value! Got: é, expected: 933
+WRITE: 934
+READ: é
+incorrect value! Got: é, expected: 934
+WRITE: 935
+READ: 935
+OK! Got: 935, expected: 935
+WRITE: 936
+READ: é
+incorrect value! Got: é, expected: 936
+WRITE: 937
+READ: é
+incorrect value! Got: é, expected: 937
+WRITE: 938
+READ: é
+incorrect value! Got: é, expected: 938
+WRITE: 939
+READ: 939
+OK! Got: 939, expected: 939
+WRITE: 940
+READ: é
+incorrect value! Got: é, expected: 940
+WRITE: 941
+READ: é
+incorrect value! Got: é, expected: 941
+WRITE: 942
+READ: é
+incorrect value! Got: é, expected: 942
+WRITE: 943
+READ: 943
+OK! Got: 943, expected: 943
+WRITE: 944
+READ: é
+incorrect value! Got: é, expected: 944
+WRITE: 945
+READ: é
+incorrect value! Got: é, expected: 945
+WRITE: 946
+READ: é
+incorrect value! Got: é, expected: 946
+WRITE: 947
+READ: 947
+OK! Got: 947, expected: 947
+WRITE: 948
+READ: é
+incorrect value! Got: é, expected: 948
+WRITE: 949
+READ: é
+incorrect value! Got: é, expected: 949
+WRITE: 950
+READ: é
+incorrect value! Got: é, expected: 950
+WRITE: 951
+READ: 951
+OK! Got: 951, expected: 951
+WRITE: 952
+READ: é
+incorrect value! Got: é, expected: 952
+WRITE: 953
+READ: é
+incorrect value! Got: é, expected: 953
+WRITE: 954
+READ: é
+incorrect value! Got: é, expected: 954
+WRITE: 955
+READ: 955
+OK! Got: 955, expected: 955
+WRITE: 956
+READ: é
+incorrect value! Got: é, expected: 956
+WRITE: 957
+READ: é
+incorrect value! Got: é, expected: 957
+WRITE: 958
+READ: é
+incorrect value! Got: é, expected: 958
+WRITE: 959
+READ: 959
+OK! Got: 959, expected: 959
+WRITE: 960
+READ: é
+incorrect value! Got: é, expected: 960
+WRITE: 961
+READ: é
+incorrect value! Got: é, expected: 961
+WRITE: 962
+READ: é
+incorrect value! Got: é, expected: 962
+WRITE: 963
+READ: 963
+OK! Got: 963, expected: 963
+WRITE: 964
+READ: é
+incorrect value! Got: é, expected: 964
+WRITE: 965
+READ: é
+incorrect value! Got: é, expected: 965
+WRITE: 966
+READ: é
+incorrect value! Got: é, expected: 966
+WRITE: 967
+READ: 967
+OK! Got: 967, expected: 967
+WRITE: 968
+READ: é
+incorrect value! Got: é, expected: 968
+WRITE: 969
+READ: é
+incorrect value! Got: é, expected: 969
+WRITE: 970
+READ: é
+incorrect value! Got: é, expected: 970
+WRITE: 971
+READ: 971
+OK! Got: 971, expected: 971
+WRITE: 972
+READ: é
+incorrect value! Got: é, expected: 972
+WRITE: 973
+READ: é
+incorrect value! Got: é, expected: 973
+WRITE: 974
+READ: é
+incorrect value! Got: é, expected: 974
+WRITE: 975
+READ: 975
+OK! Got: 975, expected: 975
+WRITE: 976
+READ: é
+incorrect value! Got: é, expected: 976
+WRITE: 977
+READ: é
+incorrect value! Got: é, expected: 977
+WRITE: 978
+READ: é
+incorrect value! Got: é, expected: 978
+WRITE: 979
+READ: 979
+OK! Got: 979, expected: 979
+WRITE: 980
+READ: é
+incorrect value! Got: é, expected: 980
+WRITE: 981
+READ: é
+incorrect value! Got: é, expected: 981
+WRITE: 982
+READ: é
+incorrect value! Got: é, expected: 982
+WRITE: 983
+READ: 983
+OK! Got: 983, expected: 983
+WRITE: 984
+READ: é
+incorrect value! Got: é, expected: 984
+WRITE: 985
+READ: é
+incorrect value! Got: é, expected: 985
+WRITE: 986
+READ: é
+incorrect value! Got: é, expected: 986
+WRITE: 987
+READ: 987
+OK! Got: 987, expected: 987
+WRITE: 988
+READ: é
+incorrect value! Got: é, expected: 988
+WRITE: 989
+READ: é
+incorrect value! Got: é, expected: 989
+WRITE: 990
+READ: é
+incorrect value! Got: é, expected: 990
+WRITE: 991
+READ: 991
+OK! Got: 991, expected: 991
+WRITE: 992
+READ: é
+incorrect value! Got: é, expected: 992
+WRITE: 993
+READ: é
+incorrect value! Got: é, expected: 993
+WRITE: 994
+READ: é
+incorrect value! Got: é, expected: 994
+WRITE: 995
+READ: 995
+OK! Got: 995, expected: 995
+WRITE: 996
+READ: é
+incorrect value! Got: é, expected: 996
+WRITE: 997
+READ: é
+incorrect value! Got: é, expected: 997
+WRITE: 998
+READ: é
+incorrect value! Got: é, expected: 998
+WRITE: 999
+READ: 999
+OK! Got: 999, expected: 999
+WRITE: 1000
+READ: é
+incorrect value! Got: é, expected: 1000
+WRITE: 1001
+READ: é
+incorrect value! Got: é, expected: 1001
+WRITE: 1002
+READ: é
+incorrect value! Got: é, expected: 1002
+WRITE: 1003
+READ: 1003
+OK! Got: 1003, expected: 1003
+WRITE: 1004
+READ: é
+incorrect value! Got: é, expected: 1004
+WRITE: 1005
+READ: é
+incorrect value! Got: é, expected: 1005
+WRITE: 1006
+READ: é
+incorrect value! Got: é, expected: 1006
+WRITE: 1007
+READ: 1007
+OK! Got: 1007, expected: 1007
+WRITE: 1008
+READ: é
+incorrect value! Got: é, expected: 1008
+WRITE: 1009
+READ: é
+incorrect value! Got: é, expected: 1009
+WRITE: 1010
+READ: é
+incorrect value! Got: é, expected: 1010
+WRITE: 1011
+READ: 1011
+OK! Got: 1011, expected: 1011
+WRITE: 1012
+READ: é
+incorrect value! Got: é, expected: 1012
+WRITE: 1013
+READ: é
+incorrect value! Got: é, expected: 1013
+WRITE: 1014
+READ: é
+incorrect value! Got: é, expected: 1014
+WRITE: 1015
+READ: 1015
+OK! Got: 1015, expected: 1015
+WRITE: 1016
+READ: é
+incorrect value! Got: é, expected: 1016
+WRITE: 1017
+READ: é
+incorrect value! Got: é, expected: 1017
+WRITE: 1018
+READ: é
+incorrect value! Got: é, expected: 1018
+WRITE: 1019
+READ: 1019
+OK! Got: 1019, expected: 1019
+WRITE: 1020
+READ: é
+incorrect value! Got: é, expected: 1020
+WRITE: 1021
+READ: é
+incorrect value! Got: é, expected: 1021
+WRITE: 1022
+READ: é
+incorrect value! Got: é, expected: 1022
+WRITE: 1023
+READ: 1023
+OK! Got: 1023, expected: 1023
+WRITE: 1024
+READ: 
+incorrect value! Got: , expected: 1024
+WRITE: 1025
+READ: 
+incorrect value! Got: , expected: 1025
+WRITE: 1026
+READ: 
+incorrect value! Got: , expected: 1026
+WRITE: 1027
+READ: 1027
+OK! Got: 1027, expected: 1027
+WRITE: 1028
+READ: 
+incorrect value! Got: , expected: 1028
+WRITE: 1029
+READ: 
+incorrect value! Got: , expected: 1029
+WRITE: 1030
+READ: 
+incorrect value! Got: , expected: 1030
+WRITE: 1031
+READ: 1031
+OK! Got: 1031, expected: 1031
+WRITE: 1032
+READ: 
+incorrect value! Got: , expected: 1032
+WRITE: 1033
+READ: 
+incorrect value! Got: , expected: 1033
+WRITE: 1034
+READ: 
+incorrect value! Got: , expected: 1034
+WRITE: 1035
+READ: 1035
+OK! Got: 1035, expected: 1035
+WRITE: 1036
+READ: 
+incorrect value! Got: , expected: 1036
+WRITE: 1037
+READ: 
+incorrect value! Got: , expected: 1037
+WRITE: 1038
+READ: 
+incorrect value! Got: , expected: 1038
+WRITE: 1039
+READ: 1039
+OK! Got: 1039, expected: 1039
+WRITE: 1040
+READ: 
+incorrect value! Got: , expected: 1040
+WRITE: 1041
+READ: 
+incorrect value! Got: , expected: 1041
+WRITE: 1042
+READ: 
+incorrect value! Got: , expected: 1042
+WRITE: 1043
+READ: 1043
+OK! Got: 1043, expected: 1043
+WRITE: 1044
+READ: 
+incorrect value! Got: , expected: 1044
+WRITE: 1045
+READ: 
+incorrect value! Got: , expected: 1045
+WRITE: 1046
+READ: 
+incorrect value! Got: , expected: 1046
+WRITE: 1047
+READ: 1047
+OK! Got: 1047, expected: 1047
+WRITE: 1048
+READ: 
+incorrect value! Got: , expected: 1048
+WRITE: 1049
+READ: 
+incorrect value! Got: , expected: 1049
+WRITE: 1050
+READ: 
+incorrect value! Got: , expected: 1050
+WRITE: 1051
+READ: 1051
+OK! Got: 1051, expected: 1051
+WRITE: 1052
+READ: 
+incorrect value! Got: , expected: 1052
+WRITE: 1053
+READ: 
+incorrect value! Got: , expected: 1053
+WRITE: 1054
+READ: é
+incorrect value! Got: é, expected: 1054
+WRITE: 1055
+READ: 1055
+OK! Got: 1055, expected: 1055
+WRITE: 1056
+READ: é
+incorrect value! Got: é, expected: 1056
+WRITE: 1057
+READ: é
+incorrect value! Got: é, expected: 1057
+WRITE: 1058
+READ: é
+incorrect value! Got: é, expected: 1058
+WRITE: 1059
+READ: 1059
+OK! Got: 1059, expected: 1059
+WRITE: 1060
+READ: é
+incorrect value! Got: é, expected: 1060
+WRITE: 1061
+READ: é
+incorrect value! Got: é, expected: 1061
+WRITE: 1062
+READ: é
+incorrect value! Got: é, expected: 1062
+WRITE: 1063
+READ: 1063
+OK! Got: 1063, expected: 1063
+WRITE: 1064
+READ: é
+incorrect value! Got: é, expected: 1064
+WRITE: 1065
+READ: é
+incorrect value! Got: é, expected: 1065
+WRITE: 1066
+READ: é
+incorrect value! Got: é, expected: 1066
+WRITE: 1067
+READ: 1067
+OK! Got: 1067, expected: 1067
+WRITE: 1068
+READ: é
+incorrect value! Got: é, expected: 1068
+WRITE: 1069
+READ: é
+incorrect value! Got: é, expected: 1069
+WRITE: 1070
+READ: é
+incorrect value! Got: é, expected: 1070
+WRITE: 1071
+READ: 1071
+OK! Got: 1071, expected: 1071
+WRITE: 1072
+READ: é
+incorrect value! Got: é, expected: 1072
+WRITE: 1073
+READ: é
+incorrect value! Got: é, expected: 1073
+WRITE: 1074
+READ: é
+incorrect value! Got: é, expected: 1074
+WRITE: 1075
+READ: 1075
+OK! Got: 1075, expected: 1075
+WRITE: 1076
+READ: é
+incorrect value! Got: é, expected: 1076
+WRITE: 1077
+READ: é
+incorrect value! Got: é, expected: 1077
+WRITE: 1078
+READ: é
+incorrect value! Got: é, expected: 1078
+WRITE: 1079
+READ: 1079
+OK! Got: 1079, expected: 1079
+WRITE: 1080
+READ: é
+incorrect value! Got: é, expected: 1080
+WRITE: 1081
+READ: é
+incorrect value! Got: é, expected: 1081
+WRITE: 1082
+READ: é
+incorrect value! Got: é, expected: 1082
+WRITE: 1083
+READ: 1083
+OK! Got: 1083, expected: 1083
+WRITE: 1084
+READ: é
+incorrect value! Got: é, expected: 1084
+WRITE: 1085
+READ: é
+incorrect value! Got: é, expected: 1085
+WRITE: 1086
+READ: é
+incorrect value! Got: é, expected: 1086
+WRITE: 1087
+READ: 1087
+OK! Got: 1087, expected: 1087
+WRITE: 1088
+READ: é
+incorrect value! Got: é, expected: 1088
+WRITE: 1089
+READ: é
+incorrect value! Got: é, expected: 1089
+WRITE: 1090
+READ: é
+incorrect value! Got: é, expected: 1090
+WRITE: 1091
+READ: 1091
+OK! Got: 1091, expected: 1091
+WRITE: 1092
+READ: é
+incorrect value! Got: é, expected: 1092
+WRITE: 1093
+READ: é
+incorrect value! Got: é, expected: 1093
+WRITE: 1094
+READ: é
+incorrect value! Got: é, expected: 1094
+WRITE: 1095
+READ: 1095
+OK! Got: 1095, expected: 1095
+WRITE: 1096
+READ: é
+incorrect value! Got: é, expected: 1096
+WRITE: 1097
+READ: é
+incorrect value! Got: é, expected: 1097
+WRITE: 1098
+READ: é
+incorrect value! Got: é, expected: 1098
+WRITE: 1099
+READ: 1099
+OK! Got: 1099, expected: 1099
+WRITE: 1100
+READ: é
+incorrect value! Got: é, expected: 1100
+WRITE: 1101
+READ: é
+incorrect value! Got: é, expected: 1101
+WRITE: 1102
+READ: é
+incorrect value! Got: é, expected: 1102
+WRITE: 1103
+READ: 1103
+OK! Got: 1103, expected: 1103
+WRITE: 1104
+READ: é
+incorrect value! Got: é, expected: 1104
+WRITE: 1105
+READ: é
+incorrect value! Got: é, expected: 1105
+WRITE: 1106
+READ: é
+incorrect value! Got: é, expected: 1106
+WRITE: 1107
+READ: 1107
+OK! Got: 1107, expected: 1107
+WRITE: 1108
+READ: é
+incorrect value! Got: é, expected: 1108
+WRITE: 1109
+READ: é
+incorrect value! Got: é, expected: 1109
+WRITE: 1110
+READ: é
+incorrect value! Got: é, expected: 1110
+WRITE: 1111
+READ: 1111
+OK! Got: 1111, expected: 1111
+WRITE: 1112
+READ: é
+incorrect value! Got: é, expected: 1112
+WRITE: 1113
+READ: é
+incorrect value! Got: é, expected: 1113
+WRITE: 1114
+READ: é
+incorrect value! Got: é, expected: 1114
+WRITE: 1115
+READ: 1115
+OK! Got: 1115, expected: 1115
+WRITE: 1116
+READ: é
+incorrect value! Got: é, expected: 1116
+WRITE: 1117
+READ: é
+incorrect value! Got: é, expected: 1117
+WRITE: 1118
+READ: é
+incorrect value! Got: é, expected: 1118
+WRITE: 1119
+READ: 1119
+OK! Got: 1119, expected: 1119
+WRITE: 1120
+READ: é
+incorrect value! Got: é, expected: 1120
+WRITE: 1121
+READ: é
+incorrect value! Got: é, expected: 1121
+WRITE: 1122
+READ: é
+incorrect value! Got: é, expected: 1122
+WRITE: 1123
+READ: 1123
+OK! Got: 1123, expected: 1123
+WRITE: 1124
+READ: é
+incorrect value! Got: é, expected: 1124
+WRITE: 1125
+READ: é
+incorrect value! Got: é, expected: 1125
+WRITE: 1126
+READ: é
+incorrect value! Got: é, expected: 1126
+WRITE: 1127
+READ: 1127
+OK! Got: 1127, expected: 1127
+WRITE: 1128
+READ: é
+incorrect value! Got: é, expected: 1128
+WRITE: 1129
+READ: é
+incorrect value! Got: é, expected: 1129
+WRITE: 1130
+READ: é
+incorrect value! Got: é, expected: 1130
+WRITE: 1131
+READ: 1131
+OK! Got: 1131, expected: 1131
+WRITE: 1132
+READ: é
+incorrect value! Got: é, expected: 1132
+WRITE: 1133
+READ: é
+incorrect value! Got: é, expected: 1133
+WRITE: 1134
+READ: é
+incorrect value! Got: é, expected: 1134
+WRITE: 1135
+READ: 1135
+OK! Got: 1135, expected: 1135
+WRITE: 1136
+READ: é
+incorrect value! Got: é, expected: 1136
+WRITE: 1137
+READ: é
+incorrect value! Got: é, expected: 1137
+WRITE: 1138
+READ: é
+incorrect value! Got: é, expected: 1138
+WRITE: 1139
+READ: 1139
+OK! Got: 1139, expected: 1139
+WRITE: 1140
+READ: é
+incorrect value! Got: é, expected: 1140
+WRITE: 1141
+READ: é
+incorrect value! Got: é, expected: 1141
+WRITE: 1142
+READ: é
+incorrect value! Got: é, expected: 1142
+WRITE: 1143
+READ: 1143
+OK! Got: 1143, expected: 1143
+WRITE: 1144
+READ: é
+incorrect value! Got: é, expected: 1144
+WRITE: 1145
+READ: é
+incorrect value! Got: é, expected: 1145
+WRITE: 1146
+READ: é
+incorrect value! Got: é, expected: 1146
+WRITE: 1147
+READ: 1147
+OK! Got: 1147, expected: 1147
+WRITE: 1148
+READ: é
+incorrect value! Got: é, expected: 1148
+WRITE: 1149
+READ: é
+incorrect value! Got: é, expected: 1149
+WRITE: 1150
+READ: é
+incorrect value! Got: é, expected: 1150
+WRITE: 1151
+READ: 1151
+OK! Got: 1151, expected: 1151
+WRITE: 1152
+READ: é
+incorrect value! Got: é, expected: 1152
+WRITE: 1153
+READ: é
+incorrect value! Got: é, expected: 1153
+WRITE: 1154
+READ: é
+incorrect value! Got: é, expected: 1154
+WRITE: 1155
+READ: 1155
+OK! Got: 1155, expected: 1155
+WRITE: 1156
+READ: é
+incorrect value! Got: é, expected: 1156
+WRITE: 1157
+READ: é
+incorrect value! Got: é, expected: 1157
+WRITE: 1158
+READ: é
+incorrect value! Got: é, expected: 1158
+WRITE: 1159
+READ: 1159
+OK! Got: 1159, expected: 1159
+WRITE: 1160
+READ: é
+incorrect value! Got: é, expected: 1160
+WRITE: 1161
+READ: é
+incorrect value! Got: é, expected: 1161
+WRITE: 1162
+READ: é
+incorrect value! Got: é, expected: 1162
+WRITE: 1163
+READ: 1163
+OK! Got: 1163, expected: 1163
+WRITE: 1164
+READ: é
+incorrect value! Got: é, expected: 1164
+WRITE: 1165
+READ: é
+incorrect value! Got: é, expected: 1165
+WRITE: 1166
+READ: é
+incorrect value! Got: é, expected: 1166
+WRITE: 1167
+READ: 1167
+OK! Got: 1167, expected: 1167
+WRITE: 1168
+READ: é
+incorrect value! Got: é, expected: 1168
+WRITE: 1169
+READ: é
+incorrect value! Got: é, expected: 1169
+WRITE: 1170
+READ: é
+incorrect value! Got: é, expected: 1170
+WRITE: 1171
+READ: 1171
+OK! Got: 1171, expected: 1171
+WRITE: 1172
+READ: é
+incorrect value! Got: é, expected: 1172
+WRITE: 1173
+READ: é
+incorrect value! Got: é, expected: 1173
+WRITE: 1174
+READ: é
+incorrect value! Got: é, expected: 1174
+WRITE: 1175
+READ: 1175
+OK! Got: 1175, expected: 1175
+WRITE: 1176
+READ: é
+incorrect value! Got: é, expected: 1176
+WRITE: 1177
+READ: é
+incorrect value! Got: é, expected: 1177
+WRITE: 1178
+READ: é
+incorrect value! Got: é, expected: 1178
+WRITE: 1179
+READ: 1179
+OK! Got: 1179, expected: 1179
+WRITE: 1180
+READ: é
+incorrect value! Got: é, expected: 1180
+WRITE: 1181
+READ: é
+incorrect value! Got: é, expected: 1181
+WRITE: 1182
+READ: é
+incorrect value! Got: é, expected: 1182
+WRITE: 1183
+READ: 1183
+OK! Got: 1183, expected: 1183
+WRITE: 1184
+READ: é
+incorrect value! Got: é, expected: 1184
+WRITE: 1185
+READ: é
+incorrect value! Got: é, expected: 1185
+WRITE: 1186
+READ: é
+incorrect value! Got: é, expected: 1186
+WRITE: 1187
+READ: 1187
+OK! Got: 1187, expected: 1187
+WRITE: 1188
+READ: é
+incorrect value! Got: é, expected: 1188
+WRITE: 1189
+READ: é
+incorrect value! Got: é, expected: 1189
+WRITE: 1190
+READ: é
+incorrect value! Got: é, expected: 1190
+WRITE: 1191
+READ: 1191
+OK! Got: 1191, expected: 1191
+WRITE: 1192
+READ: é
+incorrect value! Got: é, expected: 1192
+WRITE: 1193
+READ: é
+incorrect value! Got: é, expected: 1193
+WRITE: 1194
+READ: é
+incorrect value! Got: é, expected: 1194
+WRITE: 1195
+READ: 1195
+OK! Got: 1195, expected: 1195
+WRITE: 1196
+READ: é
+incorrect value! Got: é, expected: 1196
+WRITE: 1197
+READ: é
+incorrect value! Got: é, expected: 1197
+WRITE: 1198
+READ: é
+incorrect value! Got: é, expected: 1198
+WRITE: 1199
+READ: 1199
+OK! Got: 1199, expected: 1199
+WRITE: 1200
+READ: é
+incorrect value! Got: é, expected: 1200
+WRITE: 1201
+READ: é
+incorrect value! Got: é, expected: 1201
+WRITE: 1202
+READ: é
+incorrect value! Got: é, expected: 1202
+WRITE: 1203
+READ: 1203
+OK! Got: 1203, expected: 1203
+WRITE: 1204
+READ: é
+incorrect value! Got: é, expected: 1204
+WRITE: 1205
+READ: é
+incorrect value! Got: é, expected: 1205
+WRITE: 1206
+READ: é
+incorrect value! Got: é, expected: 1206
+WRITE: 1207
+READ: 1207
+OK! Got: 1207, expected: 1207
+WRITE: 1208
+READ: é
+incorrect value! Got: é, expected: 1208
+WRITE: 1209
+READ: é
+incorrect value! Got: é, expected: 1209
+WRITE: 1210
+READ: é
+incorrect value! Got: é, expected: 1210
+WRITE: 1211
+READ: 1211
+OK! Got: 1211, expected: 1211
+WRITE: 1212
+READ: é
+incorrect value! Got: é, expected: 1212
+WRITE: 1213
+READ: é
+incorrect value! Got: é, expected: 1213
+WRITE: 1214
+READ: é
+incorrect value! Got: é, expected: 1214
+WRITE: 1215
+READ: 1215
+OK! Got: 1215, expected: 1215
+WRITE: 1216
+READ: é
+incorrect value! Got: é, expected: 1216
+WRITE: 1217
+READ: é
+incorrect value! Got: é, expected: 1217
+WRITE: 1218
+READ: é
+incorrect value! Got: é, expected: 1218
+WRITE: 1219
+READ: 1219
+OK! Got: 1219, expected: 1219
+WRITE: 1220
+READ: é
+incorrect value! Got: é, expected: 1220
+WRITE: 1221
+READ: é
+incorrect value! Got: é, expected: 1221
+WRITE: 1222
+READ: é
+incorrect value! Got: é, expected: 1222
+WRITE: 1223
+READ: 1223
+OK! Got: 1223, expected: 1223
+WRITE: 1224
+READ: é
+incorrect value! Got: é, expected: 1224
+WRITE: 1225
+READ: é
+incorrect value! Got: é, expected: 1225
+WRITE: 1226
+READ: é
+incorrect value! Got: é, expected: 1226
+WRITE: 1227
+READ: 1227
+OK! Got: 1227, expected: 1227
+WRITE: 1228
+READ: é
+incorrect value! Got: é, expected: 1228
+WRITE: 1229
+READ: é
+incorrect value! Got: é, expected: 1229
+WRITE: 1230
+READ: é
+incorrect value! Got: é, expected: 1230
+WRITE: 1231
+READ: 1231
+OK! Got: 1231, expected: 1231
+WRITE: 1232
+READ: é
+incorrect value! Got: é, expected: 1232
+WRITE: 1233
+READ: é
+incorrect value! Got: é, expected: 1233
+WRITE: 1234
+READ: é
+incorrect value! Got: é, expected: 1234
+WRITE: 1235
+READ: 1235
+OK! Got: 1235, expected: 1235
+WRITE: 1236
+READ: é
+incorrect value! Got: é, expected: 1236
+WRITE: 1237
+READ: é
+incorrect value! Got: é, expected: 1237
+WRITE: 1238
+READ: é
+incorrect value! Got: é, expected: 1238
+WRITE: 1239
+READ: 1239
+OK! Got: 1239, expected: 1239
+WRITE: 1240
+READ: é
+incorrect value! Got: é, expected: 1240
+WRITE: 1241
+READ: é
+incorrect value! Got: é, expected: 1241
+WRITE: 1242
+READ: é
+incorrect value! Got: é, expected: 1242
+WRITE: 1243
+READ: 1243
+OK! Got: 1243, expected: 1243
+WRITE: 1244
+READ: é
+incorrect value! Got: é, expected: 1244
+WRITE: 1245
+READ: é
+incorrect value! Got: é, expected: 1245
+WRITE: 1246
+READ: é
+incorrect value! Got: é, expected: 1246
+WRITE: 1247
+READ: 1247
+OK! Got: 1247, expected: 1247
+WRITE: 1248
+READ: é
+incorrect value! Got: é, expected: 1248
+WRITE: 1249
+READ: é
+incorrect value! Got: é, expected: 1249
+WRITE: 1250
+READ: é
+incorrect value! Got: é, expected: 1250
+WRITE: 1251
+READ: 1251
+OK! Got: 1251, expected: 1251
+WRITE: 1252
+READ: é
+incorrect value! Got: é, expected: 1252
+WRITE: 1253
+READ: é
+incorrect value! Got: é, expected: 1253
+WRITE: 1254
+READ: é
+incorrect value! Got: é, expected: 1254
+WRITE: 1255
+READ: 1255
+OK! Got: 1255, expected: 1255
+WRITE: 1256
+READ: é
+incorrect value! Got: é, expected: 1256
+WRITE: 1257
+READ: é
+incorrect value! Got: é, expected: 1257
+WRITE: 1258
+READ: é
+incorrect value! Got: é, expected: 1258
+WRITE: 1259
+READ: 1259
+OK! Got: 1259, expected: 1259
+WRITE: 1260
+READ: é
+incorrect value! Got: é, expected: 1260
+WRITE: 1261
+READ: é
+incorrect value! Got: é, expected: 1261
+WRITE: 1262
+READ: é
+incorrect value! Got: é, expected: 1262
+WRITE: 1263
+READ: 1263
+OK! Got: 1263, expected: 1263
+WRITE: 1264
+READ: é
+incorrect value! Got: é, expected: 1264
+WRITE: 1265
+READ: é
+incorrect value! Got: é, expected: 1265
+WRITE: 1266
+READ: é
+incorrect value! Got: é, expected: 1266
+WRITE: 1267
+READ: 1267
+OK! Got: 1267, expected: 1267
+WRITE: 1268
+READ: é
+incorrect value! Got: é, expected: 1268
+WRITE: 1269
+READ: é
+incorrect value! Got: é, expected: 1269
+WRITE: 1270
+READ: é
+incorrect value! Got: é, expected: 1270
+WRITE: 1271
+READ: 1271
+OK! Got: 1271, expected: 1271
+WRITE: 1272
+READ: é
+incorrect value! Got: é, expected: 1272
+WRITE: 1273
+READ: é
+incorrect value! Got: é, expected: 1273
+WRITE: 1274
+READ: é
+incorrect value! Got: é, expected: 1274
+WRITE: 1275
+READ: 1275
+OK! Got: 1275, expected: 1275
+WRITE: 1276
+READ: é
+incorrect value! Got: é, expected: 1276
+WRITE: 1277
+READ: é
+incorrect value! Got: é, expected: 1277
+WRITE: 1278
+READ: é
+incorrect value! Got: é, expected: 1278
+WRITE: 1279
+READ: 1279
+OK! Got: 1279, expected: 1279
+WRITE: 1280
+READ: 
+incorrect value! Got: , expected: 1280
+WRITE: 1281
+READ: 
+incorrect value! Got: , expected: 1281
+WRITE: 1282
+READ: 
+incorrect value! Got: , expected: 1282
+WRITE: 1283
+READ: 1283
+OK! Got: 1283, expected: 1283
+WRITE: 1284
+READ: 
+incorrect value! Got: , expected: 1284
+WRITE: 1285
+READ: 
+incorrect value! Got: , expected: 1285
+WRITE: 1286
+READ: 
+incorrect value! Got: , expected: 1286
+WRITE: 1287
+READ: 1287
+OK! Got: 1287, expected: 1287
+WRITE: 1288
+READ: 
+incorrect value! Got: , expected: 1288
+WRITE: 1289
+READ: 
+incorrect value! Got: , expected: 1289
+WRITE: 1290
+READ: 
+incorrect value! Got: , expected: 1290
+WRITE: 1291
+READ: 1291
+OK! Got: 1291, expected: 1291
+WRITE: 1292
+READ: 
+incorrect value! Got: , expected: 1292
+WRITE: 1293
+READ: 
+incorrect value! Got: , expected: 1293
+WRITE: 1294
+READ: 
+incorrect value! Got: , expected: 1294
+WRITE: 1295
+READ: 1295
+OK! Got: 1295, expected: 1295
+WRITE: 1296
+READ: 
+incorrect value! Got: , expected: 1296
+WRITE: 1297
+READ: 
+incorrect value! Got: , expected: 1297
+WRITE: 1298
+READ: 
+incorrect value! Got: , expected: 1298
+WRITE: 1299
+READ: 1299
+OK! Got: 1299, expected: 1299
+WRITE: 1300
+READ: 
+incorrect value! Got: , expected: 1300
+WRITE: 1301
+READ: 
+incorrect value! Got: , expected: 1301
+WRITE: 1302
+READ: 
+incorrect value! Got: , expected: 1302
+WRITE: 1303
+READ: 1303
+OK! Got: 1303, expected: 1303
+WRITE: 1304
+READ: 
+incorrect value! Got: , expected: 1304
+WRITE: 1305
+READ: 
+incorrect value! Got: , expected: 1305
+WRITE: 1306
+READ: 
+incorrect value! Got: , expected: 1306
+WRITE: 1307
+READ: 1307
+OK! Got: 1307, expected: 1307
+WRITE: 1308
+READ: 
+incorrect value! Got: , expected: 1308
+WRITE: 1309
+READ: 
+incorrect value! Got: , expected: 1309
+WRITE: 1310
+READ: é
+incorrect value! Got: é, expected: 1310
+WRITE: 1311
+READ: 1311
+OK! Got: 1311, expected: 1311
+WRITE: 1312
+READ: é
+incorrect value! Got: é, expected: 1312
+WRITE: 1313
+READ: é
+incorrect value! Got: é, expected: 1313
+WRITE: 1314
+READ: é
+incorrect value! Got: é, expected: 1314
+WRITE: 1315
+READ: 1315
+OK! Got: 1315, expected: 1315
+WRITE: 1316
+READ: é
+incorrect value! Got: é, expected: 1316
+WRITE: 1317
+READ: é
+incorrect value! Got: é, expected: 1317
+WRITE: 1318
+READ: é
+incorrect value! Got: é, expected: 1318
+WRITE: 1319
+READ: 1319
+OK! Got: 1319, expected: 1319
+WRITE: 1320
+READ: é
+incorrect value! Got: é, expected: 1320
+WRITE: 1321
+READ: é
+incorrect value! Got: é, expected: 1321
+WRITE: 1322
+READ: é
+incorrect value! Got: é, expected: 1322
+WRITE: 1323
+READ: 1323
+OK! Got: 1323, expected: 1323
+WRITE: 1324
+READ: é
+incorrect value! Got: é, expected: 1324
+WRITE: 1325
+READ: é
+incorrect value! Got: é, expected: 1325
+WRITE: 1326
+READ: é
+incorrect value! Got: é, expected: 1326
+WRITE: 1327
+READ: 1327
+OK! Got: 1327, expected: 1327
+WRITE: 1328
+READ: é
+incorrect value! Got: é, expected: 1328
+WRITE: 1329
+READ: é
+incorrect value! Got: é, expected: 1329
+WRITE: 1330
+READ: é
+incorrect value! Got: é, expected: 1330
+WRITE: 1331
+READ: 1331
+OK! Got: 1331, expected: 1331
+WRITE: 1332
+READ: é
+incorrect value! Got: é, expected: 1332
+WRITE: 1333
+READ: é
+incorrect value! Got: é, expected: 1333
+WRITE: 1334
+READ: é
+incorrect value! Got: é, expected: 1334
+WRITE: 1335
+READ: 1335
+OK! Got: 1335, expected: 1335
+WRITE: 1336
+READ: é
+incorrect value! Got: é, expected: 1336
+WRITE: 1337
+READ: é
+incorrect value! Got: é, expected: 1337
+WRITE: 1338
+READ: é
+incorrect value! Got: é, expected: 1338
+WRITE: 1339
+READ: 1339
+OK! Got: 1339, expected: 1339
+WRITE: 1340
+READ: é
+incorrect value! Got: é, expected: 1340
+WRITE: 1341
+READ: é
+incorrect value! Got: é, expected: 1341
+WRITE: 1342
+READ: é
+incorrect value! Got: é, expected: 1342
+WRITE: 1343
+READ: 1343
+OK! Got: 1343, expected: 1343
+WRITE: 1344
+READ: é
+incorrect value! Got: é, expected: 1344
+WRITE: 1345
+READ: é
+incorrect value! Got: é, expected: 1345
+WRITE: 1346
+READ: é
+incorrect value! Got: é, expected: 1346
+WRITE: 1347
+READ: 1347
+OK! Got: 1347, expected: 1347
+WRITE: 1348
+READ: é
+incorrect value! Got: é, expected: 1348
+WRITE: 1349
+READ: é
+incorrect value! Got: é, expected: 1349
+WRITE: 1350
+READ: é
+incorrect value! Got: é, expected: 1350
+WRITE: 1351
+READ: 1351
+OK! Got: 1351, expected: 1351
+WRITE: 1352
+READ: é
+incorrect value! Got: é, expected: 1352
+WRITE: 1353
+READ: é
+incorrect value! Got: é, expected: 1353
+WRITE: 1354
+READ: é
+incorrect value! Got: é, expected: 1354
+WRITE: 1355
+READ: 1355
+OK! Got: 1355, expected: 1355
+WRITE: 1356
+READ: é
+incorrect value! Got: é, expected: 1356
+WRITE: 1357
+READ: é
+incorrect value! Got: é, expected: 1357
+WRITE: 1358
+READ: é
+incorrect value! Got: é, expected: 1358
+WRITE: 1359
+READ: 1359
+OK! Got: 1359, expected: 1359
+WRITE: 1360
+READ: é
+incorrect value! Got: é, expected: 1360
+WRITE: 1361
+READ: é
+incorrect value! Got: é, expected: 1361
+WRITE: 1362
+READ: é
+incorrect value! Got: é, expected: 1362
+WRITE: 1363
+READ: 1363
+OK! Got: 1363, expected: 1363
+WRITE: 1364
+READ: é
+incorrect value! Got: é, expected: 1364
+WRITE: 1365
+READ: é
+incorrect value! Got: é, expected: 1365
+WRITE: 1366
+READ: é
+incorrect value! Got: é, expected: 1366
+WRITE: 1367
+READ: 1367
+OK! Got: 1367, expected: 1367
+WRITE: 1368
+READ: é
+incorrect value! Got: é, expected: 1368
+WRITE: 1369
+READ: é
+incorrect value! Got: é, expected: 1369
+WRITE: 1370
+READ: é
+incorrect value! Got: é, expected: 1370
+WRITE: 1371
+READ: 1371
+OK! Got: 1371, expected: 1371
+WRITE: 1372
+READ: é
+incorrect value! Got: é, expected: 1372
+WRITE: 1373
+READ: é
+incorrect value! Got: é, expected: 1373
+WRITE: 1374
+READ: é
+incorrect value! Got: é, expected: 1374
+WRITE: 1375
+READ: 1375
+OK! Got: 1375, expected: 1375
+WRITE: 1376
+READ: é
+incorrect value! Got: é, expected: 1376
+WRITE: 1377
+READ: é
+incorrect value! Got: é, expected: 1377
+WRITE: 1378
+READ: é
+incorrect value! Got: é, expected: 1378
+WRITE: 1379
+READ: 1379
+OK! Got: 1379, expected: 1379
+WRITE: 1380
+READ: é
+incorrect value! Got: é, expected: 1380
+WRITE: 1381
+READ: é
+incorrect value! Got: é, expected: 1381
+WRITE: 1382
+READ: é
+incorrect value! Got: é, expected: 1382
+WRITE: 1383
+READ: 1383
+OK! Got: 1383, expected: 1383
+WRITE: 1384
+READ: é
+incorrect value! Got: é, expected: 1384
+WRITE: 1385
+READ: é
+incorrect value! Got: é, expected: 1385
+WRITE: 1386
+READ: é
+incorrect value! Got: é, expected: 1386
+WRITE: 1387
+READ: 1387
+OK! Got: 1387, expected: 1387
+WRITE: 1388
+READ: é
+incorrect value! Got: é, expected: 1388
+WRITE: 1389
+READ: é
+incorrect value! Got: é, expected: 1389
+WRITE: 1390
+READ: é
+incorrect value! Got: é, expected: 1390
+WRITE: 1391
+READ: 1391
+OK! Got: 1391, expected: 1391
+WRITE: 1392
+READ: é
+incorrect value! Got: é, expected: 1392
+WRITE: 1393
+READ: é
+incorrect value! Got: é, expected: 1393
+WRITE: 1394
+READ: é
+incorrect value! Got: é, expected: 1394
+WRITE: 1395
+READ: 1395
+OK! Got: 1395, expected: 1395
+WRITE: 1396
+READ: é
+incorrect value! Got: é, expected: 1396
+WRITE: 1397
+READ: é
+incorrect value! Got: é, expected: 1397
+WRITE: 1398
+READ: é
+incorrect value! Got: é, expected: 1398
+WRITE: 1399
+READ: 1399
+OK! Got: 1399, expected: 1399
+WRITE: 1400
+READ: é
+incorrect value! Got: é, expected: 1400
+WRITE: 1401
+READ: é
+incorrect value! Got: é, expected: 1401
+WRITE: 1402
+READ: é
+incorrect value! Got: é, expected: 1402
+WRITE: 1403
+READ: 1403
+OK! Got: 1403, expected: 1403
+WRITE: 1404
+READ: é
+incorrect value! Got: é, expected: 1404
+WRITE: 1405
+READ: é
+incorrect value! Got: é, expected: 1405
+WRITE: 1406
+READ: é
+incorrect value! Got: é, expected: 1406
+WRITE: 1407
+READ: 1407
+OK! Got: 1407, expected: 1407
+WRITE: 1408
+READ: é
+incorrect value! Got: é, expected: 1408
+WRITE: 1409
+READ: é
+incorrect value! Got: é, expected: 1409
+WRITE: 1410
+READ: é
+incorrect value! Got: é, expected: 1410
+WRITE: 1411
+READ: 1411
+OK! Got: 1411, expected: 1411
+WRITE: 1412
+READ: é
+incorrect value! Got: é, expected: 1412
+WRITE: 1413
+READ: é
+incorrect value! Got: é, expected: 1413
+WRITE: 1414
+READ: é
+incorrect value! Got: é, expected: 1414
+WRITE: 1415
+READ: 1415
+OK! Got: 1415, expected: 1415
+WRITE: 1416
+READ: é
+incorrect value! Got: é, expected: 1416
+WRITE: 1417
+READ: é
+incorrect value! Got: é, expected: 1417
+WRITE: 1418
+READ: é
+incorrect value! Got: é, expected: 1418
+WRITE: 1419
+READ: 1419
+OK! Got: 1419, expected: 1419
+WRITE: 1420
+READ: é
+incorrect value! Got: é, expected: 1420
+WRITE: 1421
+READ: é
+incorrect value! Got: é, expected: 1421
+WRITE: 1422
+READ: é
+incorrect value! Got: é, expected: 1422
+WRITE: 1423
+READ: 1423
+OK! Got: 1423, expected: 1423
+WRITE: 1424
+READ: é
+incorrect value! Got: é, expected: 1424
+WRITE: 1425
+READ: é
+incorrect value! Got: é, expected: 1425
+WRITE: 1426
+READ: é
+incorrect value! Got: é, expected: 1426
+WRITE: 1427
+READ: 1427
+OK! Got: 1427, expected: 1427
+WRITE: 1428
+READ: é
+incorrect value! Got: é, expected: 1428
+WRITE: 1429
+READ: é
+incorrect value! Got: é, expected: 1429
+WRITE: 1430
+READ: é
+incorrect value! Got: é, expected: 1430
+WRITE: 1431
+READ: 1431
+OK! Got: 1431, expected: 1431
+WRITE: 1432
+READ: é
+incorrect value! Got: é, expected: 1432
+WRITE: 1433
+READ: é
+incorrect value! Got: é, expected: 1433
+WRITE: 1434
+READ: é
+incorrect value! Got: é, expected: 1434
+WRITE: 1435
+READ: 1435
+OK! Got: 1435, expected: 1435
+WRITE: 1436
+READ: é
+incorrect value! Got: é, expected: 1436
+WRITE: 1437
+READ: é
+incorrect value! Got: é, expected: 1437
+WRITE: 1438
+READ: é
+incorrect value! Got: é, expected: 1438
+WRITE: 1439
+READ: 1439
+OK! Got: 1439, expected: 1439
+WRITE: 1440
+READ: é
+incorrect value! Got: é, expected: 1440
+WRITE: 1441
+READ: é
+incorrect value! Got: é, expected: 1441
+WRITE: 1442
+READ: é
+incorrect value! Got: é, expected: 1442
+WRITE: 1443
+READ: 1443
+OK! Got: 1443, expected: 1443
+WRITE: 1444
+READ: é
+incorrect value! Got: é, expected: 1444
+WRITE: 1445
+READ: é
+incorrect value! Got: é, expected: 1445
+WRITE: 1446
+READ: é
+incorrect value! Got: é, expected: 1446
+WRITE: 1447
+READ: 1447
+OK! Got: 1447, expected: 1447
+WRITE: 1448
+READ: é
+incorrect value! Got: é, expected: 1448
+WRITE: 1449
+READ: é
+incorrect value! Got: é, expected: 1449
+WRITE: 1450
+READ: é
+incorrect value! Got: é, expected: 1450
+WRITE: 1451
+READ: 1451
+OK! Got: 1451, expected: 1451
+WRITE: 1452
+READ: é
+incorrect value! Got: é, expected: 1452
+WRITE: 1453
+READ: é
+incorrect value! Got: é, expected: 1453
+WRITE: 1454
+READ: é
+incorrect value! Got: é, expected: 1454
+WRITE: 1455
+READ: 1455
+OK! Got: 1455, expected: 1455
+WRITE: 1456
+READ: é
+incorrect value! Got: é, expected: 1456
+WRITE: 1457
+READ: é
+incorrect value! Got: é, expected: 1457
+WRITE: 1458
+READ: é
+incorrect value! Got: é, expected: 1458
+WRITE: 1459
+READ: 1459
+OK! Got: 1459, expected: 1459
+WRITE: 1460
+READ: é
+incorrect value! Got: é, expected: 1460
+WRITE: 1461
+READ: é
+incorrect value! Got: é, expected: 1461
+WRITE: 1462
+READ: é
+incorrect value! Got: é, expected: 1462
+WRITE: 1463
+READ: 1463
+OK! Got: 1463, expected: 1463
+WRITE: 1464
+READ: é
+incorrect value! Got: é, expected: 1464
+WRITE: 1465
+READ: é
+incorrect value! Got: é, expected: 1465
+WRITE: 1466
+READ: é
+incorrect value! Got: é, expected: 1466
+WRITE: 1467
+READ: 1467
+OK! Got: 1467, expected: 1467
+WRITE: 1468
+READ: é
+incorrect value! Got: é, expected: 1468
+WRITE: 1469
+READ: é
+incorrect value! Got: é, expected: 1469
+WRITE: 1470
+READ: é
+incorrect value! Got: é, expected: 1470
+WRITE: 1471
+READ: 1471
+OK! Got: 1471, expected: 1471
+WRITE: 1472
+READ: é
+incorrect value! Got: é, expected: 1472
+WRITE: 1473
+READ: é
+incorrect value! Got: é, expected: 1473
+WRITE: 1474
+READ: é
+incorrect value! Got: é, expected: 1474
+WRITE: 1475
+READ: 1475
+OK! Got: 1475, expected: 1475
+WRITE: 1476
+READ: é
+incorrect value! Got: é, expected: 1476
+WRITE: 1477
+READ: é
+incorrect value! Got: é, expected: 1477
+WRITE: 1478
+READ: é
+incorrect value! Got: é, expected: 1478
+WRITE: 1479
+READ: 1479
+OK! Got: 1479, expected: 1479
+WRITE: 1480
+READ: é
+incorrect value! Got: é, expected: 1480
+WRITE: 1481
+READ: é
+incorrect value! Got: é, expected: 1481
+WRITE: 1482
+READ: é
+incorrect value! Got: é, expected: 1482
+WRITE: 1483
+READ: 1483
+OK! Got: 1483, expected: 1483
+WRITE: 1484
+READ: é
+incorrect value! Got: é, expected: 1484
+WRITE: 1485
+READ: é
+incorrect value! Got: é, expected: 1485
+WRITE: 1486
+READ: é
+incorrect value! Got: é, expected: 1486
+WRITE: 1487
+READ: 1487
+OK! Got: 1487, expected: 1487
+WRITE: 1488
+READ: é
+incorrect value! Got: é, expected: 1488
+WRITE: 1489
+READ: é
+incorrect value! Got: é, expected: 1489
+WRITE: 1490
+READ: é
+incorrect value! Got: é, expected: 1490
+WRITE: 1491
+READ: 1491
+OK! Got: 1491, expected: 1491
+WRITE: 1492
+READ: é
+incorrect value! Got: é, expected: 1492
+WRITE: 1493
+READ: é
+incorrect value! Got: é, expected: 1493
+WRITE: 1494
+READ: é
+incorrect value! Got: é, expected: 1494
+WRITE: 1495
+READ: 1495
+OK! Got: 1495, expected: 1495
+WRITE: 1496
+READ: é
+incorrect value! Got: é, expected: 1496
+WRITE: 1497
+READ: é
+incorrect value! Got: é, expected: 1497
+WRITE: 1498
+READ: é
+incorrect value! Got: é, expected: 1498
+WRITE: 1499
+READ: 1499
+OK! Got: 1499, expected: 1499
+WRITE: 1500
+READ: é
+incorrect value! Got: é, expected: 1500
+WRITE: 1501
+READ: é
+incorrect value! Got: é, expected: 1501
+WRITE: 1502
+READ: é
+incorrect value! Got: é, expected: 1502
+WRITE: 1503
+READ: 1503
+OK! Got: 1503, expected: 1503
+WRITE: 1504
+READ: é
+incorrect value! Got: é, expected: 1504
+WRITE: 1505
+READ: é
+incorrect value! Got: é, expected: 1505
+WRITE: 1506
+READ: é
+incorrect value! Got: é, expected: 1506
+WRITE: 1507
+READ: 1507
+OK! Got: 1507, expected: 1507
+WRITE: 1508
+READ: é
+incorrect value! Got: é, expected: 1508
+WRITE: 1509
+READ: é
+incorrect value! Got: é, expected: 1509
+WRITE: 1510
+READ: é
+incorrect value! Got: é, expected: 1510
+WRITE: 1511
+READ: 1511
+OK! Got: 1511, expected: 1511
+WRITE: 1512
+READ: é
+incorrect value! Got: é, expected: 1512
+WRITE: 1513
+READ: é
+incorrect value! Got: é, expected: 1513
+WRITE: 1514
+READ: é
+incorrect value! Got: é, expected: 1514
+WRITE: 1515
+READ: 1515
+OK! Got: 1515, expected: 1515
+WRITE: 1516
+READ: é
+incorrect value! Got: é, expected: 1516
+WRITE: 1517
+READ: é
+incorrect value! Got: é, expected: 1517
+WRITE: 1518
+READ: é
+incorrect value! Got: é, expected: 1518
+WRITE: 1519
+READ: 1519
+OK! Got: 1519, expected: 1519
+WRITE: 1520
+READ: é
+incorrect value! Got: é, expected: 1520
+WRITE: 1521
+READ: é
+incorrect value! Got: é, expected: 1521
+WRITE: 1522
+READ: é
+incorrect value! Got: é, expected: 1522
+WRITE: 1523
+READ: 1523
+OK! Got: 1523, expected: 1523
+WRITE: 1524
+READ: é
+incorrect value! Got: é, expected: 1524
+WRITE: 1525
+READ: é
+incorrect value! Got: é, expected: 1525
+WRITE: 1526
+READ: é
+incorrect value! Got: é, expected: 1526
+WRITE: 1527
+READ: 1527
+OK! Got: 1527, expected: 1527
+WRITE: 1528
+READ: é
+incorrect value! Got: é, expected: 1528
+WRITE: 1529
+READ: é
+incorrect value! Got: é, expected: 1529
+WRITE: 1530
+READ: é
+incorrect value! Got: é, expected: 1530
+WRITE: 1531
+READ: 1531
+OK! Got: 1531, expected: 1531
+WRITE: 1532
+READ: é
+incorrect value! Got: é, expected: 1532
+WRITE: 1533
+READ: é
+incorrect value! Got: é, expected: 1533
+WRITE: 1534
+READ: é
+incorrect value! Got: é, expected: 1534
+WRITE: 1535
+READ: 1535
+OK! Got: 1535, expected: 1535
+WRITE: 1536
+READ: 
+incorrect value! Got: , expected: 1536
+WRITE: 1537
+READ: 
+incorrect value! Got: , expected: 1537
+WRITE: 1538
+READ: 
+incorrect value! Got: , expected: 1538
+WRITE: 1539
+READ: 1539
+OK! Got: 1539, expected: 1539
+WRITE: 1540
+READ: 
+incorrect value! Got: , expected: 1540
+WRITE: 1541
+READ: 
+incorrect value! Got: , expected: 1541
+WRITE: 1542
+READ: 
+incorrect value! Got: , expected: 1542
+WRITE: 1543
+READ: 1543
+OK! Got: 1543, expected: 1543
+WRITE: 1544
+READ: 
+incorrect value! Got: , expected: 1544
+WRITE: 1545
+READ: 
+incorrect value! Got: , expected: 1545
+WRITE: 1546
+READ: 
+incorrect value! Got: , expected: 1546
+WRITE: 1547
+READ: 1547
+OK! Got: 1547, expected: 1547
+WRITE: 1548
+READ: 
+incorrect value! Got: , expected: 1548
+WRITE: 1549
+READ: 
+incorrect value! Got: , expected: 1549
+WRITE: 1550
+READ: 
+incorrect value! Got: , expected: 1550
+WRITE: 1551
+READ: 1551
+OK! Got: 1551, expected: 1551
+WRITE: 1552
+READ: 
+incorrect value! Got: , expected: 1552
+WRITE: 1553
+READ: 
+incorrect value! Got: , expected: 1553
+WRITE: 1554
+READ: 
+incorrect value! Got: , expected: 1554
+WRITE: 1555
+READ: 1555
+OK! Got: 1555, expected: 1555
+WRITE: 1556
+READ: 
+incorrect value! Got: , expected: 1556
+WRITE: 1557
+READ: 
+incorrect value! Got: , expected: 1557
+WRITE: 1558
+READ: 
+incorrect value! Got: , expected: 1558
+WRITE: 1559
+READ: 1559
+OK! Got: 1559, expected: 1559
+WRITE: 1560
+READ: 
+incorrect value! Got: , expected: 1560
+WRITE: 1561
+READ: 
+incorrect value! Got: , expected: 1561
+WRITE: 1562
+READ: 
+incorrect value! Got: , expected: 1562
+WRITE: 1563
+READ: 1563
+OK! Got: 1563, expected: 1563
+WRITE: 1564
+READ: 
+incorrect value! Got: , expected: 1564
+WRITE: 1565
+READ: 
+incorrect value! Got: , expected: 1565
+WRITE: 1566
+READ: é
+incorrect value! Got: é, expected: 1566
+WRITE: 1567
+READ: 1567
+OK! Got: 1567, expected: 1567
+WRITE: 1568
+READ: é
+incorrect value! Got: é, expected: 1568
+WRITE: 1569
+READ: é
+incorrect value! Got: é, expected: 1569
+WRITE: 1570
+READ: é
+incorrect value! Got: é, expected: 1570
+WRITE: 1571
+READ: 1571
+OK! Got: 1571, expected: 1571
+WRITE: 1572
+READ: é
+incorrect value! Got: é, expected: 1572
+WRITE: 1573
+READ: é
+incorrect value! Got: é, expected: 1573
+WRITE: 1574
+READ: é
+incorrect value! Got: é, expected: 1574
+WRITE: 1575
+READ: 1575
+OK! Got: 1575, expected: 1575
+WRITE: 1576
+READ: é
+incorrect value! Got: é, expected: 1576
+WRITE: 1577
+READ: é
+incorrect value! Got: é, expected: 1577
+WRITE: 1578
+READ: é
+incorrect value! Got: é, expected: 1578
+WRITE: 1579
+READ: 1579
+OK! Got: 1579, expected: 1579
+WRITE: 1580
+READ: é
+incorrect value! Got: é, expected: 1580
+WRITE: 1581
+READ: é
+incorrect value! Got: é, expected: 1581
+WRITE: 1582
+READ: é
+incorrect value! Got: é, expected: 1582
+WRITE: 1583
+READ: 1583
+OK! Got: 1583, expected: 1583
+WRITE: 1584
+READ: é
+incorrect value! Got: é, expected: 1584
+WRITE: 1585
+READ: é
+incorrect value! Got: é, expected: 1585
+WRITE: 1586
+READ: é
+incorrect value! Got: é, expected: 1586
+WRITE: 1587
+READ: 1587
+OK! Got: 1587, expected: 1587
+WRITE: 1588
+READ: é
+incorrect value! Got: é, expected: 1588
+WRITE: 1589
+READ: é
+incorrect value! Got: é, expected: 1589
+WRITE: 1590
+READ: é
+incorrect value! Got: é, expected: 1590
+WRITE: 1591
+READ: 1591
+OK! Got: 1591, expected: 1591
+WRITE: 1592
+READ: é
+incorrect value! Got: é, expected: 1592
+WRITE: 1593
+READ: é
+incorrect value! Got: é, expected: 1593
+WRITE: 1594
+READ: é
+incorrect value! Got: é, expected: 1594
+WRITE: 1595
+READ: 1595
+OK! Got: 1595, expected: 1595
+WRITE: 1596
+READ: é
+incorrect value! Got: é, expected: 1596
+WRITE: 1597
+READ: é
+incorrect value! Got: é, expected: 1597
+WRITE: 1598
+READ: é
+incorrect value! Got: é, expected: 1598
+WRITE: 1599
+READ: 1599
+OK! Got: 1599, expected: 1599
+WRITE: 1600
+READ: é
+incorrect value! Got: é, expected: 1600
+WRITE: 1601
+READ: é
+incorrect value! Got: é, expected: 1601
+WRITE: 1602
+READ: é
+incorrect value! Got: é, expected: 1602
+WRITE: 1603
+READ: 1603
+OK! Got: 1603, expected: 1603
+WRITE: 1604
+READ: é
+incorrect value! Got: é, expected: 1604
+WRITE: 1605
+READ: é
+incorrect value! Got: é, expected: 1605
+WRITE: 1606
+READ: é
+incorrect value! Got: é, expected: 1606
+WRITE: 1607
+READ: 1607
+OK! Got: 1607, expected: 1607
+WRITE: 1608
+READ: é
+incorrect value! Got: é, expected: 1608
+WRITE: 1609
+READ: é
+incorrect value! Got: é, expected: 1609
+WRITE: 1610
+READ: é
+incorrect value! Got: é, expected: 1610
+WRITE: 1611
+READ: 1611
+OK! Got: 1611, expected: 1611
+WRITE: 1612
+READ: é
+incorrect value! Got: é, expected: 1612
+WRITE: 1613
+READ: é
+incorrect value! Got: é, expected: 1613
+WRITE: 1614
+READ: é
+incorrect value! Got: é, expected: 1614
+WRITE: 1615
+READ: 1615
+OK! Got: 1615, expected: 1615
+WRITE: 1616
+READ: é
+incorrect value! Got: é, expected: 1616
+WRITE: 1617
+READ: é
+incorrect value! Got: é, expected: 1617
+WRITE: 1618
+READ: é
+incorrect value! Got: é, expected: 1618
+WRITE: 1619
+READ: 1619
+OK! Got: 1619, expected: 1619
+WRITE: 1620
+READ: é
+incorrect value! Got: é, expected: 1620
+WRITE: 1621
+READ: é
+incorrect value! Got: é, expected: 1621
+WRITE: 1622
+READ: é
+incorrect value! Got: é, expected: 1622
+WRITE: 1623
+READ: 1623
+OK! Got: 1623, expected: 1623
+WRITE: 1624
+READ: é
+incorrect value! Got: é, expected: 1624
+WRITE: 1625
+READ: é
+incorrect value! Got: é, expected: 1625
+WRITE: 1626
+READ: é
+incorrect value! Got: é, expected: 1626
+WRITE: 1627
+READ: 1627
+OK! Got: 1627, expected: 1627
+WRITE: 1628
+READ: é
+incorrect value! Got: é, expected: 1628
+WRITE: 1629
+READ: é
+incorrect value! Got: é, expected: 1629
+WRITE: 1630
+READ: é
+incorrect value! Got: é, expected: 1630
+WRITE: 1631
+READ: 1631
+OK! Got: 1631, expected: 1631
+WRITE: 1632
+READ: é
+incorrect value! Got: é, expected: 1632
+WRITE: 1633
+READ: é
+incorrect value! Got: é, expected: 1633
+WRITE: 1634
+READ: é
+incorrect value! Got: é, expected: 1634
+WRITE: 1635
+READ: 1635
+OK! Got: 1635, expected: 1635
+WRITE: 1636
+READ: é
+incorrect value! Got: é, expected: 1636
+WRITE: 1637
+READ: é
+incorrect value! Got: é, expected: 1637
+WRITE: 1638
+READ: é
+incorrect value! Got: é, expected: 1638
+WRITE: 1639
+READ: 1639
+OK! Got: 1639, expected: 1639
+WRITE: 1640
+READ: é
+incorrect value! Got: é, expected: 1640
+WRITE: 1641
+READ: é
+incorrect value! Got: é, expected: 1641
+WRITE: 1642
+READ: é
+incorrect value! Got: é, expected: 1642
+WRITE: 1643
+READ: 1643
+OK! Got: 1643, expected: 1643
+WRITE: 1644
+READ: é
+incorrect value! Got: é, expected: 1644
+WRITE: 1645
+READ: é
+incorrect value! Got: é, expected: 1645
+WRITE: 1646
+READ: é
+incorrect value! Got: é, expected: 1646
+WRITE: 1647
+READ: 1647
+OK! Got: 1647, expected: 1647
+WRITE: 1648
+READ: é
+incorrect value! Got: é, expected: 1648
+WRITE: 1649
+READ: é
+incorrect value! Got: é, expected: 1649
+WRITE: 1650
+READ: é
+incorrect value! Got: é, expected: 1650
+WRITE: 1651
+READ: 1651
+OK! Got: 1651, expected: 1651
+WRITE: 1652
+READ: é
+incorrect value! Got: é, expected: 1652
+WRITE: 1653
+READ: é
+incorrect value! Got: é, expected: 1653
+WRITE: 1654
+READ: é
+incorrect value! Got: é, expected: 1654
+WRITE: 1655
+READ: 1655
+OK! Got: 1655, expected: 1655
+WRITE: 1656
+READ: é
+incorrect value! Got: é, expected: 1656
+WRITE: 1657
+READ: é
+incorrect value! Got: é, expected: 1657
+WRITE: 1658
+READ: é
+incorrect value! Got: é, expected: 1658
+WRITE: 1659
+READ: 1659
+OK! Got: 1659, expected: 1659
+WRITE: 1660
+READ: é
+incorrect value! Got: é, expected: 1660
+WRITE: 1661
+READ: é
+incorrect value! Got: é, expected: 1661
+WRITE: 1662
+READ: é
+incorrect value! Got: é, expected: 1662
+WRITE: 1663
+READ: 1663
+OK! Got: 1663, expected: 1663
+WRITE: 1664
+READ: é
+incorrect value! Got: é, expected: 1664
+WRITE: 1665
+READ: é
+incorrect value! Got: é, expected: 1665
+WRITE: 1666
+READ: é
+incorrect value! Got: é, expected: 1666
+WRITE: 1667
+READ: 1667
+OK! Got: 1667, expected: 1667
+WRITE: 1668
+READ: é
+incorrect value! Got: é, expected: 1668
+WRITE: 1669
+READ: é
+incorrect value! Got: é, expected: 1669
+WRITE: 1670
+READ: é
+incorrect value! Got: é, expected: 1670
+WRITE: 1671
+READ: 1671
+OK! Got: 1671, expected: 1671
+WRITE: 1672
+READ: é
+incorrect value! Got: é, expected: 1672
+WRITE: 1673
+READ: é
+incorrect value! Got: é, expected: 1673
+WRITE: 1674
+READ: é
+incorrect value! Got: é, expected: 1674
+WRITE: 1675
+READ: 1675
+OK! Got: 1675, expected: 1675
+WRITE: 1676
+READ: é
+incorrect value! Got: é, expected: 1676
+WRITE: 1677
+READ: é
+incorrect value! Got: é, expected: 1677
+WRITE: 1678
+READ: é
+incorrect value! Got: é, expected: 1678
+WRITE: 1679
+READ: 1679
+OK! Got: 1679, expected: 1679
+WRITE: 1680
+READ: é
+incorrect value! Got: é, expected: 1680
+WRITE: 1681
+READ: é
+incorrect value! Got: é, expected: 1681
+WRITE: 1682
+READ: é
+incorrect value! Got: é, expected: 1682
+WRITE: 1683
+READ: 1683
+OK! Got: 1683, expected: 1683
+WRITE: 1684
+READ: é
+incorrect value! Got: é, expected: 1684
+WRITE: 1685
+READ: é
+incorrect value! Got: é, expected: 1685
+WRITE: 1686
+READ: é
+incorrect value! Got: é, expected: 1686
+WRITE: 1687
+READ: 1687
+OK! Got: 1687, expected: 1687
+WRITE: 1688
+READ: é
+incorrect value! Got: é, expected: 1688
+WRITE: 1689
+READ: é
+incorrect value! Got: é, expected: 1689
+WRITE: 1690
+READ: é
+incorrect value! Got: é, expected: 1690
+WRITE: 1691
+READ: 1691
+OK! Got: 1691, expected: 1691
+WRITE: 1692
+READ: é
+incorrect value! Got: é, expected: 1692
+WRITE: 1693
+READ: é
+incorrect value! Got: é, expected: 1693
+WRITE: 1694
+READ: é
+incorrect value! Got: é, expected: 1694
+WRITE: 1695
+READ: 1695
+OK! Got: 1695, expected: 1695
+WRITE: 1696
+READ: é
+incorrect value! Got: é, expected: 1696
+WRITE: 1697
+READ: é
+incorrect value! Got: é, expected: 1697
+WRITE: 1698
+READ: é
+incorrect value! Got: é, expected: 1698
+WRITE: 1699
+READ: 1699
+OK! Got: 1699, expected: 1699
+WRITE: 1700
+READ: é
+incorrect value! Got: é, expected: 1700
+WRITE: 1701
+READ: é
+incorrect value! Got: é, expected: 1701
+WRITE: 1702
+READ: é
+incorrect value! Got: é, expected: 1702
+WRITE: 1703
+READ: 1703
+OK! Got: 1703, expected: 1703
+WRITE: 1704
+READ: é
+incorrect value! Got: é, expected: 1704
+WRITE: 1705
+READ: é
+incorrect value! Got: é, expected: 1705
+WRITE: 1706
+READ: é
+incorrect value! Got: é, expected: 1706
+WRITE: 1707
+READ: 1707
+OK! Got: 1707, expected: 1707
+WRITE: 1708
+READ: é
+incorrect value! Got: é, expected: 1708
+WRITE: 1709
+READ: é
+incorrect value! Got: é, expected: 1709
+WRITE: 1710
+READ: é
+incorrect value! Got: é, expected: 1710
+WRITE: 1711
+READ: 1711
+OK! Got: 1711, expected: 1711
+WRITE: 1712
+READ: é
+incorrect value! Got: é, expected: 1712
+WRITE: 1713
+READ: é
+incorrect value! Got: é, expected: 1713
+WRITE: 1714
+READ: é
+incorrect value! Got: é, expected: 1714
+WRITE: 1715
+READ: 1715
+OK! Got: 1715, expected: 1715
+WRITE: 1716
+READ: é
+incorrect value! Got: é, expected: 1716
+WRITE: 1717
+READ: é
+incorrect value! Got: é, expected: 1717
+WRITE: 1718
+READ: é
+incorrect value! Got: é, expected: 1718
+WRITE: 1719
+READ: 1719
+OK! Got: 1719, expected: 1719
+WRITE: 1720
+READ: é
+incorrect value! Got: é, expected: 1720
+WRITE: 1721
+READ: é
+incorrect value! Got: é, expected: 1721
+WRITE: 1722
+READ: é
+incorrect value! Got: é, expected: 1722
+WRITE: 1723
+READ: 1723
+OK! Got: 1723, expected: 1723
+WRITE: 1724
+READ: é
+incorrect value! Got: é, expected: 1724
+WRITE: 1725
+READ: é
+incorrect value! Got: é, expected: 1725
+WRITE: 1726
+READ: é
+incorrect value! Got: é, expected: 1726
+WRITE: 1727
+READ: 1727
+OK! Got: 1727, expected: 1727
+WRITE: 1728
+READ: é
+incorrect value! Got: é, expected: 1728
+WRITE: 1729
+READ: é
+incorrect value! Got: é, expected: 1729
+WRITE: 1730
+READ: é
+incorrect value! Got: é, expected: 1730
+WRITE: 1731
+READ: 1731
+OK! Got: 1731, expected: 1731
+WRITE: 1732
+READ: é
+incorrect value! Got: é, expected: 1732
+WRITE: 1733
+READ: é
+incorrect value! Got: é, expected: 1733
+WRITE: 1734
+READ: é
+incorrect value! Got: é, expected: 1734
+WRITE: 1735
+READ: 1735
+OK! Got: 1735, expected: 1735
+WRITE: 1736
+READ: é
+incorrect value! Got: é, expected: 1736
+WRITE: 1737
+READ: é
+incorrect value! Got: é, expected: 1737
+WRITE: 1738
+READ: é
+incorrect value! Got: é, expected: 1738
+WRITE: 1739
+READ: 1739
+OK! Got: 1739, expected: 1739
+WRITE: 1740
+READ: é
+incorrect value! Got: é, expected: 1740
+WRITE: 1741
+READ: é
+incorrect value! Got: é, expected: 1741
+WRITE: 1742
+READ: é
+incorrect value! Got: é, expected: 1742
+WRITE: 1743
+READ: 1743
+OK! Got: 1743, expected: 1743
+WRITE: 1744
+READ: é
+incorrect value! Got: é, expected: 1744
+WRITE: 1745
+READ: é
+incorrect value! Got: é, expected: 1745
+WRITE: 1746
+READ: é
+incorrect value! Got: é, expected: 1746
+WRITE: 1747
+READ: 1747
+OK! Got: 1747, expected: 1747
+WRITE: 1748
+READ: é
+incorrect value! Got: é, expected: 1748
+WRITE: 1749
+READ: é
+incorrect value! Got: é, expected: 1749
+WRITE: 1750
+READ: é
+incorrect value! Got: é, expected: 1750
+WRITE: 1751
+READ: 1751
+OK! Got: 1751, expected: 1751
+WRITE: 1752
+READ: é
+incorrect value! Got: é, expected: 1752
+WRITE: 1753
+READ: é
+incorrect value! Got: é, expected: 1753
+WRITE: 1754
+READ: é
+incorrect value! Got: é, expected: 1754
+WRITE: 1755
+READ: 1755
+OK! Got: 1755, expected: 1755
+WRITE: 1756
+READ: é
+incorrect value! Got: é, expected: 1756
+WRITE: 1757
+READ: é
+incorrect value! Got: é, expected: 1757
+WRITE: 1758
+READ: é
+incorrect value! Got: é, expected: 1758
+WRITE: 1759
+READ: 1759
+OK! Got: 1759, expected: 1759
+WRITE: 1760
+READ: é
+incorrect value! Got: é, expected: 1760
+WRITE: 1761
+READ: é
+incorrect value! Got: é, expected: 1761
+WRITE: 1762
+READ: é
+incorrect value! Got: é, expected: 1762
+WRITE: 1763
+READ: 1763
+OK! Got: 1763, expected: 1763
+WRITE: 1764
+READ: é
+incorrect value! Got: é, expected: 1764
+WRITE: 1765
+READ: é
+incorrect value! Got: é, expected: 1765
+WRITE: 1766
+READ: é
+incorrect value! Got: é, expected: 1766
+WRITE: 1767
+READ: 1767
+OK! Got: 1767, expected: 1767
+WRITE: 1768
+READ: é
+incorrect value! Got: é, expected: 1768
+WRITE: 1769
+READ: é
+incorrect value! Got: é, expected: 1769
+WRITE: 1770
+READ: é
+incorrect value! Got: é, expected: 1770
+WRITE: 1771
+READ: 1771
+OK! Got: 1771, expected: 1771
+WRITE: 1772
+READ: é
+incorrect value! Got: é, expected: 1772
+WRITE: 1773
+READ: é
+incorrect value! Got: é, expected: 1773
+WRITE: 1774
+READ: é
+incorrect value! Got: é, expected: 1774
+WRITE: 1775
+READ: 1775
+OK! Got: 1775, expected: 1775
+WRITE: 1776
+READ: é
+incorrect value! Got: é, expected: 1776
+WRITE: 1777
+READ: é
+incorrect value! Got: é, expected: 1777
+WRITE: 1778
+READ: é
+incorrect value! Got: é, expected: 1778
+WRITE: 1779
+READ: 1779
+OK! Got: 1779, expected: 1779
+WRITE: 1780
+READ: é
+incorrect value! Got: é, expected: 1780
+WRITE: 1781
+READ: é
+incorrect value! Got: é, expected: 1781
+WRITE: 1782
+READ: é
+incorrect value! Got: é, expected: 1782
+WRITE: 1783
+READ: 1783
+OK! Got: 1783, expected: 1783
+WRITE: 1784
+READ: é
+incorrect value! Got: é, expected: 1784
+WRITE: 1785
+READ: é
+incorrect value! Got: é, expected: 1785
+WRITE: 1786
+READ: é
+incorrect value! Got: é, expected: 1786
+WRITE: 1787
+READ: 1787
+OK! Got: 1787, expected: 1787
+WRITE: 1788
+READ: é
+incorrect value! Got: é, expected: 1788
+WRITE: 1789
+READ: é
+incorrect value! Got: é, expected: 1789
+WRITE: 1790
+READ: é
+incorrect value! Got: é, expected: 1790
+WRITE: 1791
+READ: 1791
+OK! Got: 1791, expected: 1791
+WRITE: 1792
+READ: 
+incorrect value! Got: , expected: 1792
+WRITE: 1793
+READ: 
+incorrect value! Got: , expected: 1793
+WRITE: 1794
+READ: 
+incorrect value! Got: , expected: 1794
+WRITE: 1795
+READ: 1795
+OK! Got: 1795, expected: 1795
+WRITE: 1796
+READ: 
+incorrect value! Got: , expected: 1796
+WRITE: 1797
+READ: 
+incorrect value! Got: , expected: 1797
+WRITE: 1798
+st-flash 1.5.1
+st-flash 1.5.1
+READ: 
+incorrect value! Got: , expected: 1798
+WRITE: 1799
+READ: 1799
+OK! Got: 1799, expected: 1799
+WRITE: 1800
+READ: 
+incorrect value! Got: , expected: 1800
+WRITE: 1801
+READ: 
+incorrect value! Got: , expected: 1801
+WRITE: 1802
+READ: 
+incorrect value! Got: , expected: 1802
+WRITE: 1803
+READ: 1803
+OK! Got: 1803, expected: 1803
+WRITE: 1804
+READ: 
+incorrect value! Got: , expected: 1804
+WRITE: 1805
+READ: 
+incorrect value! Got: , expected: 1805
+WRITE: 1806
+READ: 
+incorrect value! Got: , expected: 1806
+WRITE: 1807
+READ: 1807
+OK! Got: 1807, expected: 1807
+WRITE: 1808
+READ: 
+incorrect value! Got: , expected: 1808
+WRITE: 1809
+READ: 
+incorrect value! Got: , expected: 1809
+WRITE: 1810
+READ: 
+incorrect value! Got: , expected: 1810
+WRITE: 1811
+READ: 1811
+OK! Got: 1811, expected: 1811
+WRITE: 1812
+READ: 
+incorrect value! Got: , expected: 1812
+WRITE: 1813
+READ: 
+incorrect value! Got: , expected: 1813
+WRITE: 1814
+READ: 
+incorrect value! Got: , expected: 1814
+WRITE: 1815
+READ: 1815
+OK! Got: 1815, expected: 1815
+WRITE: 1816
+READ: 
+incorrect value! Got: , expected: 1816
+WRITE: 1817
+READ: 
+incorrect value! Got: , expected: 1817
+WRITE: 1818
+READ: 
+incorrect value! Got: , expected: 1818
+WRITE: 1819
+READ: 1819
+OK! Got: 1819, expected: 1819
+WRITE: 1820
+READ: 
+incorrect value! Got: , expected: 1820
+WRITE: 1821
+READ: 
+incorrect value! Got: , expected: 1821
+WRITE: 1822
+READ: é
+incorrect value! Got: é, expected: 1822
+WRITE: 1823
+READ: 1823
+OK! Got: 1823, expected: 1823
+WRITE: 1824
+READ: é
+incorrect value! Got: é, expected: 1824
+WRITE: 1825
+READ: é
+incorrect value! Got: é, expected: 1825
+WRITE: 1826
+READ: é
+incorrect value! Got: é, expected: 1826
+WRITE: 1827
+READ: 1827
+OK! Got: 1827, expected: 1827
+WRITE: 1828
+READ: é
+incorrect value! Got: é, expected: 1828
+WRITE: 1829
+READ: é
+incorrect value! Got: é, expected: 1829
+WRITE: 1830
+READ: é
+incorrect value! Got: é, expected: 1830
+WRITE: 1831
+READ: 1831
+OK! Got: 1831, expected: 1831
+WRITE: 1832
+READ: é
+incorrect value! Got: é, expected: 1832
+WRITE: 1833
+READ: é
+incorrect value! Got: é, expected: 1833
+WRITE: 1834
+READ: é
+incorrect value! Got: é, expected: 1834
+WRITE: 1835
+READ: 1835
+OK! Got: 1835, expected: 1835
+WRITE: 1836
+READ: é
+incorrect value! Got: é, expected: 1836
+WRITE: 1837
+READ: é
+incorrect value! Got: é, expected: 1837
+WRITE: 1838
+READ: é
+incorrect value! Got: é, expected: 1838
+WRITE: 1839
+READ: 1839
+OK! Got: 1839, expected: 1839
+WRITE: 1840
+READ: é
+incorrect value! Got: é, expected: 1840
+WRITE: 1841
+READ: é
+incorrect value! Got: é, expected: 1841
+WRITE: 1842
+READ: é
+incorrect value! Got: é, expected: 1842
+WRITE: 1843
+READ: 1843
+OK! Got: 1843, expected: 1843
+WRITE: 1844
+READ: é
+incorrect value! Got: é, expected: 1844
+WRITE: 1845
+READ: é
+incorrect value! Got: é, expected: 1845
+WRITE: 1846
+READ: é
+incorrect value! Got: é, expected: 1846
+WRITE: 1847
+READ: 1847
+OK! Got: 1847, expected: 1847
+WRITE: 1848
+READ: é
+incorrect value! Got: é, expected: 1848
+WRITE: 1849
+READ: é
+incorrect value! Got: é, expected: 1849
+WRITE: 1850
+READ: é
+incorrect value! Got: é, expected: 1850
+WRITE: 1851
+READ: 1851
+OK! Got: 1851, expected: 1851
+WRITE: 1852
+READ: é
+incorrect value! Got: é, expected: 1852
+WRITE: 1853
+READ: é
+incorrect value! Got: é, expected: 1853
+WRITE: 1854
+READ: é
+incorrect value! Got: é, expected: 1854
+WRITE: 1855
+READ: 1855
+OK! Got: 1855, expected: 1855
+WRITE: 1856
+READ: é
+incorrect value! Got: é, expected: 1856
+WRITE: 1857
+READ: é
+incorrect value! Got: é, expected: 1857
+WRITE: 1858
+READ: é
+incorrect value! Got: é, expected: 1858
+WRITE: 1859
+READ: 1859
+OK! Got: 1859, expected: 1859
+WRITE: 1860
+READ: é
+incorrect value! Got: é, expected: 1860
+WRITE: 1861
+READ: é
+incorrect value! Got: é, expected: 1861
+WRITE: 1862
+READ: é
+incorrect value! Got: é, expected: 1862
+WRITE: 1863
+READ: 1863
+OK! Got: 1863, expected: 1863
+WRITE: 1864
+READ: é
+incorrect value! Got: é, expected: 1864
+WRITE: 1865
+READ: é
+incorrect value! Got: é, expected: 1865
+WRITE: 1866
+READ: é
+incorrect value! Got: é, expected: 1866
+WRITE: 1867
+READ: 1867
+OK! Got: 1867, expected: 1867
+WRITE: 1868
+READ: é
+incorrect value! Got: é, expected: 1868
+WRITE: 1869
+READ: é
+incorrect value! Got: é, expected: 1869
+WRITE: 1870
+READ: é
+incorrect value! Got: é, expected: 1870
+WRITE: 1871
+READ: 1871
+OK! Got: 1871, expected: 1871
+WRITE: 1872
+READ: é
+incorrect value! Got: é, expected: 1872
+WRITE: 1873
+READ: é
+incorrect value! Got: é, expected: 1873
+WRITE: 1874
+READ: é
+incorrect value! Got: é, expected: 1874
+WRITE: 1875
+READ: 1875
+OK! Got: 1875, expected: 1875
+WRITE: 1876
+READ: é
+incorrect value! Got: é, expected: 1876
+WRITE: 1877
+READ: é
+incorrect value! Got: é, expected: 1877
+WRITE: 1878
+READ: é
+incorrect value! Got: é, expected: 1878
+WRITE: 1879
+READ: 1879
+OK! Got: 1879, expected: 1879
+WRITE: 1880
+READ: é
+incorrect value! Got: é, expected: 1880
+WRITE: 1881
+READ: é
+incorrect value! Got: é, expected: 1881
+WRITE: 1882
+READ: é
+incorrect value! Got: é, expected: 1882
+WRITE: 1883
+READ: 1883
+OK! Got: 1883, expected: 1883
+WRITE: 1884
+READ: é
+incorrect value! Got: é, expected: 1884
+WRITE: 1885
+READ: é
+incorrect value! Got: é, expected: 1885
+WRITE: 1886
+READ: é
+incorrect value! Got: é, expected: 1886
+WRITE: 1887
+READ: 1887
+OK! Got: 1887, expected: 1887
+WRITE: 1888
+READ: é
+incorrect value! Got: é, expected: 1888
+WRITE: 1889
+READ: é
+incorrect value! Got: é, expected: 1889
+WRITE: 1890
+READ: é
+incorrect value! Got: é, expected: 1890
+WRITE: 1891
+READ: 1891
+OK! Got: 1891, expected: 1891
+WRITE: 1892
+READ: é
+incorrect value! Got: é, expected: 1892
+WRITE: 1893
+READ: é
+incorrect value! Got: é, expected: 1893
+WRITE: 1894
+READ: é
+incorrect value! Got: é, expected: 1894
+WRITE: 1895
+READ: 1895
+OK! Got: 1895, expected: 1895
+WRITE: 1896
+READ: é
+incorrect value! Got: é, expected: 1896
+WRITE: 1897
+READ: é
+incorrect value! Got: é, expected: 1897
+WRITE: 1898
+READ: é
+incorrect value! Got: é, expected: 1898
+WRITE: 1899
+READ: 1899
+OK! Got: 1899, expected: 1899
+WRITE: 1900
+READ: é
+incorrect value! Got: é, expected: 1900
+WRITE: 1901
+READ: é
+incorrect value! Got: é, expected: 1901
+WRITE: 1902
+READ: é
+incorrect value! Got: é, expected: 1902
+WRITE: 1903
+READ: 1903
+OK! Got: 1903, expected: 1903
+WRITE: 1904
+READ: é
+incorrect value! Got: é, expected: 1904
+WRITE: 1905
+READ: é
+incorrect value! Got: é, expected: 1905
+WRITE: 1906
+READ: é
+incorrect value! Got: é, expected: 1906
+WRITE: 1907
+READ: 1907
+OK! Got: 1907, expected: 1907
+WRITE: 1908
+READ: é
+incorrect value! Got: é, expected: 1908
+WRITE: 1909
+READ: é
+incorrect value! Got: é, expected: 1909
+WRITE: 1910
+READ: é
+incorrect value! Got: é, expected: 1910
+WRITE: 1911
+READ: 1911
+OK! Got: 1911, expected: 1911
+WRITE: 1912
+READ: é
+incorrect value! Got: é, expected: 1912
+WRITE: 1913
+READ: é
+incorrect value! Got: é, expected: 1913
+WRITE: 1914
+READ: é
+incorrect value! Got: é, expected: 1914
+WRITE: 1915
+READ: 1915
+OK! Got: 1915, expected: 1915
+WRITE: 1916
+READ: é
+incorrect value! Got: é, expected: 1916
+WRITE: 1917
+READ: é
+incorrect value! Got: é, expected: 1917
+WRITE: 1918
+READ: é
+incorrect value! Got: é, expected: 1918
+WRITE: 1919
+READ: 1919
+OK! Got: 1919, expected: 1919
+WRITE: 1920
+READ: é
+incorrect value! Got: é, expected: 1920
+WRITE: 1921
+READ: é
+incorrect value! Got: é, expected: 1921
+WRITE: 1922
+READ: é
+incorrect value! Got: é, expected: 1922
+WRITE: 1923
+READ: 1923
+OK! Got: 1923, expected: 1923
+WRITE: 1924
+READ: é
+incorrect value! Got: é, expected: 1924
+WRITE: 1925
+READ: é
+incorrect value! Got: é, expected: 1925
+WRITE: 1926
+READ: é
+incorrect value! Got: é, expected: 1926
+WRITE: 1927
+READ: 1927
+OK! Got: 1927, expected: 1927
+WRITE: 1928
+READ: é
+incorrect value! Got: é, expected: 1928
+WRITE: 1929
+READ: é
+incorrect value! Got: é, expected: 1929
+WRITE: 1930
+READ: é
+incorrect value! Got: é, expected: 1930
+WRITE: 1931
+READ: 1931
+OK! Got: 1931, expected: 1931
+WRITE: 1932
+READ: é
+incorrect value! Got: é, expected: 1932
+WRITE: 1933
+READ: é
+incorrect value! Got: é, expected: 1933
+WRITE: 1934
+READ: é
+incorrect value! Got: é, expected: 1934
+WRITE: 1935
+READ: 1935
+OK! Got: 1935, expected: 1935
+WRITE: 1936
+READ: é
+incorrect value! Got: é, expected: 1936
+WRITE: 1937
+READ: é
+incorrect value! Got: é, expected: 1937
+WRITE: 1938
+READ: é
+incorrect value! Got: é, expected: 1938
+WRITE: 1939
+READ: 1939
+OK! Got: 1939, expected: 1939
+WRITE: 1940
+READ: é
+incorrect value! Got: é, expected: 1940
+WRITE: 1941
+READ: é
+incorrect value! Got: é, expected: 1941
+WRITE: 1942
+READ: é
+incorrect value! Got: é, expected: 1942
+WRITE: 1943
+READ: 1943
+OK! Got: 1943, expected: 1943
+WRITE: 1944
+READ: é
+incorrect value! Got: é, expected: 1944
+WRITE: 1945
+READ: é
+incorrect value! Got: é, expected: 1945
+WRITE: 1946
+READ: é
+incorrect value! Got: é, expected: 1946
+WRITE: 1947
+READ: 1947
+OK! Got: 1947, expected: 1947
+WRITE: 1948
+READ: é
+incorrect value! Got: é, expected: 1948
+WRITE: 1949
+READ: é
+incorrect value! Got: é, expected: 1949
+WRITE: 1950
+READ: é
+incorrect value! Got: é, expected: 1950
+WRITE: 1951
+READ: 1951
+OK! Got: 1951, expected: 1951
+WRITE: 1952
+READ: é
+incorrect value! Got: é, expected: 1952
+WRITE: 1953
+READ: é
+incorrect value! Got: é, expected: 1953
+WRITE: 1954
+READ: é
+incorrect value! Got: é, expected: 1954
+WRITE: 1955
+READ: 1955
+OK! Got: 1955, expected: 1955
+WRITE: 1956
+READ: é
+incorrect value! Got: é, expected: 1956
+WRITE: 1957
+READ: é
+incorrect value! Got: é, expected: 1957
+WRITE: 1958
+READ: é
+incorrect value! Got: é, expected: 1958
+WRITE: 1959
+READ: 1959
+OK! Got: 1959, expected: 1959
+WRITE: 1960
+READ: é
+incorrect value! Got: é, expected: 1960
+WRITE: 1961
+READ: é
+incorrect value! Got: é, expected: 1961
+WRITE: 1962
+READ: é
+incorrect value! Got: é, expected: 1962
+WRITE: 1963
+READ: 1963
+OK! Got: 1963, expected: 1963
+WRITE: 1964
+READ: é
+incorrect value! Got: é, expected: 1964
+WRITE: 1965
+READ: é
+incorrect value! Got: é, expected: 1965
+WRITE: 1966
+READ: é
+incorrect value! Got: é, expected: 1966
+WRITE: 1967
+READ: 1967
+OK! Got: 1967, expected: 1967
+WRITE: 1968
+READ: é
+incorrect value! Got: é, expected: 1968
+WRITE: 1969
+READ: é
+incorrect value! Got: é, expected: 1969
+WRITE: 1970
+READ: é
+incorrect value! Got: é, expected: 1970
+WRITE: 1971
+READ: 1971
+OK! Got: 1971, expected: 1971
+WRITE: 1972
+READ: é
+incorrect value! Got: é, expected: 1972
+WRITE: 1973
+READ: é
+incorrect value! Got: é, expected: 1973
+WRITE: 1974
+READ: é
+incorrect value! Got: é, expected: 1974
+WRITE: 1975
+READ: 1975
+OK! Got: 1975, expected: 1975
+WRITE: 1976
+READ: é
+incorrect value! Got: é, expected: 1976
+WRITE: 1977
+READ: é
+incorrect value! Got: é, expected: 1977
+WRITE: 1978
+READ: é
+incorrect value! Got: é, expected: 1978
+WRITE: 1979
+READ: 1979
+OK! Got: 1979, expected: 1979
+WRITE: 1980
+READ: é
+incorrect value! Got: é, expected: 1980
+WRITE: 1981
+READ: é
+incorrect value! Got: é, expected: 1981
+WRITE: 1982
+READ: é
+incorrect value! Got: é, expected: 1982
+WRITE: 1983
+READ: 1983
+OK! Got: 1983, expected: 1983
+WRITE: 1984
+READ: é
+incorrect value! Got: é, expected: 1984
+WRITE: 1985
+READ: é
+incorrect value! Got: é, expected: 1985
+WRITE: 1986
+READ: é
+incorrect value! Got: é, expected: 1986
+WRITE: 1987
+READ: 1987
+OK! Got: 1987, expected: 1987
+WRITE: 1988
+READ: é
+incorrect value! Got: é, expected: 1988
+WRITE: 1989
+READ: é
+incorrect value! Got: é, expected: 1989
+WRITE: 1990
+READ: é
+incorrect value! Got: é, expected: 1990
+WRITE: 1991
+READ: 1991
+OK! Got: 1991, expected: 1991
+WRITE: 1992
+READ: é
+incorrect value! Got: é, expected: 1992
+WRITE: 1993
+READ: é
+incorrect value! Got: é, expected: 1993
+WRITE: 1994
+READ: é
+incorrect value! Got: é, expected: 1994
+WRITE: 1995
+READ: 1995
+OK! Got: 1995, expected: 1995
+WRITE: 1996
+READ: é
+incorrect value! Got: é, expected: 1996
+WRITE: 1997
+READ: é
+incorrect value! Got: é, expected: 1997
+WRITE: 1998
+READ: é
+incorrect value! Got: é, expected: 1998
+WRITE: 1999
+READ: 1999
+OK! Got: 1999, expected: 1999
+WRITE: 2000
+READ: é
+incorrect value! Got: é, expected: 2000
+END TEST: 2018-11-03 12:03:31.850157
+Simple reading test for value range:              [FAIL]
+******************************************************************************
+BEGIN TEST: 2018-11-03 12:03:31.850186
+WRITE: 1234
+READ: 
+incorrect value!, Valid sent value, Got: , expected: 1234
+
+WRITE:  1234
+READ: 
+incorrect value!, Invalid sent value, Got: , expected:  123
+
+WRITE: 4321
+READ: 
+incorrect value!, Invalid sent value, Got: , expected: 4321
+
+WRITE: test
+READ: test
+OK!, Invalid sent value, Got: test, expected: test
+
+WRITE: 0est
+READ: 
+incorrect value!, Invalid sent value, Got: , expected: 0est
+
+WRITE: tes1
+READ: 
+incorrect value!, Invalid sent value, Got: , expected: tes1
+
+WRITE: 01234
+READ: 
+incorrect value!, Invalid sent value, Got: , expected: 0123
+
+WRITE: 012345678
+READ: 5678
+incorrect value!, Invalid sent value, Got: 5678, expected: 0123
+
+WRITE: 0
+READ: 
+incorrect value!, Valid sent value, Got: , expected: 0
+
+WRITE: 100
+READ: 
+incorrect value!, Valid sent value, Got: , expected: 100
+
+WRITE: 500
+READ: 
+incorrect value!, Valid sent value, Got: , expected: 500
+
+WRITE: 1000
+READ: 1000
+OK!, Valid sent value, Got: 1000, expected: 1000
+
+WRITE: 2000
+READ: 
+incorrect value!, Valid sent value, Got: , expected: 2000
+
+END TEST: 2018-11-03 12:03:47.652276
+Simple reading test for few invalid values:       [FAIL]
+******************************************************************************
+BEGIN TEST: 2018-11-03 12:03:47.652318
+Opening first device
+WRITE: 0
+OK! Measured: 0.045717815426285516, expected: 0.0
+WRITE: 100
+OK! Measured: 0.1566971246172221, expected: 0.1611328125
+WRITE: 500
+OK! Measured: 0.808481037059121, expected: 0.8056640625
+WRITE: 1000
+OK! Measured: 1.6223854153843427, expected: 1.611328125
+WRITE: 1250
+OK! Measured: 2.029437012332646, expected: 2.01416015625
+WRITE: 1500
+incorrect value! Measured: 0.04561595208200116, expected: 2.4169921875
+WRITE: 1750
+OK! Measured: 2.84268939751493, expected: 2.81982421875
+WRITE: 2000
+OK! Measured: 3.249174014452142, expected: 3.22265625
+END TEST: 2018-11-03 12:04:00.830257
+Voltage Measurement task:                         [FAIL]
+******************************************************************************
+Tests completed.
+Summary:
+Simple reading test for few individual values:    [FAIL]
+Simple reading test for value range:              [FAIL]
+Simple reading test for few invalid values:       [FAIL]
+Voltage Measurement task:                         [FAIL]

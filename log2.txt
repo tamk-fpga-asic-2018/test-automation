@@ -1,0 +1,6128 @@
+st-flash 1.5.1
+Flash page at addr: 0x08000000 erasedFlash page at addr: 0x08004000 erased
+enabling 32-bit flash writes
+size: 28084
+st-flash 1.5.1
+st-flash 1.5.1
+st-flash 1.5.1
+st-flash 1.5.1
+st-flash 1.5.1
+st-flash 1.5.1
+st-flash 1.5.1
+st-flash 1.5.1
+Set-up: DUT: TAMK-dut FW firmware/tamk_2.bin on HW Nucleo-F446ZE connected with Serial=/dev/cu.usbmodem141231
+******************************************************************************
+BEGIN TEST: 2018-11-03 12:04:03.514565
+WRITE: 0
+READ: 0
+OK! Got: 0, expected: 0
+WRITE: 100
+READ: 100
+OK! Got: 100, expected: 100
+WRITE: 500
+READ: 500
+OK! Got: 500, expected: 500
+WRITE: 1000
+READ: 1000
+OK! Got: 1000, expected: 1000
+WRITE: 1500
+READ: 1500
+OK! Got: 1500, expected: 1500
+WRITE: 2000
+READ: 2000
+OK! Got: 2000, expected: 2000
+END TEST: 2018-11-03 12:04:17.354920
+Simple reading test for few individual values:    [PASS]
+******************************************************************************
+BEGIN TEST: 2018-11-03 12:04:17.354954
+WRITE: 0
+READ: 0
+OK! Got: 0, expected: 0
+WRITE: 1
+READ: 1
+OK! Got: 1, expected: 1
+WRITE: 2
+READ: 2
+OK! Got: 2, expected: 2
+WRITE: 3
+READ: 3
+OK! Got: 3, expected: 3
+WRITE: 4
+READ: 4
+OK! Got: 4, expected: 4
+WRITE: 5
+READ: 5
+OK! Got: 5, expected: 5
+WRITE: 6
+READ: 6
+OK! Got: 6, expected: 6
+WRITE: 7
+READ: 7
+OK! Got: 7, expected: 7
+WRITE: 8
+READ: 8
+OK! Got: 8, expected: 8
+WRITE: 9
+READ: 9
+OK! Got: 9, expected: 9
+WRITE: 10
+READ: 10
+OK! Got: 10, expected: 10
+WRITE: 11
+READ: 11
+OK! Got: 11, expected: 11
+WRITE: 12
+READ: 12
+OK! Got: 12, expected: 12
+WRITE: 13
+READ: 13
+OK! Got: 13, expected: 13
+WRITE: 14
+READ: 14
+OK! Got: 14, expected: 14
+WRITE: 15
+READ: 15
+OK! Got: 15, expected: 15
+WRITE: 16
+READ: 16
+OK! Got: 16, expected: 16
+WRITE: 17
+READ: 17
+OK! Got: 17, expected: 17
+WRITE: 18
+READ: 18
+OK! Got: 18, expected: 18
+WRITE: 19
+READ: 19
+OK! Got: 19, expected: 19
+WRITE: 20
+READ: 20
+OK! Got: 20, expected: 20
+WRITE: 21
+READ: 21
+OK! Got: 21, expected: 21
+WRITE: 22
+READ: 22
+OK! Got: 22, expected: 22
+WRITE: 23
+READ: 23
+OK! Got: 23, expected: 23
+WRITE: 24
+READ: 24
+OK! Got: 24, expected: 24
+WRITE: 25
+READ: 25
+OK! Got: 25, expected: 25
+WRITE: 26
+READ: 26
+OK! Got: 26, expected: 26
+WRITE: 27
+READ: 27
+OK! Got: 27, expected: 27
+WRITE: 28
+READ: 28
+OK! Got: 28, expected: 28
+WRITE: 29
+READ: 29
+OK! Got: 29, expected: 29
+WRITE: 30
+READ: 30
+OK! Got: 30, expected: 30
+WRITE: 31
+READ: 31
+OK! Got: 31, expected: 31
+WRITE: 32
+READ: 32
+OK! Got: 32, expected: 32
+WRITE: 33
+READ: 33
+OK! Got: 33, expected: 33
+WRITE: 34
+READ: 34
+OK! Got: 34, expected: 34
+WRITE: 35
+READ: 35
+OK! Got: 35, expected: 35
+WRITE: 36
+READ: 36
+OK! Got: 36, expected: 36
+WRITE: 37
+READ: 37
+OK! Got: 37, expected: 37
+WRITE: 38
+READ: 38
+OK! Got: 38, expected: 38
+WRITE: 39
+READ: 39
+OK! Got: 39, expected: 39
+WRITE: 40
+READ: 40
+OK! Got: 40, expected: 40
+WRITE: 41
+READ: 41
+OK! Got: 41, expected: 41
+WRITE: 42
+READ: 42
+OK! Got: 42, expected: 42
+WRITE: 43
+READ: 43
+OK! Got: 43, expected: 43
+WRITE: 44
+READ: 44
+OK! Got: 44, expected: 44
+WRITE: 45
+READ: 45
+OK! Got: 45, expected: 45
+WRITE: 46
+READ: 46
+OK! Got: 46, expected: 46
+WRITE: 47
+READ: 47
+OK! Got: 47, expected: 47
+WRITE: 48
+READ: 48
+OK! Got: 48, expected: 48
+WRITE: 49
+READ: 49
+OK! Got: 49, expected: 49
+WRITE: 50
+READ: 50
+OK! Got: 50, expected: 50
+WRITE: 51
+READ: 51
+OK! Got: 51, expected: 51
+WRITE: 52
+READ: 52
+OK! Got: 52, expected: 52
+WRITE: 53
+READ: 53
+OK! Got: 53, expected: 53
+WRITE: 54
+READ: 54
+OK! Got: 54, expected: 54
+WRITE: 55
+READ: 55
+OK! Got: 55, expected: 55
+WRITE: 56
+READ: 56
+OK! Got: 56, expected: 56
+WRITE: 57
+READ: 57
+OK! Got: 57, expected: 57
+WRITE: 58
+READ: 58
+OK! Got: 58, expected: 58
+WRITE: 59
+READ: 59
+OK! Got: 59, expected: 59
+WRITE: 60
+READ: 60
+OK! Got: 60, expected: 60
+WRITE: 61
+READ: 61
+OK! Got: 61, expected: 61
+WRITE: 62
+READ: 62
+OK! Got: 62, expected: 62
+WRITE: 63
+READ: 63
+OK! Got: 63, expected: 63
+WRITE: 64
+READ: 64
+OK! Got: 64, expected: 64
+WRITE: 65
+READ: 65
+OK! Got: 65, expected: 65
+WRITE: 66
+READ: 66
+OK! Got: 66, expected: 66
+WRITE: 67
+READ: 67
+OK! Got: 67, expected: 67
+WRITE: 68
+READ: 68
+OK! Got: 68, expected: 68
+WRITE: 69
+READ: 69
+OK! Got: 69, expected: 69
+WRITE: 70
+READ: 70
+OK! Got: 70, expected: 70
+WRITE: 71
+READ: 71
+OK! Got: 71, expected: 71
+WRITE: 72
+READ: 72
+OK! Got: 72, expected: 72
+WRITE: 73
+READ: 73
+OK! Got: 73, expected: 73
+WRITE: 74
+READ: 74
+OK! Got: 74, expected: 74
+WRITE: 75
+READ: 75
+OK! Got: 75, expected: 75
+WRITE: 76
+READ: 76
+OK! Got: 76, expected: 76
+WRITE: 77
+READ: 77
+OK! Got: 77, expected: 77
+WRITE: 78
+READ: 78
+OK! Got: 78, expected: 78
+WRITE: 79
+READ: 79
+OK! Got: 79, expected: 79
+WRITE: 80
+READ: 80
+OK! Got: 80, expected: 80
+WRITE: 81
+READ: 81
+OK! Got: 81, expected: 81
+WRITE: 82
+READ: 82
+OK! Got: 82, expected: 82
+WRITE: 83
+READ: 83
+OK! Got: 83, expected: 83
+WRITE: 84
+READ: 84
+OK! Got: 84, expected: 84
+WRITE: 85
+READ: 85
+OK! Got: 85, expected: 85
+WRITE: 86
+READ: 86
+OK! Got: 86, expected: 86
+WRITE: 87
+READ: 87
+OK! Got: 87, expected: 87
+WRITE: 88
+READ: 88
+OK! Got: 88, expected: 88
+WRITE: 89
+READ: 89
+OK! Got: 89, expected: 89
+WRITE: 90
+READ: 90
+OK! Got: 90, expected: 90
+WRITE: 91
+READ: 91
+OK! Got: 91, expected: 91
+WRITE: 92
+READ: 92
+OK! Got: 92, expected: 92
+WRITE: 93
+READ: 93
+OK! Got: 93, expected: 93
+WRITE: 94
+READ: 94
+OK! Got: 94, expected: 94
+WRITE: 95
+READ: 95
+OK! Got: 95, expected: 95
+WRITE: 96
+READ: 96
+OK! Got: 96, expected: 96
+WRITE: 97
+READ: 97
+OK! Got: 97, expected: 97
+WRITE: 98
+READ: 98
+OK! Got: 98, expected: 98
+WRITE: 99
+READ: 99
+OK! Got: 99, expected: 99
+WRITE: 100
+READ: 100
+OK! Got: 100, expected: 100
+WRITE: 101
+READ: 101
+OK! Got: 101, expected: 101
+WRITE: 102
+READ: 102
+OK! Got: 102, expected: 102
+WRITE: 103
+READ: 103
+OK! Got: 103, expected: 103
+WRITE: 104
+READ: 104
+OK! Got: 104, expected: 104
+WRITE: 105
+READ: 105
+OK! Got: 105, expected: 105
+WRITE: 106
+READ: 106
+OK! Got: 106, expected: 106
+WRITE: 107
+READ: 107
+OK! Got: 107, expected: 107
+WRITE: 108
+READ: 108
+OK! Got: 108, expected: 108
+WRITE: 109
+READ: 109
+OK! Got: 109, expected: 109
+WRITE: 110
+READ: 110
+OK! Got: 110, expected: 110
+WRITE: 111
+READ: 111
+OK! Got: 111, expected: 111
+WRITE: 112
+READ: 112
+OK! Got: 112, expected: 112
+WRITE: 113
+READ: 113
+OK! Got: 113, expected: 113
+WRITE: 114
+READ: 114
+OK! Got: 114, expected: 114
+WRITE: 115
+READ: 115
+OK! Got: 115, expected: 115
+WRITE: 116
+READ: 116
+OK! Got: 116, expected: 116
+WRITE: 117
+READ: 117
+OK! Got: 117, expected: 117
+WRITE: 118
+READ: 118
+OK! Got: 118, expected: 118
+WRITE: 119
+READ: 119
+OK! Got: 119, expected: 119
+WRITE: 120
+READ: 120
+OK! Got: 120, expected: 120
+WRITE: 121
+READ: 121
+OK! Got: 121, expected: 121
+WRITE: 122
+READ: 122
+OK! Got: 122, expected: 122
+WRITE: 123
+READ: 123
+OK! Got: 123, expected: 123
+WRITE: 124
+READ: 124
+OK! Got: 124, expected: 124
+WRITE: 125
+READ: 125
+OK! Got: 125, expected: 125
+WRITE: 126
+READ: 126
+OK! Got: 126, expected: 126
+WRITE: 127
+READ: 127
+OK! Got: 127, expected: 127
+WRITE: 128
+READ: 128
+OK! Got: 128, expected: 128
+WRITE: 129
+READ: 129
+OK! Got: 129, expected: 129
+WRITE: 130
+READ: 130
+OK! Got: 130, expected: 130
+WRITE: 131
+READ: 131
+OK! Got: 131, expected: 131
+WRITE: 132
+READ: 132
+OK! Got: 132, expected: 132
+WRITE: 133
+READ: 133
+OK! Got: 133, expected: 133
+WRITE: 134
+READ: 134
+OK! Got: 134, expected: 134
+WRITE: 135
+READ: 135
+OK! Got: 135, expected: 135
+WRITE: 136
+READ: 136
+OK! Got: 136, expected: 136
+WRITE: 137
+READ: 137
+OK! Got: 137, expected: 137
+WRITE: 138
+READ: 138
+OK! Got: 138, expected: 138
+WRITE: 139
+READ: 139
+OK! Got: 139, expected: 139
+WRITE: 140
+READ: 140
+OK! Got: 140, expected: 140
+WRITE: 141
+READ: 141
+OK! Got: 141, expected: 141
+WRITE: 142
+READ: 142
+OK! Got: 142, expected: 142
+WRITE: 143
+READ: 143
+OK! Got: 143, expected: 143
+WRITE: 144
+READ: 144
+OK! Got: 144, expected: 144
+WRITE: 145
+READ: 145
+OK! Got: 145, expected: 145
+WRITE: 146
+READ: 146
+OK! Got: 146, expected: 146
+WRITE: 147
+READ: 147
+OK! Got: 147, expected: 147
+WRITE: 148
+READ: 148
+OK! Got: 148, expected: 148
+WRITE: 149
+READ: 149
+OK! Got: 149, expected: 149
+WRITE: 150
+READ: 150
+OK! Got: 150, expected: 150
+WRITE: 151
+READ: 151
+OK! Got: 151, expected: 151
+WRITE: 152
+READ: 152
+OK! Got: 152, expected: 152
+WRITE: 153
+READ: 153
+OK! Got: 153, expected: 153
+WRITE: 154
+READ: 154
+OK! Got: 154, expected: 154
+WRITE: 155
+READ: 155
+OK! Got: 155, expected: 155
+WRITE: 156
+READ: 156
+OK! Got: 156, expected: 156
+WRITE: 157
+READ: 157
+OK! Got: 157, expected: 157
+WRITE: 158
+READ: 158
+OK! Got: 158, expected: 158
+WRITE: 159
+READ: 159
+OK! Got: 159, expected: 159
+WRITE: 160
+READ: 160
+OK! Got: 160, expected: 160
+WRITE: 161
+READ: 161
+OK! Got: 161, expected: 161
+WRITE: 162
+READ: 162
+OK! Got: 162, expected: 162
+WRITE: 163
+READ: 163
+OK! Got: 163, expected: 163
+WRITE: 164
+READ: 164
+OK! Got: 164, expected: 164
+WRITE: 165
+READ: 165
+OK! Got: 165, expected: 165
+WRITE: 166
+READ: 166
+OK! Got: 166, expected: 166
+WRITE: 167
+READ: 167
+OK! Got: 167, expected: 167
+WRITE: 168
+READ: 168
+OK! Got: 168, expected: 168
+WRITE: 169
+READ: 169
+OK! Got: 169, expected: 169
+WRITE: 170
+READ: 170
+OK! Got: 170, expected: 170
+WRITE: 171
+READ: 171
+OK! Got: 171, expected: 171
+WRITE: 172
+READ: 172
+OK! Got: 172, expected: 172
+WRITE: 173
+READ: 173
+OK! Got: 173, expected: 173
+WRITE: 174
+READ: 174
+OK! Got: 174, expected: 174
+WRITE: 175
+READ: 175
+OK! Got: 175, expected: 175
+WRITE: 176
+READ: 176
+OK! Got: 176, expected: 176
+WRITE: 177
+READ: 177
+OK! Got: 177, expected: 177
+WRITE: 178
+READ: 178
+OK! Got: 178, expected: 178
+WRITE: 179
+READ: 179
+OK! Got: 179, expected: 179
+WRITE: 180
+READ: 180
+OK! Got: 180, expected: 180
+WRITE: 181
+READ: 181
+OK! Got: 181, expected: 181
+WRITE: 182
+READ: 182
+OK! Got: 182, expected: 182
+WRITE: 183
+READ: 183
+OK! Got: 183, expected: 183
+WRITE: 184
+READ: 184
+OK! Got: 184, expected: 184
+WRITE: 185
+READ: 185
+OK! Got: 185, expected: 185
+WRITE: 186
+READ: 186
+OK! Got: 186, expected: 186
+WRITE: 187
+READ: 187
+OK! Got: 187, expected: 187
+WRITE: 188
+READ: 188
+OK! Got: 188, expected: 188
+WRITE: 189
+READ: 189
+OK! Got: 189, expected: 189
+WRITE: 190
+READ: 190
+OK! Got: 190, expected: 190
+WRITE: 191
+READ: 191
+OK! Got: 191, expected: 191
+WRITE: 192
+READ: 192
+OK! Got: 192, expected: 192
+WRITE: 193
+READ: 193
+OK! Got: 193, expected: 193
+WRITE: 194
+READ: 194
+OK! Got: 194, expected: 194
+WRITE: 195
+READ: 195
+OK! Got: 195, expected: 195
+WRITE: 196
+READ: 196
+OK! Got: 196, expected: 196
+WRITE: 197
+READ: 197
+OK! Got: 197, expected: 197
+WRITE: 198
+READ: 198
+OK! Got: 198, expected: 198
+WRITE: 199
+READ: 199
+OK! Got: 199, expected: 199
+WRITE: 200
+READ: 200
+OK! Got: 200, expected: 200
+WRITE: 201
+READ: 201
+OK! Got: 201, expected: 201
+WRITE: 202
+READ: 202
+OK! Got: 202, expected: 202
+WRITE: 203
+READ: 203
+OK! Got: 203, expected: 203
+WRITE: 204
+READ: 204
+OK! Got: 204, expected: 204
+WRITE: 205
+READ: 205
+OK! Got: 205, expected: 205
+WRITE: 206
+READ: 206
+OK! Got: 206, expected: 206
+WRITE: 207
+READ: 207
+OK! Got: 207, expected: 207
+WRITE: 208
+READ: 208
+OK! Got: 208, expected: 208
+WRITE: 209
+READ: 209
+OK! Got: 209, expected: 209
+WRITE: 210
+READ: 210
+OK! Got: 210, expected: 210
+WRITE: 211
+READ: 211
+OK! Got: 211, expected: 211
+WRITE: 212
+READ: 212
+OK! Got: 212, expected: 212
+WRITE: 213
+READ: 213
+OK! Got: 213, expected: 213
+WRITE: 214
+READ: 214
+OK! Got: 214, expected: 214
+WRITE: 215
+READ: 215
+OK! Got: 215, expected: 215
+WRITE: 216
+READ: 216
+OK! Got: 216, expected: 216
+WRITE: 217
+READ: 217
+OK! Got: 217, expected: 217
+WRITE: 218
+READ: 218
+OK! Got: 218, expected: 218
+WRITE: 219
+READ: 219
+OK! Got: 219, expected: 219
+WRITE: 220
+READ: 220
+OK! Got: 220, expected: 220
+WRITE: 221
+READ: 221
+OK! Got: 221, expected: 221
+WRITE: 222
+READ: 222
+OK! Got: 222, expected: 222
+WRITE: 223
+READ: 223
+OK! Got: 223, expected: 223
+WRITE: 224
+READ: 224
+OK! Got: 224, expected: 224
+WRITE: 225
+READ: 225
+OK! Got: 225, expected: 225
+WRITE: 226
+READ: 226
+OK! Got: 226, expected: 226
+WRITE: 227
+READ: 227
+OK! Got: 227, expected: 227
+WRITE: 228
+READ: 228
+OK! Got: 228, expected: 228
+WRITE: 229
+READ: 229
+OK! Got: 229, expected: 229
+WRITE: 230
+READ: 230
+OK! Got: 230, expected: 230
+WRITE: 231
+READ: 231
+OK! Got: 231, expected: 231
+WRITE: 232
+READ: 232
+OK! Got: 232, expected: 232
+WRITE: 233
+READ: 233
+OK! Got: 233, expected: 233
+WRITE: 234
+READ: 234
+OK! Got: 234, expected: 234
+WRITE: 235
+READ: 235
+OK! Got: 235, expected: 235
+WRITE: 236
+READ: 236
+OK! Got: 236, expected: 236
+WRITE: 237
+READ: 237
+OK! Got: 237, expected: 237
+WRITE: 238
+READ: 238
+OK! Got: 238, expected: 238
+WRITE: 239
+READ: 239
+OK! Got: 239, expected: 239
+WRITE: 240
+READ: 240
+OK! Got: 240, expected: 240
+WRITE: 241
+READ: 241
+OK! Got: 241, expected: 241
+WRITE: 242
+READ: 242
+OK! Got: 242, expected: 242
+WRITE: 243
+READ: 243
+OK! Got: 243, expected: 243
+WRITE: 244
+READ: 244
+OK! Got: 244, expected: 244
+WRITE: 245
+READ: 245
+OK! Got: 245, expected: 245
+WRITE: 246
+READ: 246
+OK! Got: 246, expected: 246
+WRITE: 247
+READ: 247
+OK! Got: 247, expected: 247
+WRITE: 248
+READ: 248
+OK! Got: 248, expected: 248
+WRITE: 249
+READ: 249
+OK! Got: 249, expected: 249
+WRITE: 250
+READ: 250
+OK! Got: 250, expected: 250
+WRITE: 251
+READ: 251
+OK! Got: 251, expected: 251
+WRITE: 252
+READ: 252
+OK! Got: 252, expected: 252
+WRITE: 253
+READ: 253
+OK! Got: 253, expected: 253
+WRITE: 254
+READ: 254
+OK! Got: 254, expected: 254
+WRITE: 255
+READ: 255
+OK! Got: 255, expected: 255
+WRITE: 256
+READ: 256
+OK! Got: 256, expected: 256
+WRITE: 257
+READ: 257
+OK! Got: 257, expected: 257
+WRITE: 258
+READ: 258
+OK! Got: 258, expected: 258
+WRITE: 259
+READ: 259
+OK! Got: 259, expected: 259
+WRITE: 260
+READ: 260
+OK! Got: 260, expected: 260
+WRITE: 261
+READ: 261
+OK! Got: 261, expected: 261
+WRITE: 262
+READ: 262
+OK! Got: 262, expected: 262
+WRITE: 263
+READ: 263
+OK! Got: 263, expected: 263
+WRITE: 264
+READ: 264
+OK! Got: 264, expected: 264
+WRITE: 265
+READ: 265
+OK! Got: 265, expected: 265
+WRITE: 266
+READ: 266
+OK! Got: 266, expected: 266
+WRITE: 267
+READ: 267
+OK! Got: 267, expected: 267
+WRITE: 268
+READ: 268
+OK! Got: 268, expected: 268
+WRITE: 269
+READ: 269
+OK! Got: 269, expected: 269
+WRITE: 270
+READ: 270
+OK! Got: 270, expected: 270
+WRITE: 271
+READ: 271
+OK! Got: 271, expected: 271
+WRITE: 272
+READ: 272
+OK! Got: 272, expected: 272
+WRITE: 273
+READ: 273
+OK! Got: 273, expected: 273
+WRITE: 274
+READ: 274
+OK! Got: 274, expected: 274
+WRITE: 275
+READ: 275
+OK! Got: 275, expected: 275
+WRITE: 276
+READ: 276
+OK! Got: 276, expected: 276
+WRITE: 277
+READ: 277
+OK! Got: 277, expected: 277
+WRITE: 278
+READ: 278
+OK! Got: 278, expected: 278
+WRITE: 279
+READ: 279
+OK! Got: 279, expected: 279
+WRITE: 280
+READ: 280
+OK! Got: 280, expected: 280
+WRITE: 281
+READ: 281
+OK! Got: 281, expected: 281
+WRITE: 282
+READ: 282
+OK! Got: 282, expected: 282
+WRITE: 283
+READ: 283
+OK! Got: 283, expected: 283
+WRITE: 284
+READ: 284
+OK! Got: 284, expected: 284
+WRITE: 285
+READ: 285
+OK! Got: 285, expected: 285
+WRITE: 286
+READ: 286
+OK! Got: 286, expected: 286
+WRITE: 287
+READ: 287
+OK! Got: 287, expected: 287
+WRITE: 288
+READ: 288
+OK! Got: 288, expected: 288
+WRITE: 289
+READ: 289
+OK! Got: 289, expected: 289
+WRITE: 290
+READ: 290
+OK! Got: 290, expected: 290
+WRITE: 291
+READ: 291
+OK! Got: 291, expected: 291
+WRITE: 292
+READ: 292
+OK! Got: 292, expected: 292
+WRITE: 293
+READ: 293
+OK! Got: 293, expected: 293
+WRITE: 294
+READ: 294
+OK! Got: 294, expected: 294
+WRITE: 295
+READ: 295
+OK! Got: 295, expected: 295
+WRITE: 296
+READ: 296
+OK! Got: 296, expected: 296
+WRITE: 297
+READ: 297
+OK! Got: 297, expected: 297
+WRITE: 298
+READ: 298
+OK! Got: 298, expected: 298
+WRITE: 299
+READ: 299
+OK! Got: 299, expected: 299
+WRITE: 300
+READ: 300
+OK! Got: 300, expected: 300
+WRITE: 301
+READ: 301
+OK! Got: 301, expected: 301
+WRITE: 302
+READ: 302
+OK! Got: 302, expected: 302
+WRITE: 303
+READ: 303
+OK! Got: 303, expected: 303
+WRITE: 304
+READ: 304
+OK! Got: 304, expected: 304
+WRITE: 305
+READ: 305
+OK! Got: 305, expected: 305
+WRITE: 306
+READ: 306
+OK! Got: 306, expected: 306
+WRITE: 307
+READ: 307
+OK! Got: 307, expected: 307
+WRITE: 308
+READ: 308
+OK! Got: 308, expected: 308
+WRITE: 309
+READ: 309
+OK! Got: 309, expected: 309
+WRITE: 310
+READ: 310
+OK! Got: 310, expected: 310
+WRITE: 311
+READ: 311
+OK! Got: 311, expected: 311
+WRITE: 312
+READ: 312
+OK! Got: 312, expected: 312
+WRITE: 313
+READ: 313
+OK! Got: 313, expected: 313
+WRITE: 314
+READ: 314
+OK! Got: 314, expected: 314
+WRITE: 315
+READ: 315
+OK! Got: 315, expected: 315
+WRITE: 316
+READ: 316
+OK! Got: 316, expected: 316
+WRITE: 317
+READ: 317
+OK! Got: 317, expected: 317
+WRITE: 318
+READ: 318
+OK! Got: 318, expected: 318
+WRITE: 319
+READ: 319
+OK! Got: 319, expected: 319
+WRITE: 320
+READ: 320
+OK! Got: 320, expected: 320
+WRITE: 321
+READ: 321
+OK! Got: 321, expected: 321
+WRITE: 322
+READ: 322
+OK! Got: 322, expected: 322
+WRITE: 323
+READ: 323
+OK! Got: 323, expected: 323
+WRITE: 324
+READ: 324
+OK! Got: 324, expected: 324
+WRITE: 325
+READ: 325
+OK! Got: 325, expected: 325
+WRITE: 326
+READ: 326
+OK! Got: 326, expected: 326
+WRITE: 327
+READ: 327
+OK! Got: 327, expected: 327
+WRITE: 328
+READ: 328
+OK! Got: 328, expected: 328
+WRITE: 329
+READ: 329
+OK! Got: 329, expected: 329
+WRITE: 330
+READ: 330
+OK! Got: 330, expected: 330
+WRITE: 331
+READ: 331
+OK! Got: 331, expected: 331
+WRITE: 332
+READ: 332
+OK! Got: 332, expected: 332
+WRITE: 333
+READ: 333
+OK! Got: 333, expected: 333
+WRITE: 334
+READ: 334
+OK! Got: 334, expected: 334
+WRITE: 335
+READ: 335
+OK! Got: 335, expected: 335
+WRITE: 336
+READ: 336
+OK! Got: 336, expected: 336
+WRITE: 337
+READ: 337
+OK! Got: 337, expected: 337
+WRITE: 338
+READ: 338
+OK! Got: 338, expected: 338
+WRITE: 339
+READ: 339
+OK! Got: 339, expected: 339
+WRITE: 340
+READ: 340
+OK! Got: 340, expected: 340
+WRITE: 341
+READ: 341
+OK! Got: 341, expected: 341
+WRITE: 342
+READ: 342
+OK! Got: 342, expected: 342
+WRITE: 343
+READ: 343
+OK! Got: 343, expected: 343
+WRITE: 344
+READ: 344
+OK! Got: 344, expected: 344
+WRITE: 345
+READ: 345
+OK! Got: 345, expected: 345
+WRITE: 346
+READ: 346
+OK! Got: 346, expected: 346
+WRITE: 347
+READ: 347
+OK! Got: 347, expected: 347
+WRITE: 348
+READ: 348
+OK! Got: 348, expected: 348
+WRITE: 349
+READ: 349
+OK! Got: 349, expected: 349
+WRITE: 350
+READ: 350
+OK! Got: 350, expected: 350
+WRITE: 351
+READ: 351
+OK! Got: 351, expected: 351
+WRITE: 352
+READ: 352
+OK! Got: 352, expected: 352
+WRITE: 353
+READ: 353
+OK! Got: 353, expected: 353
+WRITE: 354
+READ: 354
+OK! Got: 354, expected: 354
+WRITE: 355
+READ: 355
+OK! Got: 355, expected: 355
+WRITE: 356
+READ: 356
+OK! Got: 356, expected: 356
+WRITE: 357
+READ: 357
+OK! Got: 357, expected: 357
+WRITE: 358
+READ: 358
+OK! Got: 358, expected: 358
+WRITE: 359
+READ: 359
+OK! Got: 359, expected: 359
+WRITE: 360
+READ: 360
+OK! Got: 360, expected: 360
+WRITE: 361
+READ: 361
+OK! Got: 361, expected: 361
+WRITE: 362
+READ: 362
+OK! Got: 362, expected: 362
+WRITE: 363
+READ: 363
+OK! Got: 363, expected: 363
+WRITE: 364
+READ: 364
+OK! Got: 364, expected: 364
+WRITE: 365
+READ: 365
+OK! Got: 365, expected: 365
+WRITE: 366
+READ: 366
+OK! Got: 366, expected: 366
+WRITE: 367
+READ: 367
+OK! Got: 367, expected: 367
+WRITE: 368
+READ: 368
+OK! Got: 368, expected: 368
+WRITE: 369
+READ: 369
+OK! Got: 369, expected: 369
+WRITE: 370
+READ: 370
+OK! Got: 370, expected: 370
+WRITE: 371
+READ: 371
+OK! Got: 371, expected: 371
+WRITE: 372
+READ: 372
+OK! Got: 372, expected: 372
+WRITE: 373
+READ: 373
+OK! Got: 373, expected: 373
+WRITE: 374
+READ: 374
+OK! Got: 374, expected: 374
+WRITE: 375
+READ: 375
+OK! Got: 375, expected: 375
+WRITE: 376
+READ: 376
+OK! Got: 376, expected: 376
+WRITE: 377
+READ: 377
+OK! Got: 377, expected: 377
+WRITE: 378
+READ: 378
+OK! Got: 378, expected: 378
+WRITE: 379
+READ: 379
+OK! Got: 379, expected: 379
+WRITE: 380
+READ: 380
+OK! Got: 380, expected: 380
+WRITE: 381
+READ: 381
+OK! Got: 381, expected: 381
+WRITE: 382
+READ: 382
+OK! Got: 382, expected: 382
+WRITE: 383
+READ: 383
+OK! Got: 383, expected: 383
+WRITE: 384
+READ: 384
+OK! Got: 384, expected: 384
+WRITE: 385
+READ: 385
+OK! Got: 385, expected: 385
+WRITE: 386
+READ: 386
+OK! Got: 386, expected: 386
+WRITE: 387
+READ: 387
+OK! Got: 387, expected: 387
+WRITE: 388
+READ: 388
+OK! Got: 388, expected: 388
+WRITE: 389
+READ: 389
+OK! Got: 389, expected: 389
+WRITE: 390
+READ: 390
+OK! Got: 390, expected: 390
+WRITE: 391
+READ: 391
+OK! Got: 391, expected: 391
+WRITE: 392
+READ: 392
+OK! Got: 392, expected: 392
+WRITE: 393
+READ: 393
+OK! Got: 393, expected: 393
+WRITE: 394
+READ: 394
+OK! Got: 394, expected: 394
+WRITE: 395
+READ: 395
+OK! Got: 395, expected: 395
+WRITE: 396
+READ: 396
+OK! Got: 396, expected: 396
+WRITE: 397
+READ: 397
+OK! Got: 397, expected: 397
+WRITE: 398
+READ: 398
+OK! Got: 398, expected: 398
+WRITE: 399
+READ: 399
+OK! Got: 399, expected: 399
+WRITE: 400
+READ: 400
+OK! Got: 400, expected: 400
+WRITE: 401
+READ: 401
+OK! Got: 401, expected: 401
+WRITE: 402
+READ: 402
+OK! Got: 402, expected: 402
+WRITE: 403
+READ: 403
+OK! Got: 403, expected: 403
+WRITE: 404
+READ: 404
+OK! Got: 404, expected: 404
+WRITE: 405
+READ: 405
+OK! Got: 405, expected: 405
+WRITE: 406
+READ: 406
+OK! Got: 406, expected: 406
+WRITE: 407
+READ: 407
+OK! Got: 407, expected: 407
+WRITE: 408
+READ: 408
+OK! Got: 408, expected: 408
+WRITE: 409
+READ: 409
+OK! Got: 409, expected: 409
+WRITE: 410
+READ: 410
+OK! Got: 410, expected: 410
+WRITE: 411
+READ: 411
+OK! Got: 411, expected: 411
+WRITE: 412
+READ: 412
+OK! Got: 412, expected: 412
+WRITE: 413
+READ: 413
+OK! Got: 413, expected: 413
+WRITE: 414
+READ: 414
+OK! Got: 414, expected: 414
+WRITE: 415
+READ: 415
+OK! Got: 415, expected: 415
+WRITE: 416
+READ: 416
+OK! Got: 416, expected: 416
+WRITE: 417
+READ: 417
+OK! Got: 417, expected: 417
+WRITE: 418
+READ: 418
+OK! Got: 418, expected: 418
+WRITE: 419
+READ: 419
+OK! Got: 419, expected: 419
+WRITE: 420
+READ: 420
+OK! Got: 420, expected: 420
+WRITE: 421
+READ: 421
+OK! Got: 421, expected: 421
+WRITE: 422
+READ: 422
+OK! Got: 422, expected: 422
+WRITE: 423
+READ: 423
+OK! Got: 423, expected: 423
+WRITE: 424
+READ: 424
+OK! Got: 424, expected: 424
+WRITE: 425
+READ: 425
+OK! Got: 425, expected: 425
+WRITE: 426
+READ: 426
+OK! Got: 426, expected: 426
+WRITE: 427
+READ: 427
+OK! Got: 427, expected: 427
+WRITE: 428
+READ: 428
+OK! Got: 428, expected: 428
+WRITE: 429
+READ: 429
+OK! Got: 429, expected: 429
+WRITE: 430
+READ: 430
+OK! Got: 430, expected: 430
+WRITE: 431
+READ: 431
+OK! Got: 431, expected: 431
+WRITE: 432
+READ: 432
+OK! Got: 432, expected: 432
+WRITE: 433
+READ: 433
+OK! Got: 433, expected: 433
+WRITE: 434
+READ: 434
+OK! Got: 434, expected: 434
+WRITE: 435
+READ: 435
+OK! Got: 435, expected: 435
+WRITE: 436
+READ: 436
+OK! Got: 436, expected: 436
+WRITE: 437
+READ: 437
+OK! Got: 437, expected: 437
+WRITE: 438
+READ: 438
+OK! Got: 438, expected: 438
+WRITE: 439
+READ: 439
+OK! Got: 439, expected: 439
+WRITE: 440
+READ: 440
+OK! Got: 440, expected: 440
+WRITE: 441
+READ: 441
+OK! Got: 441, expected: 441
+WRITE: 442
+READ: 442
+OK! Got: 442, expected: 442
+WRITE: 443
+READ: 443
+OK! Got: 443, expected: 443
+WRITE: 444
+READ: 444
+OK! Got: 444, expected: 444
+WRITE: 445
+READ: 445
+OK! Got: 445, expected: 445
+WRITE: 446
+READ: 446
+OK! Got: 446, expected: 446
+WRITE: 447
+READ: 447
+OK! Got: 447, expected: 447
+WRITE: 448
+READ: 448
+OK! Got: 448, expected: 448
+WRITE: 449
+READ: 449
+OK! Got: 449, expected: 449
+WRITE: 450
+READ: 450
+OK! Got: 450, expected: 450
+WRITE: 451
+READ: 451
+OK! Got: 451, expected: 451
+WRITE: 452
+READ: 452
+OK! Got: 452, expected: 452
+WRITE: 453
+READ: 453
+OK! Got: 453, expected: 453
+WRITE: 454
+READ: 454
+OK! Got: 454, expected: 454
+WRITE: 455
+READ: 455
+OK! Got: 455, expected: 455
+WRITE: 456
+READ: 456
+OK! Got: 456, expected: 456
+WRITE: 457
+READ: 457
+OK! Got: 457, expected: 457
+WRITE: 458
+READ: 458
+OK! Got: 458, expected: 458
+WRITE: 459
+READ: 459
+OK! Got: 459, expected: 459
+WRITE: 460
+READ: 460
+OK! Got: 460, expected: 460
+WRITE: 461
+READ: 461
+OK! Got: 461, expected: 461
+WRITE: 462
+READ: 462
+OK! Got: 462, expected: 462
+WRITE: 463
+READ: 463
+OK! Got: 463, expected: 463
+WRITE: 464
+READ: 464
+OK! Got: 464, expected: 464
+WRITE: 465
+READ: 465
+OK! Got: 465, expected: 465
+WRITE: 466
+READ: 466
+OK! Got: 466, expected: 466
+WRITE: 467
+READ: 467
+OK! Got: 467, expected: 467
+WRITE: 468
+READ: 468
+OK! Got: 468, expected: 468
+WRITE: 469
+READ: 469
+OK! Got: 469, expected: 469
+WRITE: 470
+READ: 470
+OK! Got: 470, expected: 470
+WRITE: 471
+READ: 471
+OK! Got: 471, expected: 471
+WRITE: 472
+READ: 472
+OK! Got: 472, expected: 472
+WRITE: 473
+READ: 473
+OK! Got: 473, expected: 473
+WRITE: 474
+READ: 474
+OK! Got: 474, expected: 474
+WRITE: 475
+READ: 475
+OK! Got: 475, expected: 475
+WRITE: 476
+READ: 476
+OK! Got: 476, expected: 476
+WRITE: 477
+READ: 477
+OK! Got: 477, expected: 477
+WRITE: 478
+READ: 478
+OK! Got: 478, expected: 478
+WRITE: 479
+READ: 479
+OK! Got: 479, expected: 479
+WRITE: 480
+READ: 480
+OK! Got: 480, expected: 480
+WRITE: 481
+READ: 481
+OK! Got: 481, expected: 481
+WRITE: 482
+READ: 482
+OK! Got: 482, expected: 482
+WRITE: 483
+READ: 483
+OK! Got: 483, expected: 483
+WRITE: 484
+READ: 484
+OK! Got: 484, expected: 484
+WRITE: 485
+READ: 485
+OK! Got: 485, expected: 485
+WRITE: 486
+READ: 486
+OK! Got: 486, expected: 486
+WRITE: 487
+READ: 487
+OK! Got: 487, expected: 487
+WRITE: 488
+READ: 488
+OK! Got: 488, expected: 488
+WRITE: 489
+READ: 489
+OK! Got: 489, expected: 489
+WRITE: 490
+READ: 490
+OK! Got: 490, expected: 490
+WRITE: 491
+READ: 491
+OK! Got: 491, expected: 491
+WRITE: 492
+READ: 492
+OK! Got: 492, expected: 492
+WRITE: 493
+READ: 493
+OK! Got: 493, expected: 493
+WRITE: 494
+READ: 494
+OK! Got: 494, expected: 494
+WRITE: 495
+READ: 495
+OK! Got: 495, expected: 495
+WRITE: 496
+READ: 496
+OK! Got: 496, expected: 496
+WRITE: 497
+READ: 497
+OK! Got: 497, expected: 497
+WRITE: 498
+READ: 498
+OK! Got: 498, expected: 498
+WRITE: 499
+READ: 499
+OK! Got: 499, expected: 499
+WRITE: 500
+READ: 500
+OK! Got: 500, expected: 500
+WRITE: 501
+READ: 501
+OK! Got: 501, expected: 501
+WRITE: 502
+READ: 502
+OK! Got: 502, expected: 502
+WRITE: 503
+READ: 503
+OK! Got: 503, expected: 503
+WRITE: 504
+READ: 504
+OK! Got: 504, expected: 504
+WRITE: 505
+READ: 505
+OK! Got: 505, expected: 505
+WRITE: 506
+READ: 506
+OK! Got: 506, expected: 506
+WRITE: 507
+READ: 507
+OK! Got: 507, expected: 507
+WRITE: 508
+READ: 508
+OK! Got: 508, expected: 508
+WRITE: 509
+READ: 509
+OK! Got: 509, expected: 509
+WRITE: 510
+READ: 510
+OK! Got: 510, expected: 510
+WRITE: 511
+READ: 511
+OK! Got: 511, expected: 511
+WRITE: 512
+READ: 512
+OK! Got: 512, expected: 512
+WRITE: 513
+READ: 513
+OK! Got: 513, expected: 513
+WRITE: 514
+READ: 514
+OK! Got: 514, expected: 514
+WRITE: 515
+READ: 515
+OK! Got: 515, expected: 515
+WRITE: 516
+READ: 516
+OK! Got: 516, expected: 516
+WRITE: 517
+READ: 517
+OK! Got: 517, expected: 517
+WRITE: 518
+READ: 518
+OK! Got: 518, expected: 518
+WRITE: 519
+READ: 519
+OK! Got: 519, expected: 519
+WRITE: 520
+READ: 520
+OK! Got: 520, expected: 520
+WRITE: 521
+READ: 521
+OK! Got: 521, expected: 521
+WRITE: 522
+READ: 522
+OK! Got: 522, expected: 522
+WRITE: 523
+READ: 523
+OK! Got: 523, expected: 523
+WRITE: 524
+READ: 524
+OK! Got: 524, expected: 524
+WRITE: 525
+READ: 525
+OK! Got: 525, expected: 525
+WRITE: 526
+READ: 526
+OK! Got: 526, expected: 526
+WRITE: 527
+READ: 527
+OK! Got: 527, expected: 527
+WRITE: 528
+READ: 528
+OK! Got: 528, expected: 528
+WRITE: 529
+READ: 529
+OK! Got: 529, expected: 529
+WRITE: 530
+READ: 530
+OK! Got: 530, expected: 530
+WRITE: 531
+READ: 531
+OK! Got: 531, expected: 531
+WRITE: 532
+READ: 532
+OK! Got: 532, expected: 532
+WRITE: 533
+READ: 533
+OK! Got: 533, expected: 533
+WRITE: 534
+READ: 534
+OK! Got: 534, expected: 534
+WRITE: 535
+READ: 535
+OK! Got: 535, expected: 535
+WRITE: 536
+READ: 536
+OK! Got: 536, expected: 536
+WRITE: 537
+READ: 537
+OK! Got: 537, expected: 537
+WRITE: 538
+READ: 538
+OK! Got: 538, expected: 538
+WRITE: 539
+READ: 539
+OK! Got: 539, expected: 539
+WRITE: 540
+READ: 540
+OK! Got: 540, expected: 540
+WRITE: 541
+READ: 541
+OK! Got: 541, expected: 541
+WRITE: 542
+READ: 542
+OK! Got: 542, expected: 542
+WRITE: 543
+READ: 543
+OK! Got: 543, expected: 543
+WRITE: 544
+READ: 544
+OK! Got: 544, expected: 544
+WRITE: 545
+READ: 545
+OK! Got: 545, expected: 545
+WRITE: 546
+READ: 546
+OK! Got: 546, expected: 546
+WRITE: 547
+READ: 547
+OK! Got: 547, expected: 547
+WRITE: 548
+READ: 548
+OK! Got: 548, expected: 548
+WRITE: 549
+READ: 549
+OK! Got: 549, expected: 549
+WRITE: 550
+READ: 550
+OK! Got: 550, expected: 550
+WRITE: 551
+READ: 551
+OK! Got: 551, expected: 551
+WRITE: 552
+READ: 552
+OK! Got: 552, expected: 552
+WRITE: 553
+READ: 553
+OK! Got: 553, expected: 553
+WRITE: 554
+READ: 554
+OK! Got: 554, expected: 554
+WRITE: 555
+READ: 555
+OK! Got: 555, expected: 555
+WRITE: 556
+READ: 556
+OK! Got: 556, expected: 556
+WRITE: 557
+READ: 557
+OK! Got: 557, expected: 557
+WRITE: 558
+READ: 558
+OK! Got: 558, expected: 558
+WRITE: 559
+READ: 559
+OK! Got: 559, expected: 559
+WRITE: 560
+READ: 560
+OK! Got: 560, expected: 560
+WRITE: 561
+READ: 561
+OK! Got: 561, expected: 561
+WRITE: 562
+READ: 562
+OK! Got: 562, expected: 562
+WRITE: 563
+READ: 563
+OK! Got: 563, expected: 563
+WRITE: 564
+READ: 564
+OK! Got: 564, expected: 564
+WRITE: 565
+READ: 565
+OK! Got: 565, expected: 565
+WRITE: 566
+READ: 566
+OK! Got: 566, expected: 566
+WRITE: 567
+READ: 567
+OK! Got: 567, expected: 567
+WRITE: 568
+READ: 568
+OK! Got: 568, expected: 568
+WRITE: 569
+READ: 569
+OK! Got: 569, expected: 569
+WRITE: 570
+READ: 570
+OK! Got: 570, expected: 570
+WRITE: 571
+READ: 571
+OK! Got: 571, expected: 571
+WRITE: 572
+READ: 572
+OK! Got: 572, expected: 572
+WRITE: 573
+READ: 573
+OK! Got: 573, expected: 573
+WRITE: 574
+READ: 574
+OK! Got: 574, expected: 574
+WRITE: 575
+READ: 575
+OK! Got: 575, expected: 575
+WRITE: 576
+READ: 576
+OK! Got: 576, expected: 576
+WRITE: 577
+READ: 577
+OK! Got: 577, expected: 577
+WRITE: 578
+READ: 578
+OK! Got: 578, expected: 578
+WRITE: 579
+READ: 579
+OK! Got: 579, expected: 579
+WRITE: 580
+READ: 580
+OK! Got: 580, expected: 580
+WRITE: 581
+READ: 581
+OK! Got: 581, expected: 581
+WRITE: 582
+READ: 582
+OK! Got: 582, expected: 582
+WRITE: 583
+READ: 583
+OK! Got: 583, expected: 583
+WRITE: 584
+READ: 584
+OK! Got: 584, expected: 584
+WRITE: 585
+READ: 585
+OK! Got: 585, expected: 585
+WRITE: 586
+READ: 586
+OK! Got: 586, expected: 586
+WRITE: 587
+READ: 587
+OK! Got: 587, expected: 587
+WRITE: 588
+READ: 588
+OK! Got: 588, expected: 588
+WRITE: 589
+READ: 589
+OK! Got: 589, expected: 589
+WRITE: 590
+READ: 590
+OK! Got: 590, expected: 590
+WRITE: 591
+READ: 591
+OK! Got: 591, expected: 591
+WRITE: 592
+READ: 592
+OK! Got: 592, expected: 592
+WRITE: 593
+READ: 593
+OK! Got: 593, expected: 593
+WRITE: 594
+READ: 594
+OK! Got: 594, expected: 594
+WRITE: 595
+READ: 595
+OK! Got: 595, expected: 595
+WRITE: 596
+READ: 596
+OK! Got: 596, expected: 596
+WRITE: 597
+READ: 597
+OK! Got: 597, expected: 597
+WRITE: 598
+READ: 598
+OK! Got: 598, expected: 598
+WRITE: 599
+READ: 599
+OK! Got: 599, expected: 599
+WRITE: 600
+READ: 600
+OK! Got: 600, expected: 600
+WRITE: 601
+READ: 601
+OK! Got: 601, expected: 601
+WRITE: 602
+READ: 602
+OK! Got: 602, expected: 602
+WRITE: 603
+READ: 603
+OK! Got: 603, expected: 603
+WRITE: 604
+READ: 604
+OK! Got: 604, expected: 604
+WRITE: 605
+READ: 605
+OK! Got: 605, expected: 605
+WRITE: 606
+READ: 606
+OK! Got: 606, expected: 606
+WRITE: 607
+READ: 607
+OK! Got: 607, expected: 607
+WRITE: 608
+READ: 608
+OK! Got: 608, expected: 608
+WRITE: 609
+READ: 609
+OK! Got: 609, expected: 609
+WRITE: 610
+READ: 610
+OK! Got: 610, expected: 610
+WRITE: 611
+READ: 611
+OK! Got: 611, expected: 611
+WRITE: 612
+READ: 612
+OK! Got: 612, expected: 612
+WRITE: 613
+READ: 613
+OK! Got: 613, expected: 613
+WRITE: 614
+READ: 614
+OK! Got: 614, expected: 614
+WRITE: 615
+READ: 615
+OK! Got: 615, expected: 615
+WRITE: 616
+READ: 616
+OK! Got: 616, expected: 616
+WRITE: 617
+READ: 617
+OK! Got: 617, expected: 617
+WRITE: 618
+READ: 618
+OK! Got: 618, expected: 618
+WRITE: 619
+READ: 619
+OK! Got: 619, expected: 619
+WRITE: 620
+READ: 620
+OK! Got: 620, expected: 620
+WRITE: 621
+READ: 621
+OK! Got: 621, expected: 621
+WRITE: 622
+READ: 622
+OK! Got: 622, expected: 622
+WRITE: 623
+READ: 623
+OK! Got: 623, expected: 623
+WRITE: 624
+READ: 624
+OK! Got: 624, expected: 624
+WRITE: 625
+READ: 625
+OK! Got: 625, expected: 625
+WRITE: 626
+READ: 626
+OK! Got: 626, expected: 626
+WRITE: 627
+READ: 627
+OK! Got: 627, expected: 627
+WRITE: 628
+READ: 628
+OK! Got: 628, expected: 628
+WRITE: 629
+READ: 629
+OK! Got: 629, expected: 629
+WRITE: 630
+READ: 630
+OK! Got: 630, expected: 630
+WRITE: 631
+READ: 631
+OK! Got: 631, expected: 631
+WRITE: 632
+READ: 632
+OK! Got: 632, expected: 632
+WRITE: 633
+READ: 633
+OK! Got: 633, expected: 633
+WRITE: 634
+READ: 634
+OK! Got: 634, expected: 634
+WRITE: 635
+READ: 635
+OK! Got: 635, expected: 635
+WRITE: 636
+READ: 636
+OK! Got: 636, expected: 636
+WRITE: 637
+READ: 637
+OK! Got: 637, expected: 637
+WRITE: 638
+READ: 638
+OK! Got: 638, expected: 638
+WRITE: 639
+READ: 639
+OK! Got: 639, expected: 639
+WRITE: 640
+READ: 640
+OK! Got: 640, expected: 640
+WRITE: 641
+READ: 641
+OK! Got: 641, expected: 641
+WRITE: 642
+READ: 642
+OK! Got: 642, expected: 642
+WRITE: 643
+READ: 643
+OK! Got: 643, expected: 643
+WRITE: 644
+READ: 644
+OK! Got: 644, expected: 644
+WRITE: 645
+READ: 645
+OK! Got: 645, expected: 645
+WRITE: 646
+READ: 646
+OK! Got: 646, expected: 646
+WRITE: 647
+READ: 647
+OK! Got: 647, expected: 647
+WRITE: 648
+READ: 648
+OK! Got: 648, expected: 648
+WRITE: 649
+READ: 649
+OK! Got: 649, expected: 649
+WRITE: 650
+READ: 650
+OK! Got: 650, expected: 650
+WRITE: 651
+READ: 651
+OK! Got: 651, expected: 651
+WRITE: 652
+READ: 652
+OK! Got: 652, expected: 652
+WRITE: 653
+READ: 653
+OK! Got: 653, expected: 653
+WRITE: 654
+READ: 654
+OK! Got: 654, expected: 654
+WRITE: 655
+READ: 655
+OK! Got: 655, expected: 655
+WRITE: 656
+READ: 656
+OK! Got: 656, expected: 656
+WRITE: 657
+READ: 657
+OK! Got: 657, expected: 657
+WRITE: 658
+READ: 658
+OK! Got: 658, expected: 658
+WRITE: 659
+READ: 659
+OK! Got: 659, expected: 659
+WRITE: 660
+READ: 660
+OK! Got: 660, expected: 660
+WRITE: 661
+READ: 661
+OK! Got: 661, expected: 661
+WRITE: 662
+READ: 662
+OK! Got: 662, expected: 662
+WRITE: 663
+READ: 663
+OK! Got: 663, expected: 663
+WRITE: 664
+READ: 664
+OK! Got: 664, expected: 664
+WRITE: 665
+READ: 665
+OK! Got: 665, expected: 665
+WRITE: 666
+READ: 666
+OK! Got: 666, expected: 666
+WRITE: 667
+READ: 667
+OK! Got: 667, expected: 667
+WRITE: 668
+READ: 668
+OK! Got: 668, expected: 668
+WRITE: 669
+READ: 669
+OK! Got: 669, expected: 669
+WRITE: 670
+READ: 670
+OK! Got: 670, expected: 670
+WRITE: 671
+READ: 671
+OK! Got: 671, expected: 671
+WRITE: 672
+READ: 672
+OK! Got: 672, expected: 672
+WRITE: 673
+READ: 673
+OK! Got: 673, expected: 673
+WRITE: 674
+READ: 674
+OK! Got: 674, expected: 674
+WRITE: 675
+READ: 675
+OK! Got: 675, expected: 675
+WRITE: 676
+READ: 676
+OK! Got: 676, expected: 676
+WRITE: 677
+READ: 677
+OK! Got: 677, expected: 677
+WRITE: 678
+READ: 678
+OK! Got: 678, expected: 678
+WRITE: 679
+READ: 679
+OK! Got: 679, expected: 679
+WRITE: 680
+READ: 680
+OK! Got: 680, expected: 680
+WRITE: 681
+READ: 681
+OK! Got: 681, expected: 681
+WRITE: 682
+READ: 682
+OK! Got: 682, expected: 682
+WRITE: 683
+READ: 683
+OK! Got: 683, expected: 683
+WRITE: 684
+READ: 684
+OK! Got: 684, expected: 684
+WRITE: 685
+READ: 685
+OK! Got: 685, expected: 685
+WRITE: 686
+READ: 686
+OK! Got: 686, expected: 686
+WRITE: 687
+READ: 687
+OK! Got: 687, expected: 687
+WRITE: 688
+READ: 688
+OK! Got: 688, expected: 688
+WRITE: 689
+READ: 689
+OK! Got: 689, expected: 689
+WRITE: 690
+READ: 690
+OK! Got: 690, expected: 690
+WRITE: 691
+READ: 691
+OK! Got: 691, expected: 691
+WRITE: 692
+READ: 692
+OK! Got: 692, expected: 692
+WRITE: 693
+READ: 693
+OK! Got: 693, expected: 693
+WRITE: 694
+READ: 694
+OK! Got: 694, expected: 694
+WRITE: 695
+READ: 695
+OK! Got: 695, expected: 695
+WRITE: 696
+READ: 696
+OK! Got: 696, expected: 696
+WRITE: 697
+READ: 697
+OK! Got: 697, expected: 697
+WRITE: 698
+READ: 698
+OK! Got: 698, expected: 698
+WRITE: 699
+READ: 699
+OK! Got: 699, expected: 699
+WRITE: 700
+READ: 700
+OK! Got: 700, expected: 700
+WRITE: 701
+READ: 701
+OK! Got: 701, expected: 701
+WRITE: 702
+READ: 702
+OK! Got: 702, expected: 702
+WRITE: 703
+READ: 703
+OK! Got: 703, expected: 703
+WRITE: 704
+READ: 704
+OK! Got: 704, expected: 704
+WRITE: 705
+READ: 705
+OK! Got: 705, expected: 705
+WRITE: 706
+READ: 706
+OK! Got: 706, expected: 706
+WRITE: 707
+READ: 707
+OK! Got: 707, expected: 707
+WRITE: 708
+READ: 708
+OK! Got: 708, expected: 708
+WRITE: 709
+READ: 709
+OK! Got: 709, expected: 709
+WRITE: 710
+READ: 710
+OK! Got: 710, expected: 710
+WRITE: 711
+READ: 711
+OK! Got: 711, expected: 711
+WRITE: 712
+READ: 712
+OK! Got: 712, expected: 712
+WRITE: 713
+READ: 713
+OK! Got: 713, expected: 713
+WRITE: 714
+READ: 714
+OK! Got: 714, expected: 714
+WRITE: 715
+READ: 715
+OK! Got: 715, expected: 715
+WRITE: 716
+READ: 716
+OK! Got: 716, expected: 716
+WRITE: 717
+READ: 717
+OK! Got: 717, expected: 717
+WRITE: 718
+READ: 718
+OK! Got: 718, expected: 718
+WRITE: 719
+READ: 719
+OK! Got: 719, expected: 719
+WRITE: 720
+READ: 720
+OK! Got: 720, expected: 720
+WRITE: 721
+READ: 721
+OK! Got: 721, expected: 721
+WRITE: 722
+READ: 722
+OK! Got: 722, expected: 722
+WRITE: 723
+READ: 723
+OK! Got: 723, expected: 723
+WRITE: 724
+READ: 724
+OK! Got: 724, expected: 724
+WRITE: 725
+READ: 725
+OK! Got: 725, expected: 725
+WRITE: 726
+READ: 726
+OK! Got: 726, expected: 726
+WRITE: 727
+READ: 727
+OK! Got: 727, expected: 727
+WRITE: 728
+READ: 728
+OK! Got: 728, expected: 728
+WRITE: 729
+READ: 729
+OK! Got: 729, expected: 729
+WRITE: 730
+READ: 730
+OK! Got: 730, expected: 730
+WRITE: 731
+READ: 731
+OK! Got: 731, expected: 731
+WRITE: 732
+READ: 732
+OK! Got: 732, expected: 732
+WRITE: 733
+READ: 733
+OK! Got: 733, expected: 733
+WRITE: 734
+READ: 734
+OK! Got: 734, expected: 734
+WRITE: 735
+READ: 735
+OK! Got: 735, expected: 735
+WRITE: 736
+READ: 736
+OK! Got: 736, expected: 736
+WRITE: 737
+READ: 737
+OK! Got: 737, expected: 737
+WRITE: 738
+READ: 738
+OK! Got: 738, expected: 738
+WRITE: 739
+READ: 739
+OK! Got: 739, expected: 739
+WRITE: 740
+READ: 740
+OK! Got: 740, expected: 740
+WRITE: 741
+READ: 741
+OK! Got: 741, expected: 741
+WRITE: 742
+READ: 742
+OK! Got: 742, expected: 742
+WRITE: 743
+READ: 743
+OK! Got: 743, expected: 743
+WRITE: 744
+READ: 744
+OK! Got: 744, expected: 744
+WRITE: 745
+READ: 745
+OK! Got: 745, expected: 745
+WRITE: 746
+READ: 746
+OK! Got: 746, expected: 746
+WRITE: 747
+READ: 747
+OK! Got: 747, expected: 747
+WRITE: 748
+READ: 748
+OK! Got: 748, expected: 748
+WRITE: 749
+READ: 749
+OK! Got: 749, expected: 749
+WRITE: 750
+READ: 750
+OK! Got: 750, expected: 750
+WRITE: 751
+READ: 751
+OK! Got: 751, expected: 751
+WRITE: 752
+READ: 752
+OK! Got: 752, expected: 752
+WRITE: 753
+READ: 753
+OK! Got: 753, expected: 753
+WRITE: 754
+READ: 754
+OK! Got: 754, expected: 754
+WRITE: 755
+READ: 755
+OK! Got: 755, expected: 755
+WRITE: 756
+READ: 756
+OK! Got: 756, expected: 756
+WRITE: 757
+READ: 757
+OK! Got: 757, expected: 757
+WRITE: 758
+READ: 758
+OK! Got: 758, expected: 758
+WRITE: 759
+READ: 759
+OK! Got: 759, expected: 759
+WRITE: 760
+READ: 760
+OK! Got: 760, expected: 760
+WRITE: 761
+READ: 761
+OK! Got: 761, expected: 761
+WRITE: 762
+READ: 762
+OK! Got: 762, expected: 762
+WRITE: 763
+READ: 763
+OK! Got: 763, expected: 763
+WRITE: 764
+READ: 764
+OK! Got: 764, expected: 764
+WRITE: 765
+READ: 765
+OK! Got: 765, expected: 765
+WRITE: 766
+READ: 766
+OK! Got: 766, expected: 766
+WRITE: 767
+READ: 767
+OK! Got: 767, expected: 767
+WRITE: 768
+READ: 768
+OK! Got: 768, expected: 768
+WRITE: 769
+READ: 769
+OK! Got: 769, expected: 769
+WRITE: 770
+READ: 770
+OK! Got: 770, expected: 770
+WRITE: 771
+READ: 771
+OK! Got: 771, expected: 771
+WRITE: 772
+READ: 772
+OK! Got: 772, expected: 772
+WRITE: 773
+READ: 773
+OK! Got: 773, expected: 773
+WRITE: 774
+READ: 774
+OK! Got: 774, expected: 774
+WRITE: 775
+READ: 775
+OK! Got: 775, expected: 775
+WRITE: 776
+READ: 776
+OK! Got: 776, expected: 776
+WRITE: 777
+READ: 777
+OK! Got: 777, expected: 777
+WRITE: 778
+READ: 778
+OK! Got: 778, expected: 778
+WRITE: 779
+READ: 779
+OK! Got: 779, expected: 779
+WRITE: 780
+READ: 780
+OK! Got: 780, expected: 780
+WRITE: 781
+READ: 781
+OK! Got: 781, expected: 781
+WRITE: 782
+READ: 782
+OK! Got: 782, expected: 782
+WRITE: 783
+READ: 783
+OK! Got: 783, expected: 783
+WRITE: 784
+READ: 784
+OK! Got: 784, expected: 784
+WRITE: 785
+READ: 785
+OK! Got: 785, expected: 785
+WRITE: 786
+READ: 786
+OK! Got: 786, expected: 786
+WRITE: 787
+READ: 787
+OK! Got: 787, expected: 787
+WRITE: 788
+READ: 788
+OK! Got: 788, expected: 788
+WRITE: 789
+READ: 789
+OK! Got: 789, expected: 789
+WRITE: 790
+READ: 790
+OK! Got: 790, expected: 790
+WRITE: 791
+READ: 791
+OK! Got: 791, expected: 791
+WRITE: 792
+READ: 792
+OK! Got: 792, expected: 792
+WRITE: 793
+READ: 793
+OK! Got: 793, expected: 793
+WRITE: 794
+READ: 794
+OK! Got: 794, expected: 794
+WRITE: 795
+READ: 795
+OK! Got: 795, expected: 795
+WRITE: 796
+READ: 796
+OK! Got: 796, expected: 796
+WRITE: 797
+READ: 797
+OK! Got: 797, expected: 797
+WRITE: 798
+READ: 798
+OK! Got: 798, expected: 798
+WRITE: 799
+READ: 799
+OK! Got: 799, expected: 799
+WRITE: 800
+READ: 800
+OK! Got: 800, expected: 800
+WRITE: 801
+READ: 801
+OK! Got: 801, expected: 801
+WRITE: 802
+READ: 802
+OK! Got: 802, expected: 802
+WRITE: 803
+READ: 803
+OK! Got: 803, expected: 803
+WRITE: 804
+READ: 804
+OK! Got: 804, expected: 804
+WRITE: 805
+READ: 805
+OK! Got: 805, expected: 805
+WRITE: 806
+READ: 806
+OK! Got: 806, expected: 806
+WRITE: 807
+READ: 807
+OK! Got: 807, expected: 807
+WRITE: 808
+READ: 808
+OK! Got: 808, expected: 808
+WRITE: 809
+READ: 809
+OK! Got: 809, expected: 809
+WRITE: 810
+READ: 810
+OK! Got: 810, expected: 810
+WRITE: 811
+READ: 811
+OK! Got: 811, expected: 811
+WRITE: 812
+READ: 812
+OK! Got: 812, expected: 812
+WRITE: 813
+READ: 813
+OK! Got: 813, expected: 813
+WRITE: 814
+READ: 814
+OK! Got: 814, expected: 814
+WRITE: 815
+READ: 815
+OK! Got: 815, expected: 815
+WRITE: 816
+READ: 816
+OK! Got: 816, expected: 816
+WRITE: 817
+READ: 817
+OK! Got: 817, expected: 817
+WRITE: 818
+READ: 818
+OK! Got: 818, expected: 818
+WRITE: 819
+READ: 819
+OK! Got: 819, expected: 819
+WRITE: 820
+READ: 820
+OK! Got: 820, expected: 820
+WRITE: 821
+READ: 821
+OK! Got: 821, expected: 821
+WRITE: 822
+READ: 822
+OK! Got: 822, expected: 822
+WRITE: 823
+READ: 823
+OK! Got: 823, expected: 823
+WRITE: 824
+READ: 824
+OK! Got: 824, expected: 824
+WRITE: 825
+READ: 825
+OK! Got: 825, expected: 825
+WRITE: 826
+READ: 826
+OK! Got: 826, expected: 826
+WRITE: 827
+READ: 827
+OK! Got: 827, expected: 827
+WRITE: 828
+READ: 828
+OK! Got: 828, expected: 828
+WRITE: 829
+READ: 829
+OK! Got: 829, expected: 829
+WRITE: 830
+READ: 830
+OK! Got: 830, expected: 830
+WRITE: 831
+READ: 831
+OK! Got: 831, expected: 831
+WRITE: 832
+READ: 832
+OK! Got: 832, expected: 832
+WRITE: 833
+READ: 833
+OK! Got: 833, expected: 833
+WRITE: 834
+READ: 834
+OK! Got: 834, expected: 834
+WRITE: 835
+READ: 835
+OK! Got: 835, expected: 835
+WRITE: 836
+READ: 836
+OK! Got: 836, expected: 836
+WRITE: 837
+READ: 837
+OK! Got: 837, expected: 837
+WRITE: 838
+READ: 838
+OK! Got: 838, expected: 838
+WRITE: 839
+READ: 839
+OK! Got: 839, expected: 839
+WRITE: 840
+READ: 840
+OK! Got: 840, expected: 840
+WRITE: 841
+READ: 841
+OK! Got: 841, expected: 841
+WRITE: 842
+READ: 842
+OK! Got: 842, expected: 842
+WRITE: 843
+READ: 843
+OK! Got: 843, expected: 843
+WRITE: 844
+READ: 844
+OK! Got: 844, expected: 844
+WRITE: 845
+READ: 845
+OK! Got: 845, expected: 845
+WRITE: 846
+READ: 846
+OK! Got: 846, expected: 846
+WRITE: 847
+READ: 847
+OK! Got: 847, expected: 847
+WRITE: 848
+READ: 848
+OK! Got: 848, expected: 848
+WRITE: 849
+READ: 849
+OK! Got: 849, expected: 849
+WRITE: 850
+READ: 850
+OK! Got: 850, expected: 850
+WRITE: 851
+READ: 851
+OK! Got: 851, expected: 851
+WRITE: 852
+READ: 852
+OK! Got: 852, expected: 852
+WRITE: 853
+READ: 853
+OK! Got: 853, expected: 853
+WRITE: 854
+READ: 854
+OK! Got: 854, expected: 854
+WRITE: 855
+READ: 855
+OK! Got: 855, expected: 855
+WRITE: 856
+READ: 856
+OK! Got: 856, expected: 856
+WRITE: 857
+READ: 857
+OK! Got: 857, expected: 857
+WRITE: 858
+READ: 858
+OK! Got: 858, expected: 858
+WRITE: 859
+READ: 859
+OK! Got: 859, expected: 859
+WRITE: 860
+READ: 860
+OK! Got: 860, expected: 860
+WRITE: 861
+READ: 861
+OK! Got: 861, expected: 861
+WRITE: 862
+READ: 862
+OK! Got: 862, expected: 862
+WRITE: 863
+READ: 863
+OK! Got: 863, expected: 863
+WRITE: 864
+READ: 864
+OK! Got: 864, expected: 864
+WRITE: 865
+READ: 865
+OK! Got: 865, expected: 865
+WRITE: 866
+READ: 866
+OK! Got: 866, expected: 866
+WRITE: 867
+READ: 867
+OK! Got: 867, expected: 867
+WRITE: 868
+READ: 868
+OK! Got: 868, expected: 868
+WRITE: 869
+READ: 869
+OK! Got: 869, expected: 869
+WRITE: 870
+READ: 870
+OK! Got: 870, expected: 870
+WRITE: 871
+READ: 871
+OK! Got: 871, expected: 871
+WRITE: 872
+READ: 872
+OK! Got: 872, expected: 872
+WRITE: 873
+READ: 873
+OK! Got: 873, expected: 873
+WRITE: 874
+READ: 874
+OK! Got: 874, expected: 874
+WRITE: 875
+READ: 875
+OK! Got: 875, expected: 875
+WRITE: 876
+READ: 876
+OK! Got: 876, expected: 876
+WRITE: 877
+READ: 877
+OK! Got: 877, expected: 877
+WRITE: 878
+READ: 878
+OK! Got: 878, expected: 878
+WRITE: 879
+READ: 879
+OK! Got: 879, expected: 879
+WRITE: 880
+READ: 880
+OK! Got: 880, expected: 880
+WRITE: 881
+READ: 881
+OK! Got: 881, expected: 881
+WRITE: 882
+READ: 882
+OK! Got: 882, expected: 882
+WRITE: 883
+READ: 883
+OK! Got: 883, expected: 883
+WRITE: 884
+READ: 884
+OK! Got: 884, expected: 884
+WRITE: 885
+READ: 885
+OK! Got: 885, expected: 885
+WRITE: 886
+READ: 886
+OK! Got: 886, expected: 886
+WRITE: 887
+READ: 887
+OK! Got: 887, expected: 887
+WRITE: 888
+READ: 888
+OK! Got: 888, expected: 888
+WRITE: 889
+READ: 889
+OK! Got: 889, expected: 889
+WRITE: 890
+READ: 890
+OK! Got: 890, expected: 890
+WRITE: 891
+READ: 891
+OK! Got: 891, expected: 891
+WRITE: 892
+READ: 892
+OK! Got: 892, expected: 892
+WRITE: 893
+READ: 893
+OK! Got: 893, expected: 893
+WRITE: 894
+READ: 894
+OK! Got: 894, expected: 894
+WRITE: 895
+READ: 895
+OK! Got: 895, expected: 895
+WRITE: 896
+READ: 896
+OK! Got: 896, expected: 896
+WRITE: 897
+READ: 897
+OK! Got: 897, expected: 897
+WRITE: 898
+READ: 898
+OK! Got: 898, expected: 898
+WRITE: 899
+READ: 899
+OK! Got: 899, expected: 899
+WRITE: 900
+READ: 900
+OK! Got: 900, expected: 900
+WRITE: 901
+READ: 901
+OK! Got: 901, expected: 901
+WRITE: 902
+READ: 902
+OK! Got: 902, expected: 902
+WRITE: 903
+READ: 903
+OK! Got: 903, expected: 903
+WRITE: 904
+READ: 904
+OK! Got: 904, expected: 904
+WRITE: 905
+READ: 905
+OK! Got: 905, expected: 905
+WRITE: 906
+READ: 906
+OK! Got: 906, expected: 906
+WRITE: 907
+READ: 907
+OK! Got: 907, expected: 907
+WRITE: 908
+READ: 908
+OK! Got: 908, expected: 908
+WRITE: 909
+READ: 909
+OK! Got: 909, expected: 909
+WRITE: 910
+READ: 910
+OK! Got: 910, expected: 910
+WRITE: 911
+READ: 911
+OK! Got: 911, expected: 911
+WRITE: 912
+READ: 912
+OK! Got: 912, expected: 912
+WRITE: 913
+READ: 913
+OK! Got: 913, expected: 913
+WRITE: 914
+READ: 914
+OK! Got: 914, expected: 914
+WRITE: 915
+READ: 915
+OK! Got: 915, expected: 915
+WRITE: 916
+READ: 916
+OK! Got: 916, expected: 916
+WRITE: 917
+READ: 917
+OK! Got: 917, expected: 917
+WRITE: 918
+READ: 918
+OK! Got: 918, expected: 918
+WRITE: 919
+READ: 919
+OK! Got: 919, expected: 919
+WRITE: 920
+READ: 920
+OK! Got: 920, expected: 920
+WRITE: 921
+READ: 921
+OK! Got: 921, expected: 921
+WRITE: 922
+READ: 922
+OK! Got: 922, expected: 922
+WRITE: 923
+READ: 923
+OK! Got: 923, expected: 923
+WRITE: 924
+READ: 924
+OK! Got: 924, expected: 924
+WRITE: 925
+READ: 925
+OK! Got: 925, expected: 925
+WRITE: 926
+READ: 926
+OK! Got: 926, expected: 926
+WRITE: 927
+READ: 927
+OK! Got: 927, expected: 927
+WRITE: 928
+READ: 928
+OK! Got: 928, expected: 928
+WRITE: 929
+READ: 929
+OK! Got: 929, expected: 929
+WRITE: 930
+READ: 930
+OK! Got: 930, expected: 930
+WRITE: 931
+READ: 931
+OK! Got: 931, expected: 931
+WRITE: 932
+READ: 932
+OK! Got: 932, expected: 932
+WRITE: 933
+READ: 933
+OK! Got: 933, expected: 933
+WRITE: 934
+READ: 934
+OK! Got: 934, expected: 934
+WRITE: 935
+READ: 935
+OK! Got: 935, expected: 935
+WRITE: 936
+READ: 936
+OK! Got: 936, expected: 936
+WRITE: 937
+READ: 937
+OK! Got: 937, expected: 937
+WRITE: 938
+READ: 938
+OK! Got: 938, expected: 938
+WRITE: 939
+READ: 939
+OK! Got: 939, expected: 939
+WRITE: 940
+READ: 940
+OK! Got: 940, expected: 940
+WRITE: 941
+READ: 941
+OK! Got: 941, expected: 941
+WRITE: 942
+READ: 942
+OK! Got: 942, expected: 942
+WRITE: 943
+READ: 943
+OK! Got: 943, expected: 943
+WRITE: 944
+READ: 944
+OK! Got: 944, expected: 944
+WRITE: 945
+READ: 945
+OK! Got: 945, expected: 945
+WRITE: 946
+READ: 946
+OK! Got: 946, expected: 946
+WRITE: 947
+READ: 947
+OK! Got: 947, expected: 947
+WRITE: 948
+READ: 948
+OK! Got: 948, expected: 948
+WRITE: 949
+READ: 949
+OK! Got: 949, expected: 949
+WRITE: 950
+READ: 950
+OK! Got: 950, expected: 950
+WRITE: 951
+READ: 951
+OK! Got: 951, expected: 951
+WRITE: 952
+READ: 952
+OK! Got: 952, expected: 952
+WRITE: 953
+READ: 953
+OK! Got: 953, expected: 953
+WRITE: 954
+READ: 954
+OK! Got: 954, expected: 954
+WRITE: 955
+READ: 955
+OK! Got: 955, expected: 955
+WRITE: 956
+READ: 956
+OK! Got: 956, expected: 956
+WRITE: 957
+READ: 957
+OK! Got: 957, expected: 957
+WRITE: 958
+READ: 958
+OK! Got: 958, expected: 958
+WRITE: 959
+READ: 959
+OK! Got: 959, expected: 959
+WRITE: 960
+READ: 960
+OK! Got: 960, expected: 960
+WRITE: 961
+READ: 961
+OK! Got: 961, expected: 961
+WRITE: 962
+READ: 962
+OK! Got: 962, expected: 962
+WRITE: 963
+READ: 963
+OK! Got: 963, expected: 963
+WRITE: 964
+READ: 964
+OK! Got: 964, expected: 964
+WRITE: 965
+READ: 965
+OK! Got: 965, expected: 965
+WRITE: 966
+READ: 966
+OK! Got: 966, expected: 966
+WRITE: 967
+READ: 967
+OK! Got: 967, expected: 967
+WRITE: 968
+READ: 968
+OK! Got: 968, expected: 968
+WRITE: 969
+READ: 969
+OK! Got: 969, expected: 969
+WRITE: 970
+READ: 970
+OK! Got: 970, expected: 970
+WRITE: 971
+READ: 971
+OK! Got: 971, expected: 971
+WRITE: 972
+READ: 972
+OK! Got: 972, expected: 972
+WRITE: 973
+READ: 973
+OK! Got: 973, expected: 973
+WRITE: 974
+READ: 974
+OK! Got: 974, expected: 974
+WRITE: 975
+READ: 975
+OK! Got: 975, expected: 975
+WRITE: 976
+READ: 976
+OK! Got: 976, expected: 976
+WRITE: 977
+READ: 977
+OK! Got: 977, expected: 977
+WRITE: 978
+READ: 978
+OK! Got: 978, expected: 978
+WRITE: 979
+READ: 979
+OK! Got: 979, expected: 979
+WRITE: 980
+READ: 980
+OK! Got: 980, expected: 980
+WRITE: 981
+READ: 981
+OK! Got: 981, expected: 981
+WRITE: 982
+READ: 982
+OK! Got: 982, expected: 982
+WRITE: 983
+READ: 983
+OK! Got: 983, expected: 983
+WRITE: 984
+READ: 984
+OK! Got: 984, expected: 984
+WRITE: 985
+READ: 985
+OK! Got: 985, expected: 985
+WRITE: 986
+READ: 986
+OK! Got: 986, expected: 986
+WRITE: 987
+READ: 987
+OK! Got: 987, expected: 987
+WRITE: 988
+READ: 988
+OK! Got: 988, expected: 988
+WRITE: 989
+READ: 989
+OK! Got: 989, expected: 989
+WRITE: 990
+READ: 990
+OK! Got: 990, expected: 990
+WRITE: 991
+READ: 991
+OK! Got: 991, expected: 991
+WRITE: 992
+READ: 992
+OK! Got: 992, expected: 992
+WRITE: 993
+READ: 993
+OK! Got: 993, expected: 993
+WRITE: 994
+READ: 994
+OK! Got: 994, expected: 994
+WRITE: 995
+READ: 995
+OK! Got: 995, expected: 995
+WRITE: 996
+READ: 996
+OK! Got: 996, expected: 996
+WRITE: 997
+READ: 997
+OK! Got: 997, expected: 997
+WRITE: 998
+READ: 998
+OK! Got: 998, expected: 998
+WRITE: 999
+READ: 999
+OK! Got: 999, expected: 999
+WRITE: 1000
+READ: 1000
+OK! Got: 1000, expected: 1000
+WRITE: 1001
+READ: 1001
+OK! Got: 1001, expected: 1001
+WRITE: 1002
+READ: 1002
+OK! Got: 1002, expected: 1002
+WRITE: 1003
+READ: 1003
+OK! Got: 1003, expected: 1003
+WRITE: 1004
+READ: 1004
+OK! Got: 1004, expected: 1004
+WRITE: 1005
+READ: 1005
+OK! Got: 1005, expected: 1005
+WRITE: 1006
+READ: 1006
+OK! Got: 1006, expected: 1006
+WRITE: 1007
+READ: 1007
+OK! Got: 1007, expected: 1007
+WRITE: 1008
+READ: 1008
+OK! Got: 1008, expected: 1008
+WRITE: 1009
+READ: 1009
+OK! Got: 1009, expected: 1009
+WRITE: 1010
+READ: 1010
+OK! Got: 1010, expected: 1010
+WRITE: 1011
+READ: 1011
+OK! Got: 1011, expected: 1011
+WRITE: 1012
+READ: 1012
+OK! Got: 1012, expected: 1012
+WRITE: 1013
+READ: 1013
+OK! Got: 1013, expected: 1013
+WRITE: 1014
+READ: 1014
+OK! Got: 1014, expected: 1014
+WRITE: 1015
+READ: 1015
+OK! Got: 1015, expected: 1015
+WRITE: 1016
+READ: 1016
+OK! Got: 1016, expected: 1016
+WRITE: 1017
+READ: 1017
+OK! Got: 1017, expected: 1017
+WRITE: 1018
+READ: 1018
+OK! Got: 1018, expected: 1018
+WRITE: 1019
+READ: 1019
+OK! Got: 1019, expected: 1019
+WRITE: 1020
+READ: 1020
+OK! Got: 1020, expected: 1020
+WRITE: 1021
+READ: 1021
+OK! Got: 1021, expected: 1021
+WRITE: 1022
+READ: 1022
+OK! Got: 1022, expected: 1022
+WRITE: 1023
+READ: 1023
+OK! Got: 1023, expected: 1023
+WRITE: 1024
+READ: 1024
+OK! Got: 1024, expected: 1024
+WRITE: 1025
+READ: 1025
+OK! Got: 1025, expected: 1025
+WRITE: 1026
+READ: 1026
+OK! Got: 1026, expected: 1026
+WRITE: 1027
+READ: 1027
+OK! Got: 1027, expected: 1027
+WRITE: 1028
+READ: 1028
+OK! Got: 1028, expected: 1028
+WRITE: 1029
+READ: 1029
+OK! Got: 1029, expected: 1029
+WRITE: 1030
+READ: 1030
+OK! Got: 1030, expected: 1030
+WRITE: 1031
+READ: 1031
+OK! Got: 1031, expected: 1031
+WRITE: 1032
+READ: 1032
+OK! Got: 1032, expected: 1032
+WRITE: 1033
+READ: 1033
+OK! Got: 1033, expected: 1033
+WRITE: 1034
+READ: 1034
+OK! Got: 1034, expected: 1034
+WRITE: 1035
+READ: 1035
+OK! Got: 1035, expected: 1035
+WRITE: 1036
+READ: 1036
+OK! Got: 1036, expected: 1036
+WRITE: 1037
+READ: 1037
+OK! Got: 1037, expected: 1037
+WRITE: 1038
+READ: 1038
+OK! Got: 1038, expected: 1038
+WRITE: 1039
+READ: 1039
+OK! Got: 1039, expected: 1039
+WRITE: 1040
+READ: 1040
+OK! Got: 1040, expected: 1040
+WRITE: 1041
+READ: 1041
+OK! Got: 1041, expected: 1041
+WRITE: 1042
+READ: 1042
+OK! Got: 1042, expected: 1042
+WRITE: 1043
+READ: 1043
+OK! Got: 1043, expected: 1043
+WRITE: 1044
+READ: 1044
+OK! Got: 1044, expected: 1044
+WRITE: 1045
+READ: 1045
+OK! Got: 1045, expected: 1045
+WRITE: 1046
+READ: 1046
+OK! Got: 1046, expected: 1046
+WRITE: 1047
+READ: 1047
+OK! Got: 1047, expected: 1047
+WRITE: 1048
+READ: 1048
+OK! Got: 1048, expected: 1048
+WRITE: 1049
+READ: 1049
+OK! Got: 1049, expected: 1049
+WRITE: 1050
+READ: 1050
+OK! Got: 1050, expected: 1050
+WRITE: 1051
+READ: 1051
+OK! Got: 1051, expected: 1051
+WRITE: 1052
+READ: 1052
+OK! Got: 1052, expected: 1052
+WRITE: 1053
+READ: 1053
+OK! Got: 1053, expected: 1053
+WRITE: 1054
+READ: 1054
+OK! Got: 1054, expected: 1054
+WRITE: 1055
+READ: 1055
+OK! Got: 1055, expected: 1055
+WRITE: 1056
+READ: 1056
+OK! Got: 1056, expected: 1056
+WRITE: 1057
+READ: 1057
+OK! Got: 1057, expected: 1057
+WRITE: 1058
+READ: 1058
+OK! Got: 1058, expected: 1058
+WRITE: 1059
+READ: 1059
+OK! Got: 1059, expected: 1059
+WRITE: 1060
+READ: 1060
+OK! Got: 1060, expected: 1060
+WRITE: 1061
+READ: 1061
+OK! Got: 1061, expected: 1061
+WRITE: 1062
+READ: 1062
+OK! Got: 1062, expected: 1062
+WRITE: 1063
+READ: 1063
+OK! Got: 1063, expected: 1063
+WRITE: 1064
+READ: 1064
+OK! Got: 1064, expected: 1064
+WRITE: 1065
+READ: 1065
+OK! Got: 1065, expected: 1065
+WRITE: 1066
+READ: 1066
+OK! Got: 1066, expected: 1066
+WRITE: 1067
+READ: 1067
+OK! Got: 1067, expected: 1067
+WRITE: 1068
+READ: 1068
+OK! Got: 1068, expected: 1068
+WRITE: 1069
+READ: 1069
+OK! Got: 1069, expected: 1069
+WRITE: 1070
+READ: 1070
+OK! Got: 1070, expected: 1070
+WRITE: 1071
+READ: 1071
+OK! Got: 1071, expected: 1071
+WRITE: 1072
+READ: 1072
+OK! Got: 1072, expected: 1072
+WRITE: 1073
+READ: 1073
+OK! Got: 1073, expected: 1073
+WRITE: 1074
+READ: 1074
+OK! Got: 1074, expected: 1074
+WRITE: 1075
+READ: 1075
+OK! Got: 1075, expected: 1075
+WRITE: 1076
+READ: 1076
+OK! Got: 1076, expected: 1076
+WRITE: 1077
+READ: 1077
+OK! Got: 1077, expected: 1077
+WRITE: 1078
+READ: 1078
+OK! Got: 1078, expected: 1078
+WRITE: 1079
+READ: 1079
+OK! Got: 1079, expected: 1079
+WRITE: 1080
+READ: 1080
+OK! Got: 1080, expected: 1080
+WRITE: 1081
+READ: 1081
+OK! Got: 1081, expected: 1081
+WRITE: 1082
+READ: 1082
+OK! Got: 1082, expected: 1082
+WRITE: 1083
+READ: 1083
+OK! Got: 1083, expected: 1083
+WRITE: 1084
+READ: 1084
+OK! Got: 1084, expected: 1084
+WRITE: 1085
+READ: 1085
+OK! Got: 1085, expected: 1085
+WRITE: 1086
+READ: 1086
+OK! Got: 1086, expected: 1086
+WRITE: 1087
+READ: 1087
+OK! Got: 1087, expected: 1087
+WRITE: 1088
+READ: 1088
+OK! Got: 1088, expected: 1088
+WRITE: 1089
+READ: 1089
+OK! Got: 1089, expected: 1089
+WRITE: 1090
+READ: 1090
+OK! Got: 1090, expected: 1090
+WRITE: 1091
+READ: 1091
+OK! Got: 1091, expected: 1091
+WRITE: 1092
+READ: 1092
+OK! Got: 1092, expected: 1092
+WRITE: 1093
+READ: 1093
+OK! Got: 1093, expected: 1093
+WRITE: 1094
+READ: 1094
+OK! Got: 1094, expected: 1094
+WRITE: 1095
+READ: 1095
+OK! Got: 1095, expected: 1095
+WRITE: 1096
+READ: 1096
+OK! Got: 1096, expected: 1096
+WRITE: 1097
+READ: 1097
+OK! Got: 1097, expected: 1097
+WRITE: 1098
+READ: 1098
+OK! Got: 1098, expected: 1098
+WRITE: 1099
+READ: 1099
+OK! Got: 1099, expected: 1099
+WRITE: 1100
+READ: 1100
+OK! Got: 1100, expected: 1100
+WRITE: 1101
+READ: 1101
+OK! Got: 1101, expected: 1101
+WRITE: 1102
+READ: 1102
+OK! Got: 1102, expected: 1102
+WRITE: 1103
+READ: 1103
+OK! Got: 1103, expected: 1103
+WRITE: 1104
+READ: 1104
+OK! Got: 1104, expected: 1104
+WRITE: 1105
+READ: 1105
+OK! Got: 1105, expected: 1105
+WRITE: 1106
+READ: 1106
+OK! Got: 1106, expected: 1106
+WRITE: 1107
+READ: 1107
+OK! Got: 1107, expected: 1107
+WRITE: 1108
+READ: 1108
+OK! Got: 1108, expected: 1108
+WRITE: 1109
+READ: 1109
+OK! Got: 1109, expected: 1109
+WRITE: 1110
+READ: 1110
+OK! Got: 1110, expected: 1110
+WRITE: 1111
+READ: 1111
+OK! Got: 1111, expected: 1111
+WRITE: 1112
+READ: 1112
+OK! Got: 1112, expected: 1112
+WRITE: 1113
+READ: 1113
+OK! Got: 1113, expected: 1113
+WRITE: 1114
+READ: 1114
+OK! Got: 1114, expected: 1114
+WRITE: 1115
+READ: 1115
+OK! Got: 1115, expected: 1115
+WRITE: 1116
+READ: 1116
+OK! Got: 1116, expected: 1116
+WRITE: 1117
+READ: 1117
+OK! Got: 1117, expected: 1117
+WRITE: 1118
+READ: 1118
+OK! Got: 1118, expected: 1118
+WRITE: 1119
+READ: 1119
+OK! Got: 1119, expected: 1119
+WRITE: 1120
+READ: 1120
+OK! Got: 1120, expected: 1120
+WRITE: 1121
+READ: 1121
+OK! Got: 1121, expected: 1121
+WRITE: 1122
+READ: 1122
+OK! Got: 1122, expected: 1122
+WRITE: 1123
+READ: 1123
+OK! Got: 1123, expected: 1123
+WRITE: 1124
+READ: 1124
+OK! Got: 1124, expected: 1124
+WRITE: 1125
+READ: 1125
+OK! Got: 1125, expected: 1125
+WRITE: 1126
+READ: 1126
+OK! Got: 1126, expected: 1126
+WRITE: 1127
+READ: 1127
+OK! Got: 1127, expected: 1127
+WRITE: 1128
+READ: 1128
+OK! Got: 1128, expected: 1128
+WRITE: 1129
+READ: 1129
+OK! Got: 1129, expected: 1129
+WRITE: 1130
+READ: 1130
+OK! Got: 1130, expected: 1130
+WRITE: 1131
+READ: 1131
+OK! Got: 1131, expected: 1131
+WRITE: 1132
+READ: 1132
+OK! Got: 1132, expected: 1132
+WRITE: 1133
+READ: 1133
+OK! Got: 1133, expected: 1133
+WRITE: 1134
+READ: 1134
+OK! Got: 1134, expected: 1134
+WRITE: 1135
+READ: 1135
+OK! Got: 1135, expected: 1135
+WRITE: 1136
+READ: 1136
+OK! Got: 1136, expected: 1136
+WRITE: 1137
+READ: 1137
+OK! Got: 1137, expected: 1137
+WRITE: 1138
+READ: 1138
+OK! Got: 1138, expected: 1138
+WRITE: 1139
+READ: 1139
+OK! Got: 1139, expected: 1139
+WRITE: 1140
+READ: 1140
+OK! Got: 1140, expected: 1140
+WRITE: 1141
+READ: 1141
+OK! Got: 1141, expected: 1141
+WRITE: 1142
+READ: 1142
+OK! Got: 1142, expected: 1142
+WRITE: 1143
+READ: 1143
+OK! Got: 1143, expected: 1143
+WRITE: 1144
+READ: 1144
+OK! Got: 1144, expected: 1144
+WRITE: 1145
+READ: 1145
+OK! Got: 1145, expected: 1145
+WRITE: 1146
+READ: 1146
+OK! Got: 1146, expected: 1146
+WRITE: 1147
+READ: 1147
+OK! Got: 1147, expected: 1147
+WRITE: 1148
+READ: 1148
+OK! Got: 1148, expected: 1148
+WRITE: 1149
+READ: 1149
+OK! Got: 1149, expected: 1149
+WRITE: 1150
+READ: 1150
+OK! Got: 1150, expected: 1150
+WRITE: 1151
+READ: 1151
+OK! Got: 1151, expected: 1151
+WRITE: 1152
+READ: 1152
+OK! Got: 1152, expected: 1152
+WRITE: 1153
+READ: 1153
+OK! Got: 1153, expected: 1153
+WRITE: 1154
+READ: 1154
+OK! Got: 1154, expected: 1154
+WRITE: 1155
+READ: 1155
+OK! Got: 1155, expected: 1155
+WRITE: 1156
+READ: 1156
+OK! Got: 1156, expected: 1156
+WRITE: 1157
+READ: 1157
+OK! Got: 1157, expected: 1157
+WRITE: 1158
+READ: 1158
+OK! Got: 1158, expected: 1158
+WRITE: 1159
+READ: 1159
+OK! Got: 1159, expected: 1159
+WRITE: 1160
+READ: 1160
+OK! Got: 1160, expected: 1160
+WRITE: 1161
+READ: 1161
+OK! Got: 1161, expected: 1161
+WRITE: 1162
+READ: 1162
+OK! Got: 1162, expected: 1162
+WRITE: 1163
+READ: 1163
+OK! Got: 1163, expected: 1163
+WRITE: 1164
+READ: 1164
+OK! Got: 1164, expected: 1164
+WRITE: 1165
+READ: 1165
+OK! Got: 1165, expected: 1165
+WRITE: 1166
+READ: 1166
+OK! Got: 1166, expected: 1166
+WRITE: 1167
+READ: 1167
+OK! Got: 1167, expected: 1167
+WRITE: 1168
+READ: 1168
+OK! Got: 1168, expected: 1168
+WRITE: 1169
+READ: 1169
+OK! Got: 1169, expected: 1169
+WRITE: 1170
+READ: 1170
+OK! Got: 1170, expected: 1170
+WRITE: 1171
+READ: 1171
+OK! Got: 1171, expected: 1171
+WRITE: 1172
+READ: 1172
+OK! Got: 1172, expected: 1172
+WRITE: 1173
+READ: 1173
+OK! Got: 1173, expected: 1173
+WRITE: 1174
+READ: 1174
+OK! Got: 1174, expected: 1174
+WRITE: 1175
+READ: 1175
+OK! Got: 1175, expected: 1175
+WRITE: 1176
+READ: 1176
+OK! Got: 1176, expected: 1176
+WRITE: 1177
+READ: 1177
+OK! Got: 1177, expected: 1177
+WRITE: 1178
+READ: 1178
+OK! Got: 1178, expected: 1178
+WRITE: 1179
+READ: 1179
+OK! Got: 1179, expected: 1179
+WRITE: 1180
+READ: 1180
+OK! Got: 1180, expected: 1180
+WRITE: 1181
+READ: 1181
+OK! Got: 1181, expected: 1181
+WRITE: 1182
+READ: 1182
+OK! Got: 1182, expected: 1182
+WRITE: 1183
+READ: 1183
+OK! Got: 1183, expected: 1183
+WRITE: 1184
+READ: 1184
+OK! Got: 1184, expected: 1184
+WRITE: 1185
+READ: 1185
+OK! Got: 1185, expected: 1185
+WRITE: 1186
+READ: 1186
+OK! Got: 1186, expected: 1186
+WRITE: 1187
+READ: 1187
+OK! Got: 1187, expected: 1187
+WRITE: 1188
+READ: 1188
+OK! Got: 1188, expected: 1188
+WRITE: 1189
+READ: 1189
+OK! Got: 1189, expected: 1189
+WRITE: 1190
+READ: 1190
+OK! Got: 1190, expected: 1190
+WRITE: 1191
+READ: 1191
+OK! Got: 1191, expected: 1191
+WRITE: 1192
+READ: 1192
+OK! Got: 1192, expected: 1192
+WRITE: 1193
+READ: 1193
+OK! Got: 1193, expected: 1193
+WRITE: 1194
+READ: 1194
+OK! Got: 1194, expected: 1194
+WRITE: 1195
+READ: 1195
+OK! Got: 1195, expected: 1195
+WRITE: 1196
+READ: 1196
+OK! Got: 1196, expected: 1196
+WRITE: 1197
+READ: 1197
+OK! Got: 1197, expected: 1197
+WRITE: 1198
+READ: 1198
+OK! Got: 1198, expected: 1198
+WRITE: 1199
+READ: 1199
+OK! Got: 1199, expected: 1199
+WRITE: 1200
+READ: 1200
+OK! Got: 1200, expected: 1200
+WRITE: 1201
+READ: 1201
+OK! Got: 1201, expected: 1201
+WRITE: 1202
+READ: 1202
+OK! Got: 1202, expected: 1202
+WRITE: 1203
+READ: 1203
+OK! Got: 1203, expected: 1203
+WRITE: 1204
+READ: 1204
+OK! Got: 1204, expected: 1204
+WRITE: 1205
+READ: 1205
+OK! Got: 1205, expected: 1205
+WRITE: 1206
+READ: 1206
+OK! Got: 1206, expected: 1206
+WRITE: 1207
+READ: 1207
+OK! Got: 1207, expected: 1207
+WRITE: 1208
+READ: 1208
+OK! Got: 1208, expected: 1208
+WRITE: 1209
+READ: 1209
+OK! Got: 1209, expected: 1209
+WRITE: 1210
+READ: 1210
+OK! Got: 1210, expected: 1210
+WRITE: 1211
+READ: 1211
+OK! Got: 1211, expected: 1211
+WRITE: 1212
+READ: 1212
+OK! Got: 1212, expected: 1212
+WRITE: 1213
+READ: 1213
+OK! Got: 1213, expected: 1213
+WRITE: 1214
+READ: 1214
+OK! Got: 1214, expected: 1214
+WRITE: 1215
+READ: 1215
+OK! Got: 1215, expected: 1215
+WRITE: 1216
+READ: 1216
+OK! Got: 1216, expected: 1216
+WRITE: 1217
+READ: 1217
+OK! Got: 1217, expected: 1217
+WRITE: 1218
+READ: 1218
+OK! Got: 1218, expected: 1218
+WRITE: 1219
+READ: 1219
+OK! Got: 1219, expected: 1219
+WRITE: 1220
+READ: 1220
+OK! Got: 1220, expected: 1220
+WRITE: 1221
+READ: 1221
+OK! Got: 1221, expected: 1221
+WRITE: 1222
+READ: 1222
+OK! Got: 1222, expected: 1222
+WRITE: 1223
+READ: 1223
+OK! Got: 1223, expected: 1223
+WRITE: 1224
+READ: 1224
+OK! Got: 1224, expected: 1224
+WRITE: 1225
+READ: 1225
+OK! Got: 1225, expected: 1225
+WRITE: 1226
+READ: 1226
+OK! Got: 1226, expected: 1226
+WRITE: 1227
+READ: 1227
+OK! Got: 1227, expected: 1227
+WRITE: 1228
+READ: 1228
+OK! Got: 1228, expected: 1228
+WRITE: 1229
+READ: 1229
+OK! Got: 1229, expected: 1229
+WRITE: 1230
+READ: 1230
+OK! Got: 1230, expected: 1230
+WRITE: 1231
+READ: 1231
+OK! Got: 1231, expected: 1231
+WRITE: 1232
+READ: 1232
+OK! Got: 1232, expected: 1232
+WRITE: 1233
+READ: 1233
+OK! Got: 1233, expected: 1233
+WRITE: 1234
+READ: 1234
+OK! Got: 1234, expected: 1234
+WRITE: 1235
+READ: 1235
+OK! Got: 1235, expected: 1235
+WRITE: 1236
+READ: 1236
+OK! Got: 1236, expected: 1236
+WRITE: 1237
+READ: 1237
+OK! Got: 1237, expected: 1237
+WRITE: 1238
+READ: 1238
+OK! Got: 1238, expected: 1238
+WRITE: 1239
+READ: 1239
+OK! Got: 1239, expected: 1239
+WRITE: 1240
+READ: 1240
+OK! Got: 1240, expected: 1240
+WRITE: 1241
+READ: 1241
+OK! Got: 1241, expected: 1241
+WRITE: 1242
+READ: 1242
+OK! Got: 1242, expected: 1242
+WRITE: 1243
+READ: 1243
+OK! Got: 1243, expected: 1243
+WRITE: 1244
+READ: 1244
+OK! Got: 1244, expected: 1244
+WRITE: 1245
+READ: 1245
+OK! Got: 1245, expected: 1245
+WRITE: 1246
+READ: 1246
+OK! Got: 1246, expected: 1246
+WRITE: 1247
+READ: 1247
+OK! Got: 1247, expected: 1247
+WRITE: 1248
+READ: 1248
+OK! Got: 1248, expected: 1248
+WRITE: 1249
+READ: 1249
+OK! Got: 1249, expected: 1249
+WRITE: 1250
+READ: 1250
+OK! Got: 1250, expected: 1250
+WRITE: 1251
+READ: 1251
+OK! Got: 1251, expected: 1251
+WRITE: 1252
+READ: 1252
+OK! Got: 1252, expected: 1252
+WRITE: 1253
+READ: 1253
+OK! Got: 1253, expected: 1253
+WRITE: 1254
+READ: 1254
+OK! Got: 1254, expected: 1254
+WRITE: 1255
+READ: 1255
+OK! Got: 1255, expected: 1255
+WRITE: 1256
+READ: 1256
+OK! Got: 1256, expected: 1256
+WRITE: 1257
+READ: 1257
+OK! Got: 1257, expected: 1257
+WRITE: 1258
+READ: 1258
+OK! Got: 1258, expected: 1258
+WRITE: 1259
+READ: 1259
+OK! Got: 1259, expected: 1259
+WRITE: 1260
+READ: 1260
+OK! Got: 1260, expected: 1260
+WRITE: 1261
+READ: 1261
+OK! Got: 1261, expected: 1261
+WRITE: 1262
+READ: 1262
+OK! Got: 1262, expected: 1262
+WRITE: 1263
+READ: 1263
+OK! Got: 1263, expected: 1263
+WRITE: 1264
+READ: 1264
+OK! Got: 1264, expected: 1264
+WRITE: 1265
+READ: 1265
+OK! Got: 1265, expected: 1265
+WRITE: 1266
+READ: 1266
+OK! Got: 1266, expected: 1266
+WRITE: 1267
+READ: 1267
+OK! Got: 1267, expected: 1267
+WRITE: 1268
+READ: 1268
+OK! Got: 1268, expected: 1268
+WRITE: 1269
+READ: 1269
+OK! Got: 1269, expected: 1269
+WRITE: 1270
+READ: 1270
+OK! Got: 1270, expected: 1270
+WRITE: 1271
+READ: 1271
+OK! Got: 1271, expected: 1271
+WRITE: 1272
+READ: 1272
+OK! Got: 1272, expected: 1272
+WRITE: 1273
+READ: 1273
+OK! Got: 1273, expected: 1273
+WRITE: 1274
+READ: 1274
+OK! Got: 1274, expected: 1274
+WRITE: 1275
+READ: 1275
+OK! Got: 1275, expected: 1275
+WRITE: 1276
+READ: 1276
+OK! Got: 1276, expected: 1276
+WRITE: 1277
+READ: 1277
+OK! Got: 1277, expected: 1277
+WRITE: 1278
+READ: 1278
+OK! Got: 1278, expected: 1278
+WRITE: 1279
+READ: 1279
+OK! Got: 1279, expected: 1279
+WRITE: 1280
+READ: 1280
+OK! Got: 1280, expected: 1280
+WRITE: 1281
+READ: 1281
+OK! Got: 1281, expected: 1281
+WRITE: 1282
+READ: 1282
+OK! Got: 1282, expected: 1282
+WRITE: 1283
+READ: 1283
+OK! Got: 1283, expected: 1283
+WRITE: 1284
+READ: 1284
+OK! Got: 1284, expected: 1284
+WRITE: 1285
+READ: 1285
+OK! Got: 1285, expected: 1285
+WRITE: 1286
+READ: 1286
+OK! Got: 1286, expected: 1286
+WRITE: 1287
+READ: 1287
+OK! Got: 1287, expected: 1287
+WRITE: 1288
+READ: 1288
+OK! Got: 1288, expected: 1288
+WRITE: 1289
+READ: 1289
+OK! Got: 1289, expected: 1289
+WRITE: 1290
+READ: 1290
+OK! Got: 1290, expected: 1290
+WRITE: 1291
+READ: 1291
+OK! Got: 1291, expected: 1291
+WRITE: 1292
+READ: 1292
+OK! Got: 1292, expected: 1292
+WRITE: 1293
+READ: 1293
+OK! Got: 1293, expected: 1293
+WRITE: 1294
+READ: 1294
+OK! Got: 1294, expected: 1294
+WRITE: 1295
+READ: 1295
+OK! Got: 1295, expected: 1295
+WRITE: 1296
+READ: 1296
+OK! Got: 1296, expected: 1296
+WRITE: 1297
+READ: 1297
+OK! Got: 1297, expected: 1297
+WRITE: 1298
+READ: 1298
+OK! Got: 1298, expected: 1298
+WRITE: 1299
+READ: 1299
+OK! Got: 1299, expected: 1299
+WRITE: 1300
+READ: 1300
+OK! Got: 1300, expected: 1300
+WRITE: 1301
+READ: 1301
+OK! Got: 1301, expected: 1301
+WRITE: 1302
+READ: 1302
+OK! Got: 1302, expected: 1302
+WRITE: 1303
+READ: 1303
+OK! Got: 1303, expected: 1303
+WRITE: 1304
+READ: 1304
+OK! Got: 1304, expected: 1304
+WRITE: 1305
+READ: 1305
+OK! Got: 1305, expected: 1305
+WRITE: 1306
+READ: 1306
+OK! Got: 1306, expected: 1306
+WRITE: 1307
+READ: 1307
+OK! Got: 1307, expected: 1307
+WRITE: 1308
+READ: 1308
+OK! Got: 1308, expected: 1308
+WRITE: 1309
+READ: 1309
+OK! Got: 1309, expected: 1309
+WRITE: 1310
+READ: 1310
+OK! Got: 1310, expected: 1310
+WRITE: 1311
+READ: 1311
+OK! Got: 1311, expected: 1311
+WRITE: 1312
+READ: 1312
+OK! Got: 1312, expected: 1312
+WRITE: 1313
+READ: 1313
+OK! Got: 1313, expected: 1313
+WRITE: 1314
+READ: 1314
+OK! Got: 1314, expected: 1314
+WRITE: 1315
+READ: 1315
+OK! Got: 1315, expected: 1315
+WRITE: 1316
+READ: 1316
+OK! Got: 1316, expected: 1316
+WRITE: 1317
+READ: 1317
+OK! Got: 1317, expected: 1317
+WRITE: 1318
+READ: 1318
+OK! Got: 1318, expected: 1318
+WRITE: 1319
+READ: 1319
+OK! Got: 1319, expected: 1319
+WRITE: 1320
+READ: 1320
+OK! Got: 1320, expected: 1320
+WRITE: 1321
+READ: 1321
+OK! Got: 1321, expected: 1321
+WRITE: 1322
+READ: 1322
+OK! Got: 1322, expected: 1322
+WRITE: 1323
+READ: 1323
+OK! Got: 1323, expected: 1323
+WRITE: 1324
+READ: 1324
+OK! Got: 1324, expected: 1324
+WRITE: 1325
+READ: 1325
+OK! Got: 1325, expected: 1325
+WRITE: 1326
+READ: 1326
+OK! Got: 1326, expected: 1326
+WRITE: 1327
+READ: 1327
+OK! Got: 1327, expected: 1327
+WRITE: 1328
+READ: 1328
+OK! Got: 1328, expected: 1328
+WRITE: 1329
+READ: 1329
+OK! Got: 1329, expected: 1329
+WRITE: 1330
+READ: 1330
+OK! Got: 1330, expected: 1330
+WRITE: 1331
+READ: 1331
+OK! Got: 1331, expected: 1331
+WRITE: 1332
+READ: 1332
+OK! Got: 1332, expected: 1332
+WRITE: 1333
+READ: 1333
+OK! Got: 1333, expected: 1333
+WRITE: 1334
+READ: 1334
+OK! Got: 1334, expected: 1334
+WRITE: 1335
+READ: 1335
+OK! Got: 1335, expected: 1335
+WRITE: 1336
+READ: 1336
+OK! Got: 1336, expected: 1336
+WRITE: 1337
+READ: 1337
+OK! Got: 1337, expected: 1337
+WRITE: 1338
+READ: 1338
+OK! Got: 1338, expected: 1338
+WRITE: 1339
+READ: 1339
+OK! Got: 1339, expected: 1339
+WRITE: 1340
+READ: 1340
+OK! Got: 1340, expected: 1340
+WRITE: 1341
+READ: 1341
+OK! Got: 1341, expected: 1341
+WRITE: 1342
+READ: 1342
+OK! Got: 1342, expected: 1342
+WRITE: 1343
+READ: 1343
+OK! Got: 1343, expected: 1343
+WRITE: 1344
+READ: 1344
+OK! Got: 1344, expected: 1344
+WRITE: 1345
+READ: 1345
+OK! Got: 1345, expected: 1345
+WRITE: 1346
+READ: 1346
+OK! Got: 1346, expected: 1346
+WRITE: 1347
+READ: 1347
+OK! Got: 1347, expected: 1347
+WRITE: 1348
+READ: 1348
+OK! Got: 1348, expected: 1348
+WRITE: 1349
+READ: 1349
+OK! Got: 1349, expected: 1349
+WRITE: 1350
+READ: 1350
+OK! Got: 1350, expected: 1350
+WRITE: 1351
+READ: 1351
+OK! Got: 1351, expected: 1351
+WRITE: 1352
+READ: 1352
+OK! Got: 1352, expected: 1352
+WRITE: 1353
+READ: 1353
+OK! Got: 1353, expected: 1353
+WRITE: 1354
+READ: 1354
+OK! Got: 1354, expected: 1354
+WRITE: 1355
+READ: 1355
+OK! Got: 1355, expected: 1355
+WRITE: 1356
+READ: 1356
+OK! Got: 1356, expected: 1356
+WRITE: 1357
+READ: 1357
+OK! Got: 1357, expected: 1357
+WRITE: 1358
+READ: 1358
+OK! Got: 1358, expected: 1358
+WRITE: 1359
+READ: 1359
+OK! Got: 1359, expected: 1359
+WRITE: 1360
+READ: 1360
+OK! Got: 1360, expected: 1360
+WRITE: 1361
+READ: 1361
+OK! Got: 1361, expected: 1361
+WRITE: 1362
+READ: 1362
+OK! Got: 1362, expected: 1362
+WRITE: 1363
+READ: 1363
+OK! Got: 1363, expected: 1363
+WRITE: 1364
+READ: 1364
+OK! Got: 1364, expected: 1364
+WRITE: 1365
+READ: 1365
+OK! Got: 1365, expected: 1365
+WRITE: 1366
+READ: 1366
+OK! Got: 1366, expected: 1366
+WRITE: 1367
+READ: 1367
+OK! Got: 1367, expected: 1367
+WRITE: 1368
+READ: 1368
+OK! Got: 1368, expected: 1368
+WRITE: 1369
+READ: 1369
+OK! Got: 1369, expected: 1369
+WRITE: 1370
+READ: 1370
+OK! Got: 1370, expected: 1370
+WRITE: 1371
+READ: 1371
+OK! Got: 1371, expected: 1371
+WRITE: 1372
+READ: 1372
+OK! Got: 1372, expected: 1372
+WRITE: 1373
+READ: 1373
+OK! Got: 1373, expected: 1373
+WRITE: 1374
+READ: 1374
+OK! Got: 1374, expected: 1374
+WRITE: 1375
+READ: 1375
+OK! Got: 1375, expected: 1375
+WRITE: 1376
+READ: 1376
+OK! Got: 1376, expected: 1376
+WRITE: 1377
+READ: 1377
+OK! Got: 1377, expected: 1377
+WRITE: 1378
+READ: 1378
+OK! Got: 1378, expected: 1378
+WRITE: 1379
+READ: 1379
+OK! Got: 1379, expected: 1379
+WRITE: 1380
+READ: 1380
+OK! Got: 1380, expected: 1380
+WRITE: 1381
+READ: 1381
+OK! Got: 1381, expected: 1381
+WRITE: 1382
+READ: 1382
+OK! Got: 1382, expected: 1382
+WRITE: 1383
+READ: 1383
+OK! Got: 1383, expected: 1383
+WRITE: 1384
+READ: 1384
+OK! Got: 1384, expected: 1384
+WRITE: 1385
+READ: 1385
+OK! Got: 1385, expected: 1385
+WRITE: 1386
+READ: 1386
+OK! Got: 1386, expected: 1386
+WRITE: 1387
+READ: 1387
+OK! Got: 1387, expected: 1387
+WRITE: 1388
+READ: 1388
+OK! Got: 1388, expected: 1388
+WRITE: 1389
+READ: 1389
+OK! Got: 1389, expected: 1389
+WRITE: 1390
+READ: 1390
+OK! Got: 1390, expected: 1390
+WRITE: 1391
+READ: 1391
+OK! Got: 1391, expected: 1391
+WRITE: 1392
+READ: 1392
+OK! Got: 1392, expected: 1392
+WRITE: 1393
+READ: 1393
+OK! Got: 1393, expected: 1393
+WRITE: 1394
+READ: 1394
+OK! Got: 1394, expected: 1394
+WRITE: 1395
+READ: 1395
+OK! Got: 1395, expected: 1395
+WRITE: 1396
+READ: 1396
+OK! Got: 1396, expected: 1396
+WRITE: 1397
+READ: 1397
+OK! Got: 1397, expected: 1397
+WRITE: 1398
+READ: 1398
+OK! Got: 1398, expected: 1398
+WRITE: 1399
+READ: 1399
+OK! Got: 1399, expected: 1399
+WRITE: 1400
+READ: 1400
+OK! Got: 1400, expected: 1400
+WRITE: 1401
+READ: 1401
+OK! Got: 1401, expected: 1401
+WRITE: 1402
+READ: 1402
+OK! Got: 1402, expected: 1402
+WRITE: 1403
+READ: 1403
+OK! Got: 1403, expected: 1403
+WRITE: 1404
+READ: 1404
+OK! Got: 1404, expected: 1404
+WRITE: 1405
+READ: 1405
+OK! Got: 1405, expected: 1405
+WRITE: 1406
+READ: 1406
+OK! Got: 1406, expected: 1406
+WRITE: 1407
+READ: 1407
+OK! Got: 1407, expected: 1407
+WRITE: 1408
+READ: 1408
+OK! Got: 1408, expected: 1408
+WRITE: 1409
+READ: 1409
+OK! Got: 1409, expected: 1409
+WRITE: 1410
+READ: 1410
+OK! Got: 1410, expected: 1410
+WRITE: 1411
+READ: 1411
+OK! Got: 1411, expected: 1411
+WRITE: 1412
+READ: 1412
+OK! Got: 1412, expected: 1412
+WRITE: 1413
+READ: 1413
+OK! Got: 1413, expected: 1413
+WRITE: 1414
+READ: 1414
+OK! Got: 1414, expected: 1414
+WRITE: 1415
+READ: 1415
+OK! Got: 1415, expected: 1415
+WRITE: 1416
+READ: 1416
+OK! Got: 1416, expected: 1416
+WRITE: 1417
+READ: 1417
+OK! Got: 1417, expected: 1417
+WRITE: 1418
+READ: 1418
+OK! Got: 1418, expected: 1418
+WRITE: 1419
+READ: 1419
+OK! Got: 1419, expected: 1419
+WRITE: 1420
+READ: 1420
+OK! Got: 1420, expected: 1420
+WRITE: 1421
+READ: 1421
+OK! Got: 1421, expected: 1421
+WRITE: 1422
+READ: 1422
+OK! Got: 1422, expected: 1422
+WRITE: 1423
+READ: 1423
+OK! Got: 1423, expected: 1423
+WRITE: 1424
+READ: 1424
+OK! Got: 1424, expected: 1424
+WRITE: 1425
+READ: 1425
+OK! Got: 1425, expected: 1425
+WRITE: 1426
+READ: 1426
+OK! Got: 1426, expected: 1426
+WRITE: 1427
+READ: 1427
+OK! Got: 1427, expected: 1427
+WRITE: 1428
+READ: 1428
+OK! Got: 1428, expected: 1428
+WRITE: 1429
+READ: 1429
+OK! Got: 1429, expected: 1429
+WRITE: 1430
+READ: 1430
+OK! Got: 1430, expected: 1430
+WRITE: 1431
+READ: 1431
+OK! Got: 1431, expected: 1431
+WRITE: 1432
+READ: 1432
+OK! Got: 1432, expected: 1432
+WRITE: 1433
+READ: 1433
+OK! Got: 1433, expected: 1433
+WRITE: 1434
+READ: 1434
+OK! Got: 1434, expected: 1434
+WRITE: 1435
+READ: 1435
+OK! Got: 1435, expected: 1435
+WRITE: 1436
+READ: 1436
+OK! Got: 1436, expected: 1436
+WRITE: 1437
+READ: 1437
+OK! Got: 1437, expected: 1437
+WRITE: 1438
+READ: 1438
+OK! Got: 1438, expected: 1438
+WRITE: 1439
+READ: 1439
+OK! Got: 1439, expected: 1439
+WRITE: 1440
+READ: 1440
+OK! Got: 1440, expected: 1440
+WRITE: 1441
+READ: 1441
+OK! Got: 1441, expected: 1441
+WRITE: 1442
+READ: 1442
+OK! Got: 1442, expected: 1442
+WRITE: 1443
+READ: 1443
+OK! Got: 1443, expected: 1443
+WRITE: 1444
+READ: 1444
+OK! Got: 1444, expected: 1444
+WRITE: 1445
+READ: 1445
+OK! Got: 1445, expected: 1445
+WRITE: 1446
+READ: 1446
+OK! Got: 1446, expected: 1446
+WRITE: 1447
+READ: 1447
+OK! Got: 1447, expected: 1447
+WRITE: 1448
+READ: 1448
+OK! Got: 1448, expected: 1448
+WRITE: 1449
+READ: 1449
+OK! Got: 1449, expected: 1449
+WRITE: 1450
+READ: 1450
+OK! Got: 1450, expected: 1450
+WRITE: 1451
+READ: 1451
+OK! Got: 1451, expected: 1451
+WRITE: 1452
+READ: 1452
+OK! Got: 1452, expected: 1452
+WRITE: 1453
+READ: 1453
+OK! Got: 1453, expected: 1453
+WRITE: 1454
+READ: 1454
+OK! Got: 1454, expected: 1454
+WRITE: 1455
+READ: 1455
+OK! Got: 1455, expected: 1455
+WRITE: 1456
+READ: 1456
+OK! Got: 1456, expected: 1456
+WRITE: 1457
+READ: 1457
+OK! Got: 1457, expected: 1457
+WRITE: 1458
+READ: 1458
+OK! Got: 1458, expected: 1458
+WRITE: 1459
+READ: 1459
+OK! Got: 1459, expected: 1459
+WRITE: 1460
+READ: 1460
+OK! Got: 1460, expected: 1460
+WRITE: 1461
+READ: 1461
+OK! Got: 1461, expected: 1461
+WRITE: 1462
+READ: 1462
+OK! Got: 1462, expected: 1462
+WRITE: 1463
+READ: 1463
+OK! Got: 1463, expected: 1463
+WRITE: 1464
+READ: 1464
+OK! Got: 1464, expected: 1464
+WRITE: 1465
+READ: 1465
+OK! Got: 1465, expected: 1465
+WRITE: 1466
+READ: 1466
+OK! Got: 1466, expected: 1466
+WRITE: 1467
+READ: 1467
+OK! Got: 1467, expected: 1467
+WRITE: 1468
+READ: 1468
+OK! Got: 1468, expected: 1468
+WRITE: 1469
+READ: 1469
+OK! Got: 1469, expected: 1469
+WRITE: 1470
+READ: 1470
+OK! Got: 1470, expected: 1470
+WRITE: 1471
+READ: 1471
+OK! Got: 1471, expected: 1471
+WRITE: 1472
+READ: 1472
+OK! Got: 1472, expected: 1472
+WRITE: 1473
+READ: 1473
+OK! Got: 1473, expected: 1473
+WRITE: 1474
+READ: 1474
+OK! Got: 1474, expected: 1474
+WRITE: 1475
+READ: 1475
+OK! Got: 1475, expected: 1475
+WRITE: 1476
+READ: 1476
+OK! Got: 1476, expected: 1476
+WRITE: 1477
+READ: 1477
+OK! Got: 1477, expected: 1477
+WRITE: 1478
+READ: 1478
+OK! Got: 1478, expected: 1478
+WRITE: 1479
+READ: 1479
+OK! Got: 1479, expected: 1479
+WRITE: 1480
+READ: 1480
+OK! Got: 1480, expected: 1480
+WRITE: 1481
+READ: 1481
+OK! Got: 1481, expected: 1481
+WRITE: 1482
+READ: 1482
+OK! Got: 1482, expected: 1482
+WRITE: 1483
+READ: 1483
+OK! Got: 1483, expected: 1483
+WRITE: 1484
+READ: 1484
+OK! Got: 1484, expected: 1484
+WRITE: 1485
+READ: 1485
+OK! Got: 1485, expected: 1485
+WRITE: 1486
+READ: 1486
+OK! Got: 1486, expected: 1486
+WRITE: 1487
+READ: 1487
+OK! Got: 1487, expected: 1487
+WRITE: 1488
+READ: 1488
+OK! Got: 1488, expected: 1488
+WRITE: 1489
+READ: 1489
+OK! Got: 1489, expected: 1489
+WRITE: 1490
+READ: 1490
+OK! Got: 1490, expected: 1490
+WRITE: 1491
+READ: 1491
+OK! Got: 1491, expected: 1491
+WRITE: 1492
+READ: 1492
+OK! Got: 1492, expected: 1492
+WRITE: 1493
+READ: 1493
+OK! Got: 1493, expected: 1493
+WRITE: 1494
+READ: 1494
+OK! Got: 1494, expected: 1494
+WRITE: 1495
+READ: 1495
+OK! Got: 1495, expected: 1495
+WRITE: 1496
+READ: 1496
+OK! Got: 1496, expected: 1496
+WRITE: 1497
+READ: 1497
+OK! Got: 1497, expected: 1497
+WRITE: 1498
+READ: 1498
+OK! Got: 1498, expected: 1498
+WRITE: 1499
+READ: 1499
+OK! Got: 1499, expected: 1499
+WRITE: 1500
+READ: 1500
+OK! Got: 1500, expected: 1500
+WRITE: 1501
+READ: 1501
+OK! Got: 1501, expected: 1501
+WRITE: 1502
+READ: 1502
+OK! Got: 1502, expected: 1502
+WRITE: 1503
+READ: 1503
+OK! Got: 1503, expected: 1503
+WRITE: 1504
+READ: 1504
+OK! Got: 1504, expected: 1504
+WRITE: 1505
+READ: 1505
+OK! Got: 1505, expected: 1505
+WRITE: 1506
+READ: 1506
+OK! Got: 1506, expected: 1506
+WRITE: 1507
+READ: 1507
+OK! Got: 1507, expected: 1507
+WRITE: 1508
+READ: 1508
+OK! Got: 1508, expected: 1508
+WRITE: 1509
+READ: 1509
+OK! Got: 1509, expected: 1509
+WRITE: 1510
+READ: 1510
+OK! Got: 1510, expected: 1510
+WRITE: 1511
+READ: 1511
+OK! Got: 1511, expected: 1511
+WRITE: 1512
+READ: 1512
+OK! Got: 1512, expected: 1512
+WRITE: 1513
+READ: 1513
+OK! Got: 1513, expected: 1513
+WRITE: 1514
+READ: 1514
+OK! Got: 1514, expected: 1514
+WRITE: 1515
+READ: 1515
+OK! Got: 1515, expected: 1515
+WRITE: 1516
+READ: 1516
+OK! Got: 1516, expected: 1516
+WRITE: 1517
+READ: 1517
+OK! Got: 1517, expected: 1517
+WRITE: 1518
+READ: 1518
+OK! Got: 1518, expected: 1518
+WRITE: 1519
+READ: 1519
+OK! Got: 1519, expected: 1519
+WRITE: 1520
+READ: 1520
+OK! Got: 1520, expected: 1520
+WRITE: 1521
+READ: 1521
+OK! Got: 1521, expected: 1521
+WRITE: 1522
+READ: 1522
+OK! Got: 1522, expected: 1522
+WRITE: 1523
+READ: 1523
+OK! Got: 1523, expected: 1523
+WRITE: 1524
+READ: 1524
+OK! Got: 1524, expected: 1524
+WRITE: 1525
+READ: 1525
+OK! Got: 1525, expected: 1525
+WRITE: 1526
+READ: 1526
+OK! Got: 1526, expected: 1526
+WRITE: 1527
+READ: 1527
+OK! Got: 1527, expected: 1527
+WRITE: 1528
+READ: 1528
+OK! Got: 1528, expected: 1528
+WRITE: 1529
+READ: 1529
+OK! Got: 1529, expected: 1529
+WRITE: 1530
+READ: 1530
+OK! Got: 1530, expected: 1530
+WRITE: 1531
+READ: 1531
+OK! Got: 1531, expected: 1531
+WRITE: 1532
+READ: 1532
+OK! Got: 1532, expected: 1532
+WRITE: 1533
+READ: 1533
+OK! Got: 1533, expected: 1533
+WRITE: 1534
+READ: 1534
+OK! Got: 1534, expected: 1534
+WRITE: 1535
+READ: 1535
+OK! Got: 1535, expected: 1535
+WRITE: 1536
+READ: 1536
+OK! Got: 1536, expected: 1536
+WRITE: 1537
+READ: 1537
+OK! Got: 1537, expected: 1537
+WRITE: 1538
+READ: 1538
+OK! Got: 1538, expected: 1538
+WRITE: 1539
+READ: 1539
+OK! Got: 1539, expected: 1539
+WRITE: 1540
+READ: 1540
+OK! Got: 1540, expected: 1540
+WRITE: 1541
+READ: 1541
+OK! Got: 1541, expected: 1541
+WRITE: 1542
+READ: 1542
+OK! Got: 1542, expected: 1542
+WRITE: 1543
+READ: 1543
+OK! Got: 1543, expected: 1543
+WRITE: 1544
+READ: 1544
+OK! Got: 1544, expected: 1544
+WRITE: 1545
+READ: 1545
+OK! Got: 1545, expected: 1545
+WRITE: 1546
+READ: 1546
+OK! Got: 1546, expected: 1546
+WRITE: 1547
+READ: 1547
+OK! Got: 1547, expected: 1547
+WRITE: 1548
+READ: 1548
+OK! Got: 1548, expected: 1548
+WRITE: 1549
+READ: 1549
+OK! Got: 1549, expected: 1549
+WRITE: 1550
+READ: 1550
+OK! Got: 1550, expected: 1550
+WRITE: 1551
+READ: 1551
+OK! Got: 1551, expected: 1551
+WRITE: 1552
+READ: 1552
+OK! Got: 1552, expected: 1552
+WRITE: 1553
+READ: 1553
+OK! Got: 1553, expected: 1553
+WRITE: 1554
+READ: 1554
+OK! Got: 1554, expected: 1554
+WRITE: 1555
+READ: 1555
+OK! Got: 1555, expected: 1555
+WRITE: 1556
+READ: 1556
+OK! Got: 1556, expected: 1556
+WRITE: 1557
+READ: 1557
+OK! Got: 1557, expected: 1557
+WRITE: 1558
+READ: 1558
+OK! Got: 1558, expected: 1558
+WRITE: 1559
+READ: 1559
+OK! Got: 1559, expected: 1559
+WRITE: 1560
+READ: 1560
+OK! Got: 1560, expected: 1560
+WRITE: 1561
+READ: 1561
+OK! Got: 1561, expected: 1561
+WRITE: 1562
+READ: 1562
+OK! Got: 1562, expected: 1562
+WRITE: 1563
+READ: 1563
+OK! Got: 1563, expected: 1563
+WRITE: 1564
+READ: 1564
+OK! Got: 1564, expected: 1564
+WRITE: 1565
+READ: 1565
+OK! Got: 1565, expected: 1565
+WRITE: 1566
+READ: 1566
+OK! Got: 1566, expected: 1566
+WRITE: 1567
+READ: 1567
+OK! Got: 1567, expected: 1567
+WRITE: 1568
+READ: 1568
+OK! Got: 1568, expected: 1568
+WRITE: 1569
+READ: 1569
+OK! Got: 1569, expected: 1569
+WRITE: 1570
+READ: 1570
+OK! Got: 1570, expected: 1570
+WRITE: 1571
+READ: 1571
+OK! Got: 1571, expected: 1571
+WRITE: 1572
+READ: 1572
+OK! Got: 1572, expected: 1572
+WRITE: 1573
+READ: 1573
+OK! Got: 1573, expected: 1573
+WRITE: 1574
+READ: 1574
+OK! Got: 1574, expected: 1574
+WRITE: 1575
+READ: 1575
+OK! Got: 1575, expected: 1575
+WRITE: 1576
+READ: 1576
+OK! Got: 1576, expected: 1576
+WRITE: 1577
+READ: 1577
+OK! Got: 1577, expected: 1577
+WRITE: 1578
+READ: 1578
+OK! Got: 1578, expected: 1578
+WRITE: 1579
+READ: 1579
+OK! Got: 1579, expected: 1579
+WRITE: 1580
+READ: 1580
+OK! Got: 1580, expected: 1580
+WRITE: 1581
+READ: 1581
+OK! Got: 1581, expected: 1581
+WRITE: 1582
+READ: 1582
+OK! Got: 1582, expected: 1582
+WRITE: 1583
+READ: 1583
+OK! Got: 1583, expected: 1583
+WRITE: 1584
+READ: 1584
+OK! Got: 1584, expected: 1584
+WRITE: 1585
+READ: 1585
+OK! Got: 1585, expected: 1585
+WRITE: 1586
+READ: 1586
+OK! Got: 1586, expected: 1586
+WRITE: 1587
+READ: 1587
+OK! Got: 1587, expected: 1587
+WRITE: 1588
+READ: 1588
+OK! Got: 1588, expected: 1588
+WRITE: 1589
+READ: 1589
+OK! Got: 1589, expected: 1589
+WRITE: 1590
+READ: 1590
+OK! Got: 1590, expected: 1590
+WRITE: 1591
+READ: 1591
+OK! Got: 1591, expected: 1591
+WRITE: 1592
+READ: 1592
+OK! Got: 1592, expected: 1592
+WRITE: 1593
+READ: 1593
+OK! Got: 1593, expected: 1593
+WRITE: 1594
+READ: 1594
+OK! Got: 1594, expected: 1594
+WRITE: 1595
+READ: 1595
+OK! Got: 1595, expected: 1595
+WRITE: 1596
+READ: 1596
+OK! Got: 1596, expected: 1596
+WRITE: 1597
+READ: 1597
+OK! Got: 1597, expected: 1597
+WRITE: 1598
+READ: 1598
+OK! Got: 1598, expected: 1598
+WRITE: 1599
+READ: 1599
+OK! Got: 1599, expected: 1599
+WRITE: 1600
+READ: 1600
+OK! Got: 1600, expected: 1600
+WRITE: 1601
+READ: 1601
+OK! Got: 1601, expected: 1601
+WRITE: 1602
+READ: 1602
+OK! Got: 1602, expected: 1602
+WRITE: 1603
+READ: 1603
+OK! Got: 1603, expected: 1603
+WRITE: 1604
+READ: 1604
+OK! Got: 1604, expected: 1604
+WRITE: 1605
+READ: 1605
+OK! Got: 1605, expected: 1605
+WRITE: 1606
+READ: 1606
+OK! Got: 1606, expected: 1606
+WRITE: 1607
+READ: 1607
+OK! Got: 1607, expected: 1607
+WRITE: 1608
+READ: 1608
+OK! Got: 1608, expected: 1608
+WRITE: 1609
+READ: 1609
+OK! Got: 1609, expected: 1609
+WRITE: 1610
+READ: 1610
+OK! Got: 1610, expected: 1610
+WRITE: 1611
+READ: 1611
+OK! Got: 1611, expected: 1611
+WRITE: 1612
+READ: 1612
+OK! Got: 1612, expected: 1612
+WRITE: 1613
+READ: 1613
+OK! Got: 1613, expected: 1613
+WRITE: 1614
+READ: 1614
+OK! Got: 1614, expected: 1614
+WRITE: 1615
+READ: 1615
+OK! Got: 1615, expected: 1615
+WRITE: 1616
+READ: 1616
+OK! Got: 1616, expected: 1616
+WRITE: 1617
+READ: 1617
+OK! Got: 1617, expected: 1617
+WRITE: 1618
+READ: 1618
+OK! Got: 1618, expected: 1618
+WRITE: 1619
+READ: 1619
+OK! Got: 1619, expected: 1619
+WRITE: 1620
+READ: 1620
+OK! Got: 1620, expected: 1620
+WRITE: 1621
+READ: 1621
+OK! Got: 1621, expected: 1621
+WRITE: 1622
+READ: 1622
+OK! Got: 1622, expected: 1622
+WRITE: 1623
+READ: 1623
+OK! Got: 1623, expected: 1623
+WRITE: 1624
+READ: 1624
+OK! Got: 1624, expected: 1624
+WRITE: 1625
+READ: 1625
+OK! Got: 1625, expected: 1625
+WRITE: 1626
+READ: 1626
+OK! Got: 1626, expected: 1626
+WRITE: 1627
+READ: 1627
+OK! Got: 1627, expected: 1627
+WRITE: 1628
+READ: 1628
+OK! Got: 1628, expected: 1628
+WRITE: 1629
+READ: 1629
+OK! Got: 1629, expected: 1629
+WRITE: 1630
+READ: 1630
+OK! Got: 1630, expected: 1630
+WRITE: 1631
+READ: 1631
+OK! Got: 1631, expected: 1631
+WRITE: 1632
+READ: 1632
+OK! Got: 1632, expected: 1632
+WRITE: 1633
+READ: 1633
+OK! Got: 1633, expected: 1633
+WRITE: 1634
+READ: 1634
+OK! Got: 1634, expected: 1634
+WRITE: 1635
+READ: 1635
+OK! Got: 1635, expected: 1635
+WRITE: 1636
+READ: 1636
+OK! Got: 1636, expected: 1636
+WRITE: 1637
+READ: 1637
+OK! Got: 1637, expected: 1637
+WRITE: 1638
+READ: 1638
+OK! Got: 1638, expected: 1638
+WRITE: 1639
+READ: 1639
+OK! Got: 1639, expected: 1639
+WRITE: 1640
+READ: 1640
+OK! Got: 1640, expected: 1640
+WRITE: 1641
+READ: 1641
+OK! Got: 1641, expected: 1641
+WRITE: 1642
+READ: 1642
+OK! Got: 1642, expected: 1642
+WRITE: 1643
+READ: 1643
+OK! Got: 1643, expected: 1643
+WRITE: 1644
+READ: 1644
+OK! Got: 1644, expected: 1644
+WRITE: 1645
+READ: 1645
+OK! Got: 1645, expected: 1645
+WRITE: 1646
+READ: 1646
+OK! Got: 1646, expected: 1646
+WRITE: 1647
+READ: 1647
+OK! Got: 1647, expected: 1647
+WRITE: 1648
+READ: 1648
+OK! Got: 1648, expected: 1648
+WRITE: 1649
+READ: 1649
+OK! Got: 1649, expected: 1649
+WRITE: 1650
+READ: 1650
+OK! Got: 1650, expected: 1650
+WRITE: 1651
+READ: 1651
+OK! Got: 1651, expected: 1651
+WRITE: 1652
+READ: 1652
+OK! Got: 1652, expected: 1652
+WRITE: 1653
+READ: 1653
+OK! Got: 1653, expected: 1653
+WRITE: 1654
+READ: 1654
+OK! Got: 1654, expected: 1654
+WRITE: 1655
+READ: 1655
+OK! Got: 1655, expected: 1655
+WRITE: 1656
+READ: 1656
+OK! Got: 1656, expected: 1656
+WRITE: 1657
+READ: 1657
+OK! Got: 1657, expected: 1657
+WRITE: 1658
+READ: 1658
+OK! Got: 1658, expected: 1658
+WRITE: 1659
+READ: 1659
+OK! Got: 1659, expected: 1659
+WRITE: 1660
+READ: 1660
+OK! Got: 1660, expected: 1660
+WRITE: 1661
+READ: 1661
+OK! Got: 1661, expected: 1661
+WRITE: 1662
+READ: 1662
+OK! Got: 1662, expected: 1662
+WRITE: 1663
+READ: 1663
+OK! Got: 1663, expected: 1663
+WRITE: 1664
+READ: 1664
+OK! Got: 1664, expected: 1664
+WRITE: 1665
+READ: 1665
+OK! Got: 1665, expected: 1665
+WRITE: 1666
+READ: 1666
+OK! Got: 1666, expected: 1666
+WRITE: 1667
+READ: 1667
+OK! Got: 1667, expected: 1667
+WRITE: 1668
+READ: 1668
+OK! Got: 1668, expected: 1668
+WRITE: 1669
+READ: 1669
+OK! Got: 1669, expected: 1669
+WRITE: 1670
+READ: 1670
+OK! Got: 1670, expected: 1670
+WRITE: 1671
+READ: 1671
+OK! Got: 1671, expected: 1671
+WRITE: 1672
+READ: 1672
+OK! Got: 1672, expected: 1672
+WRITE: 1673
+READ: 1673
+OK! Got: 1673, expected: 1673
+WRITE: 1674
+READ: 1674
+OK! Got: 1674, expected: 1674
+WRITE: 1675
+READ: 1675
+OK! Got: 1675, expected: 1675
+WRITE: 1676
+READ: 1676
+OK! Got: 1676, expected: 1676
+WRITE: 1677
+READ: 1677
+OK! Got: 1677, expected: 1677
+WRITE: 1678
+READ: 1678
+OK! Got: 1678, expected: 1678
+WRITE: 1679
+READ: 1679
+OK! Got: 1679, expected: 1679
+WRITE: 1680
+READ: 1680
+OK! Got: 1680, expected: 1680
+WRITE: 1681
+READ: 1681
+OK! Got: 1681, expected: 1681
+WRITE: 1682
+READ: 1682
+OK! Got: 1682, expected: 1682
+WRITE: 1683
+READ: 1683
+OK! Got: 1683, expected: 1683
+WRITE: 1684
+READ: 1684
+OK! Got: 1684, expected: 1684
+WRITE: 1685
+READ: 1685
+OK! Got: 1685, expected: 1685
+WRITE: 1686
+READ: 1686
+OK! Got: 1686, expected: 1686
+WRITE: 1687
+READ: 1687
+OK! Got: 1687, expected: 1687
+WRITE: 1688
+READ: 1688
+OK! Got: 1688, expected: 1688
+WRITE: 1689
+READ: 1689
+OK! Got: 1689, expected: 1689
+WRITE: 1690
+READ: 1690
+OK! Got: 1690, expected: 1690
+WRITE: 1691
+READ: 1691
+OK! Got: 1691, expected: 1691
+WRITE: 1692
+READ: 1692
+OK! Got: 1692, expected: 1692
+WRITE: 1693
+READ: 1693
+OK! Got: 1693, expected: 1693
+WRITE: 1694
+READ: 1694
+OK! Got: 1694, expected: 1694
+WRITE: 1695
+READ: 1695
+OK! Got: 1695, expected: 1695
+WRITE: 1696
+READ: 1696
+OK! Got: 1696, expected: 1696
+WRITE: 1697
+READ: 1697
+OK! Got: 1697, expected: 1697
+WRITE: 1698
+READ: 1698
+OK! Got: 1698, expected: 1698
+WRITE: 1699
+READ: 1699
+OK! Got: 1699, expected: 1699
+WRITE: 1700
+READ: 1700
+OK! Got: 1700, expected: 1700
+WRITE: 1701
+READ: 1701
+OK! Got: 1701, expected: 1701
+WRITE: 1702
+READ: 1702
+OK! Got: 1702, expected: 1702
+WRITE: 1703
+READ: 1703
+OK! Got: 1703, expected: 1703
+WRITE: 1704
+READ: 1704
+OK! Got: 1704, expected: 1704
+WRITE: 1705
+READ: 1705
+OK! Got: 1705, expected: 1705
+WRITE: 1706
+READ: 1706
+OK! Got: 1706, expected: 1706
+WRITE: 1707
+READ: 1707
+OK! Got: 1707, expected: 1707
+WRITE: 1708
+READ: 1708
+OK! Got: 1708, expected: 1708
+WRITE: 1709
+READ: 1709
+OK! Got: 1709, expected: 1709
+WRITE: 1710
+READ: 1710
+OK! Got: 1710, expected: 1710
+WRITE: 1711
+READ: 1711
+OK! Got: 1711, expected: 1711
+WRITE: 1712
+READ: 1712
+OK! Got: 1712, expected: 1712
+WRITE: 1713
+READ: 1713
+OK! Got: 1713, expected: 1713
+WRITE: 1714
+READ: 1714
+OK! Got: 1714, expected: 1714
+WRITE: 1715
+READ: 1715
+OK! Got: 1715, expected: 1715
+WRITE: 1716
+READ: 1716
+OK! Got: 1716, expected: 1716
+WRITE: 1717
+READ: 1717
+OK! Got: 1717, expected: 1717
+WRITE: 1718
+READ: 1718
+OK! Got: 1718, expected: 1718
+WRITE: 1719
+READ: 1719
+OK! Got: 1719, expected: 1719
+WRITE: 1720
+READ: 1720
+OK! Got: 1720, expected: 1720
+WRITE: 1721
+READ: 1721
+OK! Got: 1721, expected: 1721
+WRITE: 1722
+READ: 1722
+OK! Got: 1722, expected: 1722
+WRITE: 1723
+READ: 1723
+OK! Got: 1723, expected: 1723
+WRITE: 1724
+READ: 1724
+OK! Got: 1724, expected: 1724
+WRITE: 1725
+READ: 1725
+OK! Got: 1725, expected: 1725
+WRITE: 1726
+READ: 1726
+OK! Got: 1726, expected: 1726
+WRITE: 1727
+READ: 1727
+OK! Got: 1727, expected: 1727
+WRITE: 1728
+READ: 1728
+OK! Got: 1728, expected: 1728
+WRITE: 1729
+READ: 1729
+OK! Got: 1729, expected: 1729
+WRITE: 1730
+READ: 1730
+OK! Got: 1730, expected: 1730
+WRITE: 1731
+READ: 1731
+OK! Got: 1731, expected: 1731
+WRITE: 1732
+READ: 1732
+OK! Got: 1732, expected: 1732
+WRITE: 1733
+READ: 1733
+OK! Got: 1733, expected: 1733
+WRITE: 1734
+READ: 1734
+OK! Got: 1734, expected: 1734
+WRITE: 1735
+READ: 1735
+OK! Got: 1735, expected: 1735
+WRITE: 1736
+READ: 1736
+OK! Got: 1736, expected: 1736
+WRITE: 1737
+READ: 1737
+OK! Got: 1737, expected: 1737
+WRITE: 1738
+READ: 1738
+OK! Got: 1738, expected: 1738st-flash 1.5.1
+st-flash 1.5.1
+
+WRITE: 1739
+READ: 1739
+OK! Got: 1739, expected: 1739
+WRITE: 1740
+READ: 1740
+OK! Got: 1740, expected: 1740
+WRITE: 1741
+READ: 1741
+OK! Got: 1741, expected: 1741
+WRITE: 1742
+READ: 1742
+OK! Got: 1742, expected: 1742
+WRITE: 1743
+READ: 1743
+OK! Got: 1743, expected: 1743
+WRITE: 1744
+READ: 1744
+OK! Got: 1744, expected: 1744
+WRITE: 1745
+READ: 1745
+OK! Got: 1745, expected: 1745
+WRITE: 1746
+READ: 1746
+OK! Got: 1746, expected: 1746
+WRITE: 1747
+READ: 1747
+OK! Got: 1747, expected: 1747
+WRITE: 1748
+READ: 1748
+OK! Got: 1748, expected: 1748
+WRITE: 1749
+READ: 1749
+OK! Got: 1749, expected: 1749
+WRITE: 1750
+READ: 1750
+OK! Got: 1750, expected: 1750
+WRITE: 1751
+READ: 1751
+OK! Got: 1751, expected: 1751
+WRITE: 1752
+READ: 1752
+OK! Got: 1752, expected: 1752
+WRITE: 1753
+READ: 1753
+OK! Got: 1753, expected: 1753
+WRITE: 1754
+READ: 1754
+OK! Got: 1754, expected: 1754
+WRITE: 1755
+READ: 1755
+OK! Got: 1755, expected: 1755
+WRITE: 1756
+READ: 1756
+OK! Got: 1756, expected: 1756
+WRITE: 1757
+READ: 1757
+OK! Got: 1757, expected: 1757
+WRITE: 1758
+READ: 1758
+OK! Got: 1758, expected: 1758
+WRITE: 1759
+READ: 1759
+OK! Got: 1759, expected: 1759
+WRITE: 1760
+READ: 1760
+OK! Got: 1760, expected: 1760
+WRITE: 1761
+READ: 1761
+OK! Got: 1761, expected: 1761
+WRITE: 1762
+READ: 1762
+OK! Got: 1762, expected: 1762
+WRITE: 1763
+READ: 1763
+OK! Got: 1763, expected: 1763
+WRITE: 1764
+READ: 1764
+OK! Got: 1764, expected: 1764
+WRITE: 1765
+READ: 1765
+OK! Got: 1765, expected: 1765
+WRITE: 1766
+READ: 1766
+OK! Got: 1766, expected: 1766
+WRITE: 1767
+READ: 1767
+OK! Got: 1767, expected: 1767
+WRITE: 1768
+READ: 1768
+OK! Got: 1768, expected: 1768
+WRITE: 1769
+READ: 1769
+OK! Got: 1769, expected: 1769
+WRITE: 1770
+READ: 1770
+OK! Got: 1770, expected: 1770
+WRITE: 1771
+READ: 1771
+OK! Got: 1771, expected: 1771
+WRITE: 1772
+READ: 1772
+OK! Got: 1772, expected: 1772
+WRITE: 1773
+READ: 1773
+OK! Got: 1773, expected: 1773
+WRITE: 1774
+READ: 1774
+OK! Got: 1774, expected: 1774
+WRITE: 1775
+READ: 1775
+OK! Got: 1775, expected: 1775
+WRITE: 1776
+READ: 1776
+OK! Got: 1776, expected: 1776
+WRITE: 1777
+READ: 1777
+OK! Got: 1777, expected: 1777
+WRITE: 1778
+READ: 1778
+OK! Got: 1778, expected: 1778
+WRITE: 1779
+READ: 1779
+OK! Got: 1779, expected: 1779
+WRITE: 1780
+READ: 1780
+OK! Got: 1780, expected: 1780
+WRITE: 1781
+READ: 1781
+OK! Got: 1781, expected: 1781
+WRITE: 1782
+READ: 1782
+OK! Got: 1782, expected: 1782
+WRITE: 1783
+READ: 1783
+OK! Got: 1783, expected: 1783
+WRITE: 1784
+READ: 1784
+OK! Got: 1784, expected: 1784
+WRITE: 1785
+READ: 1785
+OK! Got: 1785, expected: 1785
+WRITE: 1786
+READ: 1786
+OK! Got: 1786, expected: 1786
+WRITE: 1787
+READ: 1787
+OK! Got: 1787, expected: 1787
+WRITE: 1788
+READ: 1788
+OK! Got: 1788, expected: 1788
+WRITE: 1789
+READ: 1789
+OK! Got: 1789, expected: 1789
+WRITE: 1790
+READ: 1790
+OK! Got: 1790, expected: 1790
+WRITE: 1791
+READ: 1791
+OK! Got: 1791, expected: 1791
+WRITE: 1792
+READ: 1792
+OK! Got: 1792, expected: 1792
+WRITE: 1793
+READ: 1793
+OK! Got: 1793, expected: 1793
+WRITE: 1794
+READ: 1794
+OK! Got: 1794, expected: 1794
+WRITE: 1795
+READ: 1795
+OK! Got: 1795, expected: 1795
+WRITE: 1796
+READ: 1796
+OK! Got: 1796, expected: 1796
+WRITE: 1797
+READ: 1797
+OK! Got: 1797, expected: 1797
+WRITE: 1798
+READ: 1798
+OK! Got: 1798, expected: 1798
+WRITE: 1799
+READ: 1799
+OK! Got: 1799, expected: 1799
+WRITE: 1800
+READ: 1800
+OK! Got: 1800, expected: 1800
+WRITE: 1801
+READ: 1801
+OK! Got: 1801, expected: 1801
+WRITE: 1802
+READ: 1802
+OK! Got: 1802, expected: 1802
+WRITE: 1803
+READ: 1803
+OK! Got: 1803, expected: 1803
+WRITE: 1804
+READ: 1804
+OK! Got: 1804, expected: 1804
+WRITE: 1805
+READ: 1805
+OK! Got: 1805, expected: 1805
+WRITE: 1806
+READ: 1806
+OK! Got: 1806, expected: 1806
+WRITE: 1807
+READ: 1807
+OK! Got: 1807, expected: 1807
+WRITE: 1808
+READ: 1808
+OK! Got: 1808, expected: 1808
+WRITE: 1809
+READ: 1809
+OK! Got: 1809, expected: 1809
+WRITE: 1810
+READ: 1810
+OK! Got: 1810, expected: 1810
+WRITE: 1811
+READ: 1811
+OK! Got: 1811, expected: 1811
+WRITE: 1812
+READ: 1812
+OK! Got: 1812, expected: 1812
+WRITE: 1813
+READ: 1813
+OK! Got: 1813, expected: 1813
+WRITE: 1814
+READ: 1814
+OK! Got: 1814, expected: 1814
+WRITE: 1815
+READ: 1815
+OK! Got: 1815, expected: 1815
+WRITE: 1816
+READ: 1816
+OK! Got: 1816, expected: 1816
+WRITE: 1817
+READ: 1817
+OK! Got: 1817, expected: 1817
+WRITE: 1818
+READ: 1818
+OK! Got: 1818, expected: 1818
+WRITE: 1819
+READ: 1819
+OK! Got: 1819, expected: 1819
+WRITE: 1820
+READ: 1820
+OK! Got: 1820, expected: 1820
+WRITE: 1821
+READ: 1821
+OK! Got: 1821, expected: 1821
+WRITE: 1822
+READ: 1822
+OK! Got: 1822, expected: 1822
+WRITE: 1823
+READ: 1823
+OK! Got: 1823, expected: 1823
+WRITE: 1824
+READ: 1824
+OK! Got: 1824, expected: 1824
+WRITE: 1825
+READ: 1825
+OK! Got: 1825, expected: 1825
+WRITE: 1826
+READ: 1826
+OK! Got: 1826, expected: 1826
+WRITE: 1827
+READ: 1827
+OK! Got: 1827, expected: 1827
+WRITE: 1828
+READ: 1828
+OK! Got: 1828, expected: 1828
+WRITE: 1829
+READ: 1829
+OK! Got: 1829, expected: 1829
+WRITE: 1830
+READ: 1830
+OK! Got: 1830, expected: 1830
+WRITE: 1831
+READ: 1831
+OK! Got: 1831, expected: 1831
+WRITE: 1832
+READ: 1832
+OK! Got: 1832, expected: 1832
+WRITE: 1833
+READ: 1833
+OK! Got: 1833, expected: 1833
+WRITE: 1834
+READ: 1834
+OK! Got: 1834, expected: 1834
+WRITE: 1835
+READ: 1835
+OK! Got: 1835, expected: 1835
+WRITE: 1836
+READ: 1836
+OK! Got: 1836, expected: 1836
+WRITE: 1837
+READ: 1837
+OK! Got: 1837, expected: 1837
+WRITE: 1838
+READ: 1838
+OK! Got: 1838, expected: 1838
+WRITE: 1839
+READ: 1839
+OK! Got: 1839, expected: 1839
+WRITE: 1840
+READ: 1840
+OK! Got: 1840, expected: 1840
+WRITE: 1841
+READ: 1841
+OK! Got: 1841, expected: 1841
+WRITE: 1842
+READ: 1842
+OK! Got: 1842, expected: 1842
+WRITE: 1843
+READ: 1843
+OK! Got: 1843, expected: 1843
+WRITE: 1844
+READ: 1844
+OK! Got: 1844, expected: 1844
+WRITE: 1845
+READ: 1845
+OK! Got: 1845, expected: 1845
+WRITE: 1846
+READ: 1846
+OK! Got: 1846, expected: 1846
+WRITE: 1847
+READ: 1847
+OK! Got: 1847, expected: 1847
+WRITE: 1848
+READ: 1848
+OK! Got: 1848, expected: 1848
+WRITE: 1849
+READ: 1849
+OK! Got: 1849, expected: 1849
+WRITE: 1850
+READ: 1850
+OK! Got: 1850, expected: 1850
+WRITE: 1851
+READ: 1851
+OK! Got: 1851, expected: 1851
+WRITE: 1852
+READ: 1852
+OK! Got: 1852, expected: 1852
+WRITE: 1853
+READ: 1853
+OK! Got: 1853, expected: 1853
+WRITE: 1854
+READ: 1854
+OK! Got: 1854, expected: 1854
+WRITE: 1855
+READ: 1855
+OK! Got: 1855, expected: 1855
+WRITE: 1856
+READ: 1856
+OK! Got: 1856, expected: 1856
+WRITE: 1857
+READ: 1857
+OK! Got: 1857, expected: 1857
+WRITE: 1858
+READ: 1858
+OK! Got: 1858, expected: 1858
+WRITE: 1859
+READ: 1859
+OK! Got: 1859, expected: 1859
+WRITE: 1860
+READ: 1860
+OK! Got: 1860, expected: 1860
+WRITE: 1861
+READ: 1861
+OK! Got: 1861, expected: 1861
+WRITE: 1862
+READ: 1862
+OK! Got: 1862, expected: 1862
+WRITE: 1863
+READ: 1863
+OK! Got: 1863, expected: 1863
+WRITE: 1864
+READ: 1864
+OK! Got: 1864, expected: 1864
+WRITE: 1865
+READ: 1865
+OK! Got: 1865, expected: 1865
+WRITE: 1866
+READ: 1866
+OK! Got: 1866, expected: 1866
+WRITE: 1867
+READ: 1867
+OK! Got: 1867, expected: 1867
+WRITE: 1868
+READ: 1868
+OK! Got: 1868, expected: 1868
+WRITE: 1869
+READ: 1869
+OK! Got: 1869, expected: 1869
+WRITE: 1870
+READ: 1870
+OK! Got: 1870, expected: 1870
+WRITE: 1871
+READ: 1871
+OK! Got: 1871, expected: 1871
+WRITE: 1872
+READ: 1872
+OK! Got: 1872, expected: 1872
+WRITE: 1873
+READ: 1873
+OK! Got: 1873, expected: 1873
+WRITE: 1874
+READ: 1874
+OK! Got: 1874, expected: 1874
+WRITE: 1875
+READ: 1875
+OK! Got: 1875, expected: 1875
+WRITE: 1876
+READ: 1876
+OK! Got: 1876, expected: 1876
+WRITE: 1877
+READ: 1877
+OK! Got: 1877, expected: 1877
+WRITE: 1878
+READ: 1878
+OK! Got: 1878, expected: 1878
+WRITE: 1879
+READ: 1879
+OK! Got: 1879, expected: 1879
+WRITE: 1880
+READ: 1880
+OK! Got: 1880, expected: 1880
+WRITE: 1881
+READ: 1881
+OK! Got: 1881, expected: 1881
+WRITE: 1882
+READ: 1882
+OK! Got: 1882, expected: 1882
+WRITE: 1883
+READ: 1883
+OK! Got: 1883, expected: 1883
+WRITE: 1884
+READ: 1884
+OK! Got: 1884, expected: 1884
+WRITE: 1885
+READ: 1885
+OK! Got: 1885, expected: 1885
+WRITE: 1886
+READ: 1886
+OK! Got: 1886, expected: 1886
+WRITE: 1887
+READ: 1887
+OK! Got: 1887, expected: 1887
+WRITE: 1888
+READ: 1888
+OK! Got: 1888, expected: 1888
+WRITE: 1889
+READ: 1889
+OK! Got: 1889, expected: 1889
+WRITE: 1890
+READ: 1890
+OK! Got: 1890, expected: 1890
+WRITE: 1891
+READ: 1891
+OK! Got: 1891, expected: 1891
+WRITE: 1892
+READ: 1892
+OK! Got: 1892, expected: 1892
+WRITE: 1893
+READ: 1893
+OK! Got: 1893, expected: 1893
+WRITE: 1894
+READ: 1894
+OK! Got: 1894, expected: 1894
+WRITE: 1895
+READ: 1895
+OK! Got: 1895, expected: 1895
+WRITE: 1896
+READ: 1896
+OK! Got: 1896, expected: 1896
+WRITE: 1897
+READ: 1897
+OK! Got: 1897, expected: 1897
+WRITE: 1898
+READ: 1898
+OK! Got: 1898, expected: 1898
+WRITE: 1899
+READ: 1899
+OK! Got: 1899, expected: 1899
+WRITE: 1900
+READ: 1900
+OK! Got: 1900, expected: 1900
+WRITE: 1901
+READ: 1901
+OK! Got: 1901, expected: 1901
+WRITE: 1902
+READ: 1902
+OK! Got: 1902, expected: 1902
+WRITE: 1903
+READ: 1903
+OK! Got: 1903, expected: 1903
+WRITE: 1904
+READ: 1904
+OK! Got: 1904, expected: 1904
+WRITE: 1905
+READ: 1905
+OK! Got: 1905, expected: 1905
+WRITE: 1906
+READ: 1906
+OK! Got: 1906, expected: 1906
+WRITE: 1907
+READ: 1907
+OK! Got: 1907, expected: 1907
+WRITE: 1908
+READ: 1908
+OK! Got: 1908, expected: 1908
+WRITE: 1909
+READ: 1909
+OK! Got: 1909, expected: 1909
+WRITE: 1910
+READ: 1910
+OK! Got: 1910, expected: 1910
+WRITE: 1911
+READ: 1911
+OK! Got: 1911, expected: 1911
+WRITE: 1912
+READ: 1912
+OK! Got: 1912, expected: 1912
+WRITE: 1913
+READ: 1913
+OK! Got: 1913, expected: 1913
+WRITE: 1914
+READ: 1914
+OK! Got: 1914, expected: 1914
+WRITE: 1915
+READ: 1915
+OK! Got: 1915, expected: 1915
+WRITE: 1916
+READ: 1916
+OK! Got: 1916, expected: 1916
+WRITE: 1917
+READ: 1917
+OK! Got: 1917, expected: 1917
+WRITE: 1918
+READ: 1918
+OK! Got: 1918, expected: 1918
+WRITE: 1919
+READ: 1919
+OK! Got: 1919, expected: 1919
+WRITE: 1920
+READ: 1920
+OK! Got: 1920, expected: 1920
+WRITE: 1921
+READ: 1921
+OK! Got: 1921, expected: 1921
+WRITE: 1922
+READ: 1922
+OK! Got: 1922, expected: 1922
+WRITE: 1923
+READ: 1923
+OK! Got: 1923, expected: 1923
+WRITE: 1924
+READ: 1924
+OK! Got: 1924, expected: 1924
+WRITE: 1925
+READ: 1925
+OK! Got: 1925, expected: 1925
+WRITE: 1926
+READ: 1926
+OK! Got: 1926, expected: 1926
+WRITE: 1927
+READ: 1927
+OK! Got: 1927, expected: 1927
+WRITE: 1928
+READ: 1928
+OK! Got: 1928, expected: 1928
+WRITE: 1929
+READ: 1929
+OK! Got: 1929, expected: 1929
+WRITE: 1930
+READ: 1930
+OK! Got: 1930, expected: 1930
+WRITE: 1931
+READ: 1931
+OK! Got: 1931, expected: 1931
+WRITE: 1932
+READ: 1932
+OK! Got: 1932, expected: 1932
+WRITE: 1933
+READ: 1933
+OK! Got: 1933, expected: 1933
+WRITE: 1934
+READ: 1934
+OK! Got: 1934, expected: 1934
+WRITE: 1935
+READ: 1935
+OK! Got: 1935, expected: 1935
+WRITE: 1936
+READ: 1936
+OK! Got: 1936, expected: 1936
+WRITE: 1937
+READ: 1937
+OK! Got: 1937, expected: 1937
+WRITE: 1938
+READ: 1938
+OK! Got: 1938, expected: 1938
+WRITE: 1939
+READ: 1939
+OK! Got: 1939, expected: 1939
+WRITE: 1940
+READ: 1940
+OK! Got: 1940, expected: 1940
+WRITE: 1941
+READ: 1941
+OK! Got: 1941, expected: 1941
+WRITE: 1942
+READ: 1942
+OK! Got: 1942, expected: 1942
+WRITE: 1943
+READ: 1943
+OK! Got: 1943, expected: 1943
+WRITE: 1944
+READ: 1944
+OK! Got: 1944, expected: 1944
+WRITE: 1945
+READ: 1945
+OK! Got: 1945, expected: 1945
+WRITE: 1946
+READ: 1946
+OK! Got: 1946, expected: 1946
+WRITE: 1947
+READ: 1947
+OK! Got: 1947, expected: 1947
+WRITE: 1948
+READ: 1948
+OK! Got: 1948, expected: 1948
+WRITE: 1949
+READ: 1949
+OK! Got: 1949, expected: 1949
+WRITE: 1950
+READ: 1950
+OK! Got: 1950, expected: 1950
+WRITE: 1951
+READ: 1951
+OK! Got: 1951, expected: 1951
+WRITE: 1952
+READ: 1952
+OK! Got: 1952, expected: 1952
+WRITE: 1953
+READ: 1953
+OK! Got: 1953, expected: 1953
+WRITE: 1954
+READ: 1954
+OK! Got: 1954, expected: 1954
+WRITE: 1955
+READ: 1955
+OK! Got: 1955, expected: 1955
+WRITE: 1956
+READ: 1956
+OK! Got: 1956, expected: 1956
+WRITE: 1957
+READ: 1957
+OK! Got: 1957, expected: 1957
+WRITE: 1958
+READ: 1958
+OK! Got: 1958, expected: 1958
+WRITE: 1959
+READ: 1959
+OK! Got: 1959, expected: 1959
+WRITE: 1960
+READ: 1960
+OK! Got: 1960, expected: 1960
+WRITE: 1961
+READ: 1961
+OK! Got: 1961, expected: 1961
+WRITE: 1962
+READ: 1962
+OK! Got: 1962, expected: 1962
+WRITE: 1963
+READ: 1963
+OK! Got: 1963, expected: 1963
+WRITE: 1964
+READ: 1964
+OK! Got: 1964, expected: 1964
+WRITE: 1965
+READ: 1965
+OK! Got: 1965, expected: 1965
+WRITE: 1966
+READ: 1966
+OK! Got: 1966, expected: 1966
+WRITE: 1967
+READ: 1967
+OK! Got: 1967, expected: 1967
+WRITE: 1968
+READ: 1968
+OK! Got: 1968, expected: 1968
+WRITE: 1969
+READ: 1969
+OK! Got: 1969, expected: 1969
+WRITE: 1970
+READ: 1970
+OK! Got: 1970, expected: 1970
+WRITE: 1971
+READ: 1971
+OK! Got: 1971, expected: 1971
+WRITE: 1972
+READ: 1972
+OK! Got: 1972, expected: 1972
+WRITE: 1973
+READ: 1973
+OK! Got: 1973, expected: 1973
+WRITE: 1974
+READ: 1974
+OK! Got: 1974, expected: 1974
+WRITE: 1975
+READ: 1975
+OK! Got: 1975, expected: 1975
+WRITE: 1976
+READ: 1976
+OK! Got: 1976, expected: 1976
+WRITE: 1977
+READ: 1977
+OK! Got: 1977, expected: 1977
+WRITE: 1978
+READ: 1978
+OK! Got: 1978, expected: 1978
+WRITE: 1979
+READ: 1979
+OK! Got: 1979, expected: 1979
+WRITE: 1980
+READ: 1980
+OK! Got: 1980, expected: 1980
+WRITE: 1981
+READ: 1981
+OK! Got: 1981, expected: 1981
+WRITE: 1982
+READ: 1982
+OK! Got: 1982, expected: 1982
+WRITE: 1983
+READ: 1983
+OK! Got: 1983, expected: 1983
+WRITE: 1984
+READ: 1984
+OK! Got: 1984, expected: 1984
+WRITE: 1985
+READ: 1985
+OK! Got: 1985, expected: 1985
+WRITE: 1986
+READ: 1986
+OK! Got: 1986, expected: 1986
+WRITE: 1987
+READ: 1987
+OK! Got: 1987, expected: 1987
+WRITE: 1988
+READ: 1988
+OK! Got: 1988, expected: 1988
+WRITE: 1989
+READ: 1989
+OK! Got: 1989, expected: 1989
+WRITE: 1990
+READ: 1990
+OK! Got: 1990, expected: 1990
+WRITE: 1991
+READ: 1991
+OK! Got: 1991, expected: 1991
+WRITE: 1992
+READ: 1992
+OK! Got: 1992, expected: 1992
+WRITE: 1993
+READ: 1993
+OK! Got: 1993, expected: 1993
+WRITE: 1994
+READ: 1994
+OK! Got: 1994, expected: 1994
+WRITE: 1995
+READ: 1995
+OK! Got: 1995, expected: 1995
+WRITE: 1996
+READ: 1996
+OK! Got: 1996, expected: 1996
+WRITE: 1997
+READ: 1997
+OK! Got: 1997, expected: 1997
+WRITE: 1998
+READ: 1998
+OK! Got: 1998, expected: 1998
+WRITE: 1999
+READ: 1999
+OK! Got: 1999, expected: 1999
+WRITE: 2000
+READ: 2000
+OK! Got: 2000, expected: 2000
+END TEST: 2018-11-03 12:11:22.569733
+Simple reading test for value range:              [PASS]
+******************************************************************************
+BEGIN TEST: 2018-11-03 12:11:22.569771
+WRITE: 1234
+READ: 1234
+OK!, Valid sent value, Got: 1234, expected: 1234
+
+WRITE:  1234
+READ: 
+incorrect value!, Invalid sent value, Got: , expected:  123
+
+WRITE: 4321
+READ: 4321
+OK!, Invalid sent value, Got: 4321, expected: 4321
+
+WRITE: test
+READ: test
+OK!, Invalid sent value, Got: test, expected: test
+
+WRITE: 0est
+READ: 0est
+OK!, Invalid sent value, Got: 0est, expected: 0est
+
+WRITE: tes1
+READ: tes1
+OK!, Invalid sent value, Got: tes1, expected: tes1
+
+WRITE: 01234
+READ: 
+incorrect value!, Invalid sent value, Got: , expected: 0123
+
+WRITE: 012345678
+READ: 5678
+incorrect value!, Invalid sent value, Got: 5678, expected: 0123
+
+WRITE: 0
+READ: 0
+OK!, Valid sent value, Got: 0, expected: 0
+
+WRITE: 100
+READ: 100
+OK!, Valid sent value, Got: 100, expected: 100
+
+WRITE: 500
+READ: 500
+OK!, Valid sent value, Got: 500, expected: 500
+
+WRITE: 1000
+READ: 1000
+OK!, Valid sent value, Got: 1000, expected: 1000
+
+WRITE: 2000
+READ: 2000
+OK!, Valid sent value, Got: 2000, expected: 2000
+
+END TEST: 2018-11-03 12:11:38.508192
+Simple reading test for few invalid values:       [FAIL]
+******************************************************************************
+BEGIN TEST: 2018-11-03 12:11:38.508233
+Opening first device
+WRITE: 0
+OK! Measured: 0.04582983970266821, expected: 0.0
+WRITE: 100
+OK! Measured: 0.15679077454139512, expected: 0.1611328125
+WRITE: 500
+OK! Measured: 0.8084540259146288, expected: 0.8056640625
+WRITE: 1000
+OK! Measured: 1.6228071787408376, expected: 1.611328125
+WRITE: 1250
+OK! Measured: 2.0294975545530627, expected: 2.01416015625
+WRITE: 1500
+incorrect value! Measured: 0.045978612683472676, expected: 2.4169921875
+WRITE: 1750
+OK! Measured: 2.8426703457672424, expected: 2.81982421875
+WRITE: 2000
+OK! Measured: 3.249232693835043, expected: 3.22265625
+END TEST: 2018-11-03 12:11:51.994651
+Voltage Measurement task:                         [FAIL]
+******************************************************************************
+Tests completed.
+Summary:
+Simple reading test for few individual values:    [PASS]
+Simple reading test for value range:              [PASS]
+Simple reading test for few invalid values:       [FAIL]
+Voltage Measurement task:                         [FAIL]
