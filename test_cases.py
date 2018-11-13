@@ -1,5 +1,6 @@
 import os
 import sys
+import math
 
 from time import sleep
 from datetime import datetime
@@ -32,10 +33,6 @@ def test_read_simple(dut):
 
         Returns result "PASS" or "FAIL".
 
-        TODO:
-        1. Implement comparison of sent and expected value.
-        2. Implement result determining according to specification.
-
     """
     name = "Simple reading test for few individual values"
 
@@ -48,7 +45,14 @@ def test_read_simple(dut):
     for sent in values:
         write_value(my_interface, sent)
         value = read_value(my_interface)
-        # TODO implement missing logic here
+
+        value = remove_whitespace(value)
+        if value != str(sent):
+            print("incorrect value! Got: " + value + ", expected: " + str(sent))
+            results.append("FAIL")
+        else:
+            print("OK! Got: " + value + ", expected: " + str(sent))
+            results.append("PASS")
         sleep(2)
         dut.board.reset()
 
@@ -63,10 +67,6 @@ def test_read_range(dut):
 
         Returns result "PASS" or "FAIL".
 
-        TODO:
-        1. What goes wrong?
-        2. Fix it.
-
     """
     name = "Simple reading test for value range"
     results = []
@@ -76,8 +76,10 @@ def test_read_range(dut):
     for sent in range(0, 2001, 1):
         write_value(dut.board.default_interface, sent)
         value = read_value(dut.board.default_interface)
-
-        if value != sent:
+        
+        value = remove_whitespace(value)
+        
+        if value != str(sent):
             print("incorrect value! Got: " + value + ", expected: " + str(sent))
             results.append("FAIL")
         else:
@@ -103,74 +105,45 @@ def test_invalid_values(dut):
     name = "Simple reading test for few invalid values"
     results = []
     # begin test content
-
     dut.board.reset()
     my_interface = dut.board.default_interface
+    
+    # commands is a dict where key is command and value is a list of acceptable answers
+    # Specification is unclear what should be expected with invalid values?
+    commands = {"1234\r"        : ["1234"],  # valid
+                " 1234\r"       : [],
+                "4321\r"        : [],
+                "test\r"        : [],
+                "0est\r"        : [],
+                "tes1\r"        : [],
+                "01234\r"       : [],
+                "012345678\r"   : [],
+                "0\r"           : ["0"],  # valid
+                "100\r"         : ["100"],  # valid
+                "500\r"         : ["500"],  # valid
+                "1000\r"        : ["1000"],  # valid
+                "2000\r"        : ["2000"]  # valid
+                }
 
-    command = "1234\r"  # valid
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
+    for command in commands:
+        my_interface.write(command)
+        value = read_value(my_interface)
+        # Compare to expected
+        if not value in commands[command]:
+            expected_str = ''
+            for i, iface_key in enumerate(commands[command]):
+                if i + 1 == len(commands[command]) and i > 1:
+                    expected_str = expected_str + ' and '
+                elif i > 0:
+                    expected_str = expected_str + ', '
 
-    command = " 1234\r"
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "4321\r"
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "test\r"
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "0est\r"
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "tes1\r"
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "01234\r"
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "012345678\r"
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "0\r"  # valid
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "100\r"  # valid
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "500\r"  # valid
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "1000\r"  # valid
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "2000\r"  # valid
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
+                expected_str = expected_str + str(iface_key)
+            print("incorrect value! Got: " + value + ", expected: " + expected_str)
+            results.append("FAIL")
+        else:
+            print("OK! Got: " + value + ", expected: " + str(sent))
+            results.append("PASS")
+        sleep(1)
 
     # end test content
     result = check_results(results)
@@ -183,14 +156,27 @@ def test_measure(dut):
     Sets valid PWM values 0...2000. Reads voltage.
     Expects voltage to follow the changes of the PWM value.
 
-    TODO:
-    1. Implement voltmeter API re-using voltmeter.py functions. Add it to framework as a read-only interface.
-    2. Re-use logic of other tests to make the functionality
-
     """
     name = "Voltage Measurement task"
     results = []
     # begin test content
+    dut.board.reset()
+    for sent in range(0, 2001, 1):
+        write_value(dut.board.default_interface, sent)
+        sleep(0.010)
+        value = read_value(dut.board.interfaces["VoltMeter"])
+        
+        # Compare returned string of float to expected value
+        # Expected value = (sent / 2000) * 3.3 (volts)
+        # Problems with floating point comparison? -> use math.isclose() -> margins?
+        expected = sent / 2000 * 3.3
+        if not math.isclose(float(value), expected, abs_tol=0.06):
+            print("incorrect value! Got: " + value + ", expected: " + str(expected))
+            results.append("FAIL")
+        else:
+            print("OK! Got: " + value + ", expected: " + str(expected))
+            results.append("PASS")
+        
 
     # end test content
 
@@ -225,8 +211,8 @@ def main():
     """
     # ENVIRONMENT CONFIGURATION -------------------------------------------------
 
-    serial_port = "COMx"     # serial_port = "/dev/ttyUSB0"
-    firmware_file = "MyFirmware.bin" # optionally overridden with command line argument
+    serial_port = "COM10"     # serial_port = "/dev/ttyUSB0"
+    firmware_file = "firmware/tamk_1.bin" # optionally overridden with command line argument
     board_name = "MyBoard"
     dut_name = "MyIndividualDut"
 
@@ -242,10 +228,10 @@ def main():
     myserial = framework.Serial(serial_port)
     myboard.add_interface("Serial", myserial)
 
-
     # TODO Voltmeter yet unfinished!
-    # myvoltmeter = framework.VoltMeter()
-    # myboard.add_interface("VoltMeter", myvoltmeter)
+    myvoltmeter = framework.VoltMeterInterface()
+    myboard.add_interface("VoltMeter", myvoltmeter)
+    
 
     myboard.set_default_interface("Serial")
 
@@ -257,13 +243,21 @@ def main():
 
     # DUT CONFIGURATION ---------------------------------------------------------
     mydut = framework.Dut(myfirmware, myboard, dut_name)
+    interfaces_str = ''
+    for i, iface_key in enumerate(mydut.board.interfaces.keys()):
+        if i + 1 == len(mydut.board.interfaces.keys()) and i > 1:
+            interfaces_str = interfaces_str + ' and '
+        elif i > 0:
+            interfaces_str = interfaces_str + ', '
 
-    print("Set-up: DUT: {dut} FW {firmware} on HW {board} connected with {interface}".
+        interfaces_str = interfaces_str + str(iface_key)
+
+    print("Set-up: DUT: {dut} FW {firmware} on HW {board} connected with {interfaces}".
         format(
             dut=mydut.name,
             firmware=mydut.firmware.name,
             board=mydut.board.name,
-            interface=mydut.board.default_interface.name
+            interfaces=interfaces_str
         )
     )
 
