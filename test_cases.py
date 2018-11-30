@@ -49,13 +49,13 @@ def test_read_simple(dut):
         write_value(my_interface, sent)
         value = remove_whitespace(read_value(my_interface))
         # TODO implement missing logic here
-        if (value == sent):
+        if value == str(sent):
             print("Expected value: "+ str(sent) + " Read value: " + value + " Value OK")
             results.append("PASS")
         else:
             print("Expected value: "+ str(sent) + " Read value: " + value + " !!!FAILURE!!!")
             results.append("FAIL")
-        sleep(2)
+        sleep(0.5)
         dut.board.reset()
 
     result = check_results(results)
@@ -81,7 +81,7 @@ def test_read_range(dut):
     dut.board.reset()
     for sent in range(0, 2001, 50):
         write_value(dut.board.default_interface, sent)
-        sleep(1)
+        sleep(0.5)
         value = remove_whitespace(read_value(dut.board.default_interface))
 
         if value != str(sent):
@@ -114,29 +114,29 @@ def test_invalid_values(dut):
     dut.board.reset()
     my_interface = dut.board.default_interface
 
-    valid_commands=list("1234\r","0\r","100\r","500\r","1000\r","2000\r")
+    valid_commands=["1234\r","0\r","100\r","500\r","1000\r","2000\r"]
 	
-    invalid_commands=list(" 1234\r","4321\r","test\r","0est\r","tes1\r","01234\r","012345678\r")
+    invalid_commands=[" 1234\r","4321\r","test\r","0est\r","tes1\r","01234\r","012345678\r"]
 	
     print("Testing valid commands\n")
 
     for command in valid_commands:
-        sent=my_interface.write(command)
+        my_interface.write(command)
         sleep(1)
         value = read_value(my_interface)
-        if(sent==value):
-            print("Expected: "+ sent + " Got: " + value + "PASS")
+        if(command==value):
+            print("Expected: "+ command + " Got: " + value + "PASS")
             results.append("PASS")
         else:
-            print("Expected: "+ sent + " Got: " + value + "FAIL")
+            print("Expected: "+ command + " Got: " + value + "FAIL")
             results.append("FAIL")
         sleep(1)
 		
     for command in invalid_commands:
-        sent=my_interface.write(command)
+        my_interface.write(command)
         sleep(1)
         value = read_value(my_interface)
-        if(sent==value):
+        if(command==value):
             print("Sent invalid value Got: " + value + " FAIL")
             results.append("FAIL")
         else:
