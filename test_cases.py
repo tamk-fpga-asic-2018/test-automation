@@ -48,13 +48,21 @@ def test_read_simple(dut):
     for sent in values:
         write_value(my_interface, sent)
         value = read_value(my_interface)
-        # TODO implement missing logic here
+        val_string = remove_whitespace(value)
+        if val_string != str(sent):
+            print("Incorrect value! Got: " + val_string + ", expected: " + str(sent))
+            results.append("FAIL")
+
+        else:
+            print("OK! Got: " + val_string + ", expected: " + str(sent))
+            results.append("PASS")    
         sleep(2)
         dut.board.reset()
 
     result = check_results(results)
     # end test content
     return name, result
+
 
 
 def test_read_range(dut):
@@ -71,13 +79,14 @@ def test_read_range(dut):
     name = "Simple reading test for value range"
     results = []
 
-    # begin test content
+   # begin test content
     dut.board.reset()
     for sent in range(0, 2001, 1):
         write_value(dut.board.default_interface, sent)
         value = read_value(dut.board.default_interface)
-
-        if value != sent:
+        value = remove_whitespace(value)
+       
+        if value != str(sent):
             print("incorrect value! Got: " + value + ", expected: " + str(sent))
             results.append("FAIL")
         else:
@@ -87,7 +96,6 @@ def test_read_range(dut):
     # end test content
     result = check_results(results)
     return name, result
-
 
 def test_invalid_values(dut):
     """ Test Serial API with invalid values.
@@ -107,75 +115,26 @@ def test_invalid_values(dut):
     dut.board.reset()
     my_interface = dut.board.default_interface
 
-    command = "1234\r"  # valid
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
+    interface_commands = ["1234\r", " 1234\r", "4321\r", "test\r","0est\r","tes1\r", "01234\r", "012345678\r","0\r", "100\r", "500\r", "1000\r", "2000\r"]
 
-    command = " 1234\r"
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
+    for command in interface_commands:
+        if is_valid(command):   
+            my_interface.write(command)
+            value = read_value(my_interface)
 
-    command = "4321\r"
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
+            if remove_whitespace(command) != remove_whitespace(value):
+                results.append("FAIL")
+            else:
+                results.append("PASS")
+        else:
+            print("ERROR")
+            results.append("PASS")
+        sleep(1)
 
-    command = "test\r"
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
 
-    command = "0est\r"
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "tes1\r"
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "01234\r"
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "012345678\r"
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "0\r"  # valid
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "100\r"  # valid
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "500\r"  # valid
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "1000\r"  # valid
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    command = "2000\r"  # valid
-    my_interface.write(command)
-    value = read_value(my_interface)
-    sleep(1)
-
-    # end test content
+  # end test content
     result = check_results(results)
     return name, result
-
 
 def test_measure(dut):
     """ Simple voltage measurement test.
@@ -225,10 +184,10 @@ def main():
     """
     # ENVIRONMENT CONFIGURATION -------------------------------------------------
 
-    serial_port = "COMx"     # serial_port = "/dev/ttyUSB0"
+    serial_port = "COM4"     # serial_port = "/dev/ttyUSB0"
     firmware_file = "MyFirmware.bin" # optionally overridden with command line argument
-    board_name = "MyBoard"
-    dut_name = "MyIndividualDut"
+    board_name = "Joni_board"
+    dut_name = "DUT_Joni"
 
     # BOARD CONFIGURATION -------------------------------------------------------
 

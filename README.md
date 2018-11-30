@@ -1,6 +1,12 @@
 # test-automation
 Test automation exercise
 
+log1.txt -> tamk_1.bin
+log2.txt -> tamk_2.bin
+log3.txt -> tamk_3.bin
+log4.txt -> tamk_4.bin
+
+
 # Running the tests
 Example:
 ```c:\python36-32\python.exe test_cases.py my_firmware.bin```
